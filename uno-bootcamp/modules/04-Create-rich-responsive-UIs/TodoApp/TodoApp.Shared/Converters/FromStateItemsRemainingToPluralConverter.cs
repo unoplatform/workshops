@@ -11,7 +11,7 @@ namespace TodoApp.Shared.Converters
             if (value is State state)
             {
                 var amountRemaining = state.RemainingTodos;
-                return amountRemaining == 1 ? $"{amountRemaining} item left" : $"{amountRemaining} items left";
+                throw new NotImplementedException(); // 🎯 Should return "{amountRemaining} item left" + plural version
             }
 
             return null;
