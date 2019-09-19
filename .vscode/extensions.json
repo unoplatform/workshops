@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "bierner.github-markdown-preview",
+        "cake-build.cake-vscode",
+        "editorconfig.editorconfig",
+        "davidanson.vscode-markdownlint",
+        "jebbs.plantuml",
+        "streetsidesoftware.code-spell-checker",
+    ]
+}

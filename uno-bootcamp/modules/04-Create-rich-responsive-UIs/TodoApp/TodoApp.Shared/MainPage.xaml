@@ -1,0 +1,145 @@
+<Page
+    x:Class="TodoApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModels="using:TodoApp.Shared.ViewModels"
+    mc:Ignorable="d">
+
+    <Page.DataContext>
+        <viewModels:MainPageViewModel />
+    </Page.DataContext>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!--Header-->
+        <Grid Grid.Row="0">
+            <TextBlock Text="TODOS"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center" />
+        </Grid>
+
+
+        <!--Options and info-->
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+
+            <RadioButton Command="{Binding ViewAll}"
+                         GroupName="Tabs"
+                         IsChecked="True">
+                <TextBlock>
+                    VIEW ALL<Run Text="{Binding State.Todos, Converter={StaticResource FromEnumerableToCountConverter}}" />
+                </TextBlock>
+            </RadioButton>
+
+            <RadioButton Command="{Binding ViewActive}"
+                         GroupName="Tabs">
+                <TextBlock>
+                    VIEW ACTIVE<Run Text="{Binding State.ActiveTodos, Converter={StaticResource FromEnumerableToCountConverter}}" />
+                </TextBlock>
+            </RadioButton>
+
+            <RadioButton Command="{Binding ViewInactive}"
+                         GroupName="Tabs">
+                <TextBlock>
+                    VIEW INACTIVE<Run Text="{Binding State.InactiveTodos, Converter={StaticResource FromEnumerableToCountConverter}}" />
+                </TextBlock>
+            </RadioButton>
+        </StackPanel>
+
+        <!--Search box and list-->
+        <Grid Grid.Row="2">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <Grid Grid.Row="0">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <TextBox Grid.Column="0"
+                         Text="{Binding NewTodoText, Mode=TwoWay}"
+                         KeyUp="OnNewTodoKey"
+                         x:Name="newTodoText"
+                         HorizontalAlignment="Stretch"
+                         PlaceholderText="What is your next TODO?" />
+                <Button Command="{Binding CreateNew}"
+                        Grid.Column="1">
+                    ADD
+                </Button>
+            </Grid>
+
+            <TextBlock Text="{Binding State, Converter={StaticResource FromStateItemsRemainingToPluralConverter}}"
+                       Grid.Row="1"
+                       VerticalAlignment="Center" />
+
+            <!-- Grid.Row="2" is reserved for next module -->
+
+            <Grid Grid.Row="3"
+                  Visibility="{Binding Todos, Converter={StaticResource FromAnyToInvisibileConverter}}">
+                <TextBlock Text="There are no TODOS" />
+            </Grid>
+
+            <ScrollViewer Grid.Row="4">
+                <ItemsControl ItemsSource="{Binding Todos}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <CheckBox x:Name="MyCheckBox"
+                                              IsChecked="{Binding IsDone}"
+                                              Click="ItemClicked"
+                                              Grid.Column="0" />
+
+                                    <Grid Grid.Column="1"
+                                          VerticalAlignment="Center">
+                                        <TextBlock x:Name="text"
+                                                   Text="{Binding Text}"
+                                                   DoubleTapped="ChangeItem"
+                                                   Tag="{Binding ElementName=edit}"
+                                                   Opacity="{Binding ElementName=MyCheckBox, Path=IsChecked, Converter={StaticResource TrueToWeakOpacity}}" />
+                                        <TextBox x:Name="edit"
+                                                 Visibility="Collapsed"
+                                                 Text="{Binding Text}"
+                                                 KeyUp="OnItemKey" />
+                                    </Grid>
+                                    <Button Click="ChangeItemBtn"
+                                            Tag="{Binding ElementName=text}"
+                                            Grid.Column="2">
+                                        EDIT
+                                    </Button>
+                                    <Button Click="DeleteItem"
+                                            Grid.Column="3">
+                                        DELETE
+                                    </Button>
+                                </Grid>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Page>

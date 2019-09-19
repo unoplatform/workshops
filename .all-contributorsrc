@@ -1,0 +1,96 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "ghuntley",
+      "name": "Geoffrey Huntley",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/127353?v=4",
+      "profile": "https://www.ghuntley.com/now",
+      "contributions": [
+        "code",
+        "doc",
+        "talk",
+        "test"
+      ]
+    },
+    {
+      "login": "anaisbetts",
+      "name": "Anaïs Betts",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1396?v=4",
+      "profile": "https://github.com/anaisbetts",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "carldebilly",
+      "name": "Carl de Billy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4174207?v=4",
+      "profile": "http://carl.debilly.net/",
+      "contributions": [
+        "code",
+        "doc",
+        "talk",
+        "test"
+      ]
+    },
+    {
+      "login": "Guidemarcus",
+      "name": "Marc-Antoine Therrien",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/17101674?v=4",
+      "profile": "https://github.com/Guidemarcus",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "microsoft",
+      "name": "Microsoft",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6154722?v=4",
+      "profile": "https://opensource.microsoft.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "agneszitte-nventive",
+      "name": "Agnes ZITTE",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/16295702?v=4",
+      "profile": "https://github.com/agneszitte-nventive",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "michael-hawker",
+      "name": "Michael Hawker MSFT (XAML Llama)",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/24302614?v=4",
+      "profile": "https://www.twitter.com/XAMLLlama",
+      "contributions": [
+        "review",
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "nickrandolph",
+      "name": "Nick Randolph",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1614057?v=4",
+      "profile": "http://nicksnettravels.builttoroam.com",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 6,
+  "projectName": "workshops",
+  "projectOwner": "unoplatform",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}

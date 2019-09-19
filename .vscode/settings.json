@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "afterDelay",
+    "plantuml.exportFormat": "png",
+    "plantuml.exportOutDir": "./",
+    "plantuml.exportConcurrency": 16,
+    "cSpell.words": [
+        "customise"
+    ]
+}
