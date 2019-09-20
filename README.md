@@ -1,4 +1,4 @@
-# Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
+# Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors)
 
 ## Workshops
 
@@ -29,6 +29,7 @@ Thanks goes to these wonderful people (and companies!)⁠ — [emoji key](https:
   </tr>
   <tr>
     <td align="center"><a href="http://www.13north.ca/"><img src="https://avatars2.githubusercontent.com/u/7881072?v=4" width="100px;" alt="Tom Walker"/><br /><sub><b>Tom Walker</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=TomWalkerCodes" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://Arieldelossantos.com"><img src="https://avatars0.githubusercontent.com/u/34275909?v=4" width="100px;" alt="Ariel De Los Santos"/><br /><sub><b>Ariel De Los Santos</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=Arieldelossantos" title="Code">💻</a></td>
   </tr>
 </table>
 
