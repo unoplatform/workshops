@@ -2,9 +2,9 @@
 
 ## 📖 Overview
 
-One of the [philosophical tenants][philosophy-of-uno] of the [Uno Platform][uno-platform] is that where ever possible, the platform should `leverage existing tools` as Microsoft's tooling is a treat to work with. With the Uno Platform you can and should build your app with those tools as part of your inner-development loop with the Universal Windows Platform and then as part of your outer-development loop validate by deploying your application to iOS, Android, and the web via WebAssembly. 
+One of the [philosophical tenants][philosophy-of-uno] of the [Uno Platform][uno-platform] is that, wherever possible, the platform should `leverage existing tools` as Microsoft's tooling is a treat to work with. With the Uno Platform you can, and should, build your app with those tools as part of your inner-development loop with the Universal Windows Platform and then as part of your outer-development loop validated by deploying your application to iOS, Android, and the web via WebAssembly. 
 
-In this module you'll be (re)introduced to three key tools and learn the most productive way to develop a application:
+In this module you'll be (re)introduced to three key tools and learn the most productive way to develop an application:
 
 - [Edit and Continue][edit-and-continue].
 - [Live Visual Tree][live-visual-tree].
