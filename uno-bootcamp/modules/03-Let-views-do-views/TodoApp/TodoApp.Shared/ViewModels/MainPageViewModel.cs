@@ -67,7 +67,7 @@ namespace TodoApp.Shared.ViewModels
                 switch (Filter)
                 {
                     case 0:
-                        throw new NotImplementedException("🎯 Ensure that the `Todos` property returns the appropriate filtered list from `State` when accessed.");
+                        return _state.Todos;
                     case 1:
                         throw new NotImplementedException("🎯 Ensure that the `Todos` property returns the appropriate filtered list from `State` when accessed.");
                     case 2:
