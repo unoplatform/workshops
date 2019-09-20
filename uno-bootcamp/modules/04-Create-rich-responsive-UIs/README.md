@@ -157,7 +157,7 @@ Finally, add a reference to the `Uno.UI` package in the UWP project to provide a
 
 ## 📚 Additional Reading Material
 
-- [VisibleBoundsPadding behavior][docs-visualboundspadding]
+- [VisibleBoundsPadding behavior][docs-visualboundspadding] land to 404 I can't find the good md file on your repo
 - https://medium.com/@unoplatform/talkin-bout-my-generation-how-the-uno-platform-generates-code-part-1-under-the-hood-7664d83c4f90
 - https://platform.uno/docs/articles/implemented/windows-ui-xaml-controls-commandbar.html
 - https://platform.uno/docs/articles/controls/CommandBar.html
