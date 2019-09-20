@@ -2,9 +2,9 @@
 
 ## 📖 Overview
 
-The next [philosophical tentant][philosophy-of-uno] of the [Uno Platform][uno-platform] is that where ever possible the platform should `let views do views` as separation of model, view and presentation keeps your code loosely coupled and easy to maintain. Features like data binding and attached properties let you write clean, elegant MVVM-style code.
+The next [philosophical tenant][philosophy-of-uno] of the [Uno Platform][uno-platform] is that, wherever possible, the platform should `let views do views` as separation of model, view, and presentation keeps your code loosely coupled and easy to maintain. Features like data binding and attached properties let you write clean, elegant MVVM-style code.
 
-In this module you'll be (re)introduced to the architectural pattern of `Model-View-ViewModel` and build the business logic for infamous [TodoMVC code kata][todomvc] for the Universal Windows Platform, iOS, Android and WebAssembly from a single codebase in C#.
+In this module you'll be (re)introduced to the architectural pattern of `Model-View-ViewModel` and build the business logic for the infamous [TodoMVC code kata][todomvc] for Universal Windows Platform, iOS, Android and, WebAssembly from a single codebase in C#.
 
 ## 💡 Why we need Model-View-ViewModel
 
@@ -49,7 +49,7 @@ There are nine concerns that require domain modeling:
 1. [ ] Each todo item has a way to delete it.
 1. [ ] A count of the amount of incomplete items that remain.
 1. [ ] A count of the total number of items.
-1. [ ] Commands that filter the list of todo items - all, active and completed.
+1. [ ] Commands that filter the list of todo items - all, active, and completed.
 1. [ ] A command that clears all completed items.
 
 </p>
@@ -63,11 +63,11 @@ Now that you have modeled the domain, it is time to think about what that the us
 There are seven application behaviours:
 
 1. [ ] When there are no items in the todo list - the majority of all controls are hidden.
-1. [ ] When a item is added to the todo list — the item is added to the top of the list.
-1. [ ] When a item is marked as complete — the todo item is striked out.
-1. [ ] When a item is deleted — the todo item disappears.
-1. [ ] When the boolean status of todo item changes — the amount of todo items left updates automatically.
-1. [ ] The buttons filter the todo list — display all, display only active and display only completed.
+1. [ ] When an item is added to the todo list — the item is added to the top of the list.
+1. [ ] When an item is marked as complete — the todo item is striked out.
+1. [ ] When an item is deleted — the todo item disappears.
+1. [ ] When the boolean status of a todo item changes — the amount of todo items left updates automatically.
+1. [ ] The buttons filter the todo list — display all, display only active, and display only completed.
 1. [ ] When the clear completed button is pressed — all completed items are removed from the todo list.
 
 </p>
@@ -113,7 +113,7 @@ public class Person : INotifyPropertyChanged
 }
 ```
 
-This can get rather tedious to write by hand so it's worth checking out the [PropertyChanged.Fody][fody] NuGet package which allows allows you to write less verbose code:
+This can get rather tedious to write by hand so it's worth checking out the [PropertyChanged.Fody][fody] NuGet package which allows you to write less verbose code:
 
 ```csharp
 // All classes that implement INotifyPropertyChanged will have notification code injected into property setters.

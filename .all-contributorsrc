@@ -104,6 +104,33 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "kazo0",
+      "name": "Steve Bilogan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4793020?v=4",
+      "profile": "https://github.com/kazo0",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "scottkuhl",
+      "name": "Scott Kuhl",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4465616?v=4",
+      "profile": "https://github.com/scottkuhl",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "TomWalkerCodes",
+      "name": "Tom Walker",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7881072?v=4",
+      "profile": "http://www.13north.ca/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,

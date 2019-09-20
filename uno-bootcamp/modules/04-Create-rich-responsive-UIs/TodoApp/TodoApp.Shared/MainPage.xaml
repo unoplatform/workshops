@@ -88,7 +88,7 @@
             <!-- Grid.Row="2" is reserved for next module -->
 
             <Grid Grid.Row="3"
-                  Visibility="{Binding Todos, Converter={StaticResource FromAnyToInvisibileConverter}}">
+                  Visibility="{Binding Todos, Converter={StaticResource FromAnyToInvisibleConverter}}">
                 <TextBlock Text="There are no TODOS" />
             </Grid>
 

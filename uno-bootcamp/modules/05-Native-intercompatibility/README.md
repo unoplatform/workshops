@@ -4,11 +4,11 @@
 
 The [Uno Platform][uno-platform] allows you to reuse views and business logic across platforms. Sometimes though you may want to write different code per platform, either because you need to access platform-specific native APIs and 3rd-party libraries, or because you want your app to look and behave differently depending on the platform.
 
-In this module, you'll discover the platform-specific escape hatches within the Uno Platform and build a custom control to learn how a different native controls can be used on a per-platform basis.
+In this module, you'll discover the platform-specific escape hatches within the Uno Platform and build a custom control to learn how a different native control can be used on a per-platform basis.
 
 ## 💡 What happens when you compile
 
-With Roslyn, Microsoft open-sourced the C# compiler, but they also exposed a powerful API for code analysis. Roslyn provides a easy to access all the syntactic and semantic information that the compiler possesses. The folks behind Uno created a [source generator][source-generator] that leverages this power for code generation and like the Uno platform, it's free and open-source.
+With Roslyn, Microsoft open-sourced the C# compiler, but they also exposed a powerful API for code analysis. Roslyn provides a easy to access all the syntactic and semantic information that the compiler possesses. The folks behind Uno created a [source generator][source-generator] that leverages this power for code generation and, like the Uno platform, it's free and open-source.
 
 At compile time, there's four main things under the hood that Uno does:
 
@@ -36,11 +36,11 @@ Since Uno can't change the design of the iOS or Android frameworks, Uno chose to
 
 Most statically-typed languages, except C++, don't permit multiple base classes on account of the added complexity it brings, a.k.a. the ['diamond problem'](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem). In dynamically-typed languages, it's quite common to bolt on extra functionality to a class in a reusable way with [mixins](https://en.wikipedia.org/wiki/Mixin). As C# is a statically-typed language, it doesn't support mixins as a first-class language feature.
 
-Uno can however, generate code.
+Uno can, however, generate code.
 
 ### 💡 Native Constructors are automatically provided
 
-As views in Uno inherit directly from native views on Android/iOS, they need to have special constructors that are called [under-the-hood by Xamarin](https://docs.microsoft.com/en-us/xamarin/android/platform/java-integration/working-with-jni#binding-constructors). Writing these by hand would be tedius and particularly painful when porting existing UWP code, so Uno generates them them for you automatically [if they don't already exist](https://github.com/unoplatform/uno/blob/ce1aa4d271fbcd30ff9b491f7f87fe28e24102ce/src/SourceGenerators/Uno.UI.SourceGenerators/NativeCtor/NativeCtorsGenerator.cs#L126).
+As views in Uno inherit directly from native views on Android/iOS, they need to have special constructors that are called [under-the-hood by Xamarin](https://docs.microsoft.com/en-us/xamarin/android/platform/java-integration/working-with-jni#binding-constructors). Writing these by hand would be tedius and particularly painful when porting existing UWP code, so Uno generates them for you automatically [if they don't already exist](https://github.com/unoplatform/uno/blob/ce1aa4d271fbcd30ff9b491f7f87fe28e24102ce/src/SourceGenerators/Uno.UI.SourceGenerators/NativeCtor/NativeCtorsGenerator.cs#L126).
 
 ## 💡 Platform-specific code in Uno
 
@@ -126,7 +126,7 @@ The implementation for iOS, Android has been done for you. You'll need to do the
 
 ## ⏭️ What's next
 
-In [the next module][next-module] you'll learn about the internals of the Uno Platform code-base. The team has built in plenty of escape hatches that enables you to autonomous without being dependant on pull-requests being merged. We hope that that this knowledge will enable you to become self-reliant, to not [push your pull-requests][dont-push-your-pull-requests] if you are ever caught in a jam and ultimately become a become a regular contributor to the open-source project. A growing open-source project, is a healthy open-source project. 💖
+In [the next module][next-module] you'll learn about the internals of the Uno Platform code-base. The team has built in plenty of escape hatches that enables you to be autonomous without being dependant on pull-requests being merged. We hope that that this knowledge will enable you to become self-reliant, to not [push your pull-requests][dont-push-your-pull-requests] if you are ever caught in a jam and ultimately become a become a regular contributor to the open-source project. A growing open-source project, is a healthy open-source project. 💖
 
 <!-- in-line links -->
 [uno-platform]: https://platform.uno/
