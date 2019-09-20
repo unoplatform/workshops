@@ -126,7 +126,7 @@ The implementation for iOS, Android has been done for you. You'll need to do the
 
 ## ⏭️ What's next
 
-In [the next module][next-module] you'll learn about the internals of the Uno Platform code-base. The team has built in plenty of escape hatches that enables you to be autonomous without being dependant on pull-requests being merged. We hope that that this knowledge will enable you to become self-reliant, to not [push your pull-requests][dont-push-your-pull-requests] if you are ever caught in a jam and ultimately become a become a regular contributor to the open-source project. A growing open-source project, is a healthy open-source project. 💖
+In [the next module][next-module] you'll learn about the internals of the Uno Platform code-base. The team has built in plenty of escape hatches that enables you to be autonomous without being dependant on pull-requests being merged. We hope that that this knowledge will enable you to become self-reliant, to not [push your pull-requests][dont-push-your-pull-requests] if you are ever caught in a jam and ultimately become a regular contributor to the open-source project. A growing open-source project, is a healthy open-source project. 💖
 
 <!-- in-line links -->
 [uno-platform]: https://platform.uno/
