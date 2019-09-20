@@ -82,7 +82,8 @@ It's important to be aware that the code in a shared-project file is compiled se
 Here's the rule of thumb (tm):
 
 - Bootstrapping code, packaging settings, and platform-specific code goes in the corresponding `platform head`.
-- Your user interface and business logic goes in the `shared project`.
+- Your business logic goes in the `shared project` or in a `netstandard20` project.
+- Your user interface goes in the `shared project`.
 - String resources normally go in the `shared project`.
 - Image assets may go either in the `shared project` or under each `platform head`.
 - Font assets must be placed in each `platform head`.
@@ -143,7 +144,7 @@ This is an optional dependency, we recommend that you use it. It supplies utilit
 - [The Uno Platform Website][uno-platform]
 - [The Philosophy of Uno][philosophy-of-uno]
 - [Overview of the Uno Source Generator][source-generator]
-- [Platform-specific C# code][platform-specific-xaml]
+- [Platform-specific C# code][platform-specific-csharp]
 - [Platform-specific XAML markup][platform-specific-xaml]
 
 ## ⏭️ What's next
