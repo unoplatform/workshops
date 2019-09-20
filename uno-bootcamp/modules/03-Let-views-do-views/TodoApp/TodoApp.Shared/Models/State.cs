@@ -22,7 +22,7 @@ using Uno;
 ///     - Highly configureable: Generated code provides a lot of useful tips(stripped in previous snippet)
 ///     - Documentation here for Equality Members Generator
 /// </summary>
-/// 📚 <seealso cref="https://github.com/unoplatform/Uno.CodeGen"/>
+/// 📚 <seealso cref="https://github.com/nventive/Uno.CodeGen"/>
 namespace TodoApp.Shared.Models
 {
     [GeneratedImmutable]
