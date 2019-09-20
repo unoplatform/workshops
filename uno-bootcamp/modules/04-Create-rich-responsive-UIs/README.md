@@ -6,7 +6,7 @@ Until recently, all Windows 10 XAML platform controls were tightly-coupled to th
 
 The [WinUI](https://aka.ms/winui) library changes this by decoupling the platform controls from the OS and ships independently and in the open on GitHub. With the upcoming WinUI v3.0, the majority of the platform controls will be open-sourced and available to be updated independent of Windows 10. This also allows your app to take fixes for controls while still running on an older OS version and not requiring the user to update their machine to get a bug fix in a control.
 
-The Uno Platform aggressively fast-follow's the Microsoft Windows and Microsoft WinUI roadmap, as Microsoft adds new controls and public API's they will be added to the Uno Platform either by the team or via community contributions.
+The Uno Platform aggressively fast-follows the Microsoft Windows and Microsoft WinUI roadmap, as Microsoft adds new controls and public APIs they will be added to the Uno Platform either by the team or via community contributions.
 
 ## 💡 XAML Overview
 
@@ -14,9 +14,9 @@ This workshop assumes pre-existing knowledge of XAML, if you are unfamilar with 
 
 ## 💡 XAML with Uno
 
-If you're an existing UWP XAML developer, you should feel right at home. Uno strives for making sure your existing XAML should just work. Just make sure you're developing a responsive application that works at multiple screen resolutions. Then validate periodically that all your features work in the iOS, Android, and WebAssembly heads of your Uno project.
+If you're an existing UWP XAML developer, you should feel right at home. Uno strives to make sure your existing XAML should just work. Just make sure you're developing a responsive application that works at multiple screen resolutions. Then validate periodically that all your features work in the iOS, Android, and WebAssembly heads of your Uno project.
 
-There can be times when certain feature aren't yet supported by Uno OR that you want to tailor an experience for a specific platform. In these cases, you can use Conditional XAML to allow you to keep the majority of your application the same, but filter out or change bits and pieces for specific platforms.
+There can be times when certain features aren't yet supported by Uno OR that you want to tailor an experience for a specific platform. In these cases, you can use Conditional XAML to allow you to keep the majority of your application the same, but filter out or change bits and pieces for specific platforms.
 
 ```xml
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -123,7 +123,7 @@ Enabling `Show All Files` will show the output from the Uno code generator and U
 
 ![Debugging XAML show all files](debugging-xaml-show-all-files.png)
 
-By adding the `FeatureConfiguration.UIElement.AssignDOMXamlName = true;` to your WebAssembly application you will see the XAML names directly in the DOM by using the browser F12 tools.
+By adding the `FeatureConfiguration.UIElement.AssignDOMXamlName = true;` to your WebAssembly application, you will see the XAML names directly in the DOM by using the browser F12 tools.
 
 ![Debugging WASM via F12](debugging-wasm-via-f12.png)
 

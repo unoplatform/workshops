@@ -4,11 +4,11 @@
 
 The [Uno Platform][uno-platform] allows you to reuse views and business logic across platforms. Sometimes though you may want to write different code per platform, either because you need to access platform-specific native APIs and 3rd-party libraries, or because you want your app to look and behave differently depending on the platform.
 
-In this module, you'll discover the platform-specific escape hatches within the Uno Platform and build a custom control to learn how a different native controls can be used on a per-platform basis.
+In this module, you'll discover the platform-specific escape hatches within the Uno Platform and build a custom control to learn how a different native control can be used on a per-platform basis.
 
 ## 💡 What happens when you compile
 
-With Roslyn, Microsoft open-sourced the C# compiler, but they also exposed a powerful API for code analysis. Roslyn provides a easy to access all the syntactic and semantic information that the compiler possesses. The folks behind Uno created a [source generator][source-generator] that leverages this power for code generation and like the Uno platform, it's free and open-source.
+With Roslyn, Microsoft open-sourced the C# compiler, but they also exposed a powerful API for code analysis. Roslyn provides a easy to access all the syntactic and semantic information that the compiler possesses. The folks behind Uno created a [source generator][source-generator] that leverages this power for code generation and, like the Uno platform, it's free and open-source.
 
 At compile time, there's four main things under the hood that Uno does:
 
@@ -36,7 +36,7 @@ Since Uno can't change the design of the iOS or Android frameworks, Uno chose to
 
 Most statically-typed languages, except C++, don't permit multiple base classes on account of the added complexity it brings, a.k.a. the ['diamond problem'](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem). In dynamically-typed languages, it's quite common to bolt on extra functionality to a class in a reusable way with [mixins](https://en.wikipedia.org/wiki/Mixin). As C# is a statically-typed language, it doesn't support mixins as a first-class language feature.
 
-Uno can however, generate code.
+Uno can, however, generate code.
 
 ### 💡 Native Constructors are automatically provided
 
