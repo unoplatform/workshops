@@ -1,4 +1,4 @@
-# Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors)
+# Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
 
 ## Workshops
 
@@ -26,6 +26,9 @@ Thanks goes to these wonderful people (and companies!)⁠ — [emoji key](https:
     <td align="center"><a href="http://mrlacey.com/"><img src="https://avatars3.githubusercontent.com/u/189547?v=4" width="100px;" alt="Matt Lacey"/><br /><sub><b>Matt Lacey</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=mrlacey" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/kazo0"><img src="https://avatars3.githubusercontent.com/u/4793020?v=4" width="100px;" alt="Steve Bilogan"/><br /><sub><b>Steve Bilogan</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=kazo0" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/scottkuhl"><img src="https://avatars2.githubusercontent.com/u/4465616?v=4" width="100px;" alt="Scott Kuhl"/><br /><sub><b>Scott Kuhl</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=scottkuhl" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://www.13north.ca/"><img src="https://avatars2.githubusercontent.com/u/7881072?v=4" width="100px;" alt="Tom Walker"/><br /><sub><b>Tom Walker</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=TomWalkerCodes" title="Documentation">📖</a></td>
   </tr>
 </table>
 
