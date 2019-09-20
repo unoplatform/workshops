@@ -143,7 +143,7 @@ This is an optional dependency, we recommend that you use it. It supplies utilit
 - [The Uno Platform Website][uno-platform]
 - [The Philosophy of Uno][philosophy-of-uno]
 - [Overview of the Uno Source Generator][source-generator]
-- [Platform-specific C# code][platform-specific-xaml]
+- [Platform-specific C# code][platform-specific-csharp]
 - [Platform-specific XAML markup][platform-specific-xaml]
 
 ## ⏭️ What's next
