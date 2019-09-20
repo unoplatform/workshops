@@ -66,7 +66,7 @@ In [the next module][next-module] you'll learn about the next philosophical tena
 
 [philosophy-of-uno]: https://platform.uno/docs/articles/concepts/overview/philosophy-of-uno.html
 
-[edit-and-continue]: https://docs.microsoft.com/en-us/visualstudio/debugger/edit-and-continue-csharp
+[edit-and-continue]: https://docs.microsoft.com/en-us/visualstudio/debugger/how-to-use-edit-and-continue-csharp
 [live-visual-tree]: (https://docs.microsoft.com/en-us/visualstudio/debugger/inspect-xaml-properties-while-debugging)
 [xaml-hot-reload]: https://docs.microsoft.com/en-us/visualstudio/debugger/xaml-hot-reload
 
