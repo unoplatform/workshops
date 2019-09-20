@@ -32,13 +32,13 @@ In this module you'll be (re)introduced to three key tools and learn the most pr
 
 ## 🎯 Play with Live Visual Tree
 
-> 🛈 [Live Visual Tree][live-visual-tree] provides you with a real-time view of your running XAML code via the `Live Visual Tree` and the `Live Property Explorer`. These two tools give you a tree view of the UI elements of your running XAML application, and show you the runtime properties of any UI element you select.
+>❗️ [Live Visual Tree][live-visual-tree] provides you with a real-time view of your running XAML code via the `Live Visual Tree` and the `Live Property Explorer`. These two tools give you a tree view of the UI elements of your running XAML application, and show you the runtime properties of any UI element you select.
 
 ![Live Visual Tree](live-visual-tree.png)
 
 ## 🎯 Play with Windows Hot Reload
 
-> 🛈️ [XAML Hot Reload][xaml-hot-reload] helps you build your UWP app user interface by letting you make changes to XAML code while your app is running. Hot Reload is available in both Visual Studio and Blend for Visual Studio. This feature enables you to incrementally build and test XAML code with the benefit of the running app's data context, authentication state, and other real-world complexity that is hard to simulate during design-time.
+>❗️[XAML Hot Reload][xaml-hot-reload] helps you build your UWP app user interface by letting you make changes to XAML code while your app is running. Hot Reload is available in both Visual Studio and Blend for Visual Studio. This feature enables you to incrementally build and test XAML code with the benefit of the running app's data context, authentication state, and other real-world complexity that is hard to simulate during design-time.
 
 ## 🎯 Play with Uno Hot Reload
 
@@ -66,7 +66,7 @@ In [the next module][next-module] you'll learn about the next philosophical tena
 
 [philosophy-of-uno]: https://platform.uno/docs/articles/concepts/overview/philosophy-of-uno.html
 
-[edit-and-continue]: https://docs.microsoft.com/en-us/visualstudio/debugger/edit-and-continue-csharp
+[edit-and-continue]: https://docs.microsoft.com/en-us/visualstudio/debugger/how-to-use-edit-and-continue-csharp
 [live-visual-tree]: (https://docs.microsoft.com/en-us/visualstudio/debugger/inspect-xaml-properties-while-debugging)
 [xaml-hot-reload]: https://docs.microsoft.com/en-us/visualstudio/debugger/xaml-hot-reload
 

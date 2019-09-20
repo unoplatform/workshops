@@ -40,7 +40,7 @@ Uno can, however, generate code.
 
 ### 💡 Native Constructors are automatically provided
 
-As views in Uno inherit directly from native views on Android/iOS, they need to have special constructors that are called [under-the-hood by Xamarin](https://docs.microsoft.com/en-us/xamarin/android/platform/java-integration/working-with-jni#binding-constructors). Writing these by hand would be tedius and particularly painful when porting existing UWP code, so Uno generates them them for you automatically [if they don't already exist](https://github.com/unoplatform/uno/blob/ce1aa4d271fbcd30ff9b491f7f87fe28e24102ce/src/SourceGenerators/Uno.UI.SourceGenerators/NativeCtor/NativeCtorsGenerator.cs#L126).
+As views in Uno inherit directly from native views on Android/iOS, they need to have special constructors that are called [under-the-hood by Xamarin](https://docs.microsoft.com/en-us/xamarin/android/platform/java-integration/working-with-jni#binding-constructors). Writing these by hand would be tedius and particularly painful when porting existing UWP code, so Uno generates them for you automatically [if they don't already exist](https://github.com/unoplatform/uno/blob/ce1aa4d271fbcd30ff9b491f7f87fe28e24102ce/src/SourceGenerators/Uno.UI.SourceGenerators/NativeCtor/NativeCtorsGenerator.cs#L126).
 
 ## 💡 Platform-specific code in Uno
 
@@ -126,7 +126,7 @@ The implementation for iOS, Android has been done for you. You'll need to do the
 
 ## ⏭️ What's next
 
-In [the next module][next-module] you'll learn about the internals of the Uno Platform code-base. The team has built in plenty of escape hatches that enables you to autonomous without being dependant on pull-requests being merged. We hope that that this knowledge will enable you to become self-reliant, to not [push your pull-requests][dont-push-your-pull-requests] if you are ever caught in a jam and ultimately become a become a regular contributor to the open-source project. A growing open-source project, is a healthy open-source project. 💖
+In [the next module][next-module] you'll learn about the internals of the Uno Platform code-base. The team has built in plenty of escape hatches that enables you to be autonomous without being dependant on pull-requests being merged. We hope that that this knowledge will enable you to become self-reliant, to not [push your pull-requests][dont-push-your-pull-requests] if you are ever caught in a jam and ultimately become a become a regular contributor to the open-source project. A growing open-source project, is a healthy open-source project. 💖
 
 <!-- in-line links -->
 [uno-platform]: https://platform.uno/
