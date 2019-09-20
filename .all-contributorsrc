@@ -122,6 +122,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "TomWalkerCodes",
+      "name": "Tom Walker",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7881072?v=4",
+      "profile": "http://www.13north.ca/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
