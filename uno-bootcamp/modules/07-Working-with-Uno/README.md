@@ -149,7 +149,7 @@ The packages are located under this directory: "%USERPROFILE%\.nuget\packages".
 
 ## 📚 Additional Reading Material
 
-**Commerical Support**:
+**Commercial Support**:
 
 If your organization requires a deeper level of support beyond our community support, please [contact us][commercial-support]. Our professional support is more than a contract – it is a shared responsibility for your project success. Our engineering team will collaborate with you to ensure the success of your projects, and our custom application development team at nventive is also available to lend its expertise.
 
