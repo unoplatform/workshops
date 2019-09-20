@@ -131,6 +131,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Arieldelossantos",
+      "name": "Ariel De Los Santos",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/34275909?v=4",
+      "profile": "http://Arieldelossantos.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 6,
