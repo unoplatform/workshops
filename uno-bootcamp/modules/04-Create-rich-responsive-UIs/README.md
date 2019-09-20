@@ -123,7 +123,29 @@ Enabling `Show All Files` will show the output from the Uno code generator and U
 
 ![Debugging XAML show all files](debugging-xaml-show-all-files.png)
 
-By adding the `FeatureConfiguration.UIElement.AssignDOMXamlName = true;` to your WebAssembly application, you will see the XAML names directly in the DOM by using the browser F12 tools.
+By adding the `FeatureConfiguration.UIElement.AssignDOMXamlName = true;` into the program.cs of WebAssembly application (Wasm head), you will see the XAML names directly in the DOM by using the browser F12 tools.  Make sure to update the name spaces to include using Uno.UI;
+
+```xml
+using Uno.UI;
+using Windows.UI.Xaml;
+
+namespace TodoApp.Wasm
+{
+    public class Program
+    {
+        private static App _app;
+
+        static int Main(string[] args)
+        {
+            FeatureConfiguration.UIElement.AssignDOMXamlName = true;
+            Application.Start(_ => _app = new App());
+
+            return 0;
+        }
+    }
+}
+```
+
 
 ![Debugging WASM via F12](debugging-wasm-via-f12.png)
 
@@ -184,4 +206,4 @@ In [the next module][next-module] you'll learn about the next philosophical tena
 [platform-specific-csharp]: https://platform.uno/docs/articles/platform-specific-csharp.html
 [platform-specific-xaml]: https://platform.uno/docs/articles/platform-specific-xaml.html
 
-[docs-visualboundspadding]: https://github.com/unoplatform/uno/blob/master/doc/articles/features/VisibleBoundsPadding.md
+[docs-visualboundspadding]: https://github.com/unoplatform/uno/blob/master/src/Uno.UI.Toolkit/VisibleBoundsPadding.md
