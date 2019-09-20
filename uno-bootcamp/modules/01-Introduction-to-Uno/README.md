@@ -127,7 +127,7 @@ The usage of this package is optional, but there's no good reason to remove it e
 
 ### Uno.Wasm.Bootstrap
 
-This for wasm. It's a toolkit done by Uno to easily run .NET code in a browser using Mono-Wasm.
+This is for wasm. It's a toolkit done by Uno to easily run .NET code in a browser using Mono-Wasm.
 
 [Sources & documentation][uno-wasm-sources]
 
