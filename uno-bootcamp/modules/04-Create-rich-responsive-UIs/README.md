@@ -100,19 +100,27 @@ namespace TodoApp.Shared.Converters
 }
 ```
 
-In our page or application resources, we need to instantiate our converter so we can access it as a resource from our XAML bindings:
+In our MainPage.xaml (or Appxaml application resources), we need to instantiate our converter so we can access it as a resource from our XAML bindings:
 
 ```xml
-<converters:FromStateItemsRemainingToPluralConverter x:Key="FromStateItemsRemainingToPluralConverter" />
+   <Page.Resources>
+        <converters:FromStateItemsRemainingToPluralConverter x:Key="FromStateItemsRemainingToPluralConverter" />
+    </Page.Resources>
+
+```
+
+Make sure to include xaml namespace within MainPage.xaml for build process to locate the converter for Xaml UI.  Place this after the xaml namespace line xmlns:viewModels="using:TodoApp.Shared.ViewModels"
+
+```xml
+   xmlns:converters="using.TodoApp.Shared.Converters"
 ```
 
 Now, we can use this converter in our binding within our XAML:
 
-```xml
-<TextBlock Text="{Binding State, Converter={StaticResource FromStateItemsRemainingToPluralConverter}}"
-        Grid.Row="1"
-        Padding="0,5,0,0"
-        VerticalAlignment="Center" />
+```xml  
+     <TextBlock>
+         VIEW ALL<Run Text="{Binding State.Todos, Converter={StaticResource FromStateItemsRemainingToPluralConverter}}" />
+    </TextBlock>
 ```
 
 This will take our `State` variable from our model and pass it into our converter, which will then return some text for our TextBlock's `Text` property to consume.
