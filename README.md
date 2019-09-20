@@ -1,4 +1,4 @@
-# Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors)
+# Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors)
 
 ## Workshops
 
@@ -23,6 +23,7 @@ Thanks goes to these wonderful people (and companies!)⁠ — [emoji key](https:
     <td align="center"><a href="https://www.twitter.com/XAMLLlama"><img src="https://avatars0.githubusercontent.com/u/24302614?v=4" width="100px;" alt="Michael Hawker MSFT (XAML Llama)"/><br /><sub><b>Michael Hawker MSFT (XAML Llama)</b></sub></a><br /><a href="#review-michael-hawker" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/unoplatform/workshops/commits?author=michael-hawker" title="Code">💻</a> <a href="https://github.com/unoplatform/workshops/commits?author=michael-hawker" title="Documentation">📖</a></td>
     <td align="center"><a href="http://nicksnettravels.builttoroam.com"><img src="https://avatars2.githubusercontent.com/u/1614057?v=4" width="100px;" alt="Nick Randolph"/><br /><sub><b>Nick Randolph</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=nickrandolph" title="Documentation">📖</a></td>
     <td align="center"><a href="http://taylordevereaux.com"><img src="https://avatars2.githubusercontent.com/u/880207?v=4" width="100px;" alt="Taylor Devereaux"/><br /><sub><b>Taylor Devereaux</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=taylordevereaux" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://mrlacey.com/"><img src="https://avatars3.githubusercontent.com/u/189547?v=4" width="100px;" alt="Matt Lacey"/><br /><sub><b>Matt Lacey</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=mrlacey" title="Documentation">📖</a></td>
   </tr>
 </table>
 
