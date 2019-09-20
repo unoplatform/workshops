@@ -39,7 +39,7 @@ Throughout the workshop you'll encounter the following emoji — here's what the
 * 📖 Overview of what to expect in a module.
 * ✋ Pre-requisite knowledge or activities required before proceeding.
 * 💡 Theory, key concepts and background information.
-* 🛈  Friendly reminders and additional insights.
+* ❗️ Friendly reminders and additional insights.
 * 🎯 A class-room based activity.
 * ☑️ A handy checklist that guarantees successful outcomes.
 * 📚 Additional reading material.
