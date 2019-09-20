@@ -113,6 +113,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "scottkuhl",
+      "name": "Scott Kuhl",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4465616?v=4",
+      "profile": "https://github.com/scottkuhl",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
