@@ -95,6 +95,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "mrlacey",
+      "name": "Matt Lacey",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/189547?v=4",
+      "profile": "http://mrlacey.com/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
