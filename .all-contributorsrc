@@ -167,6 +167,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "hminaya",
+      "name": "Hector Minaya",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/586656?v=4",
+      "profile": "https://medium.com/@hminaya/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
