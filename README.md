@@ -1,4 +1,4 @@
-# Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors)
+# Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors)
 
 ## Workshops
 
@@ -32,6 +32,7 @@ Thanks goes to these wonderful people (and companies!)⁠ — [emoji key](https:
     <td align="center"><a href="http://Arieldelossantos.com"><img src="https://avatars0.githubusercontent.com/u/34275909?v=4" width="100px;" alt="Ariel De Los Santos"/><br /><sub><b>Ariel De Los Santos</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=Arieldelossantos" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/JuliaVigo8"><img src="https://avatars3.githubusercontent.com/u/11890609?v=4" width="100px;" alt="JuliaVigo8"/><br /><sub><b>JuliaVigo8</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=JuliaVigo8" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/jjcolumb"><img src="https://avatars0.githubusercontent.com/u/22223689?v=4" width="100px;" alt="Jose Columbie"/><br /><sub><b>Jose Columbie</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=jjcolumb" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Sushi21"><img src="https://avatars0.githubusercontent.com/u/35455125?v=4" width="100px;" alt="sushi21"/><br /><sub><b>sushi21</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=sushi21" title="Code">💻</a></td>
   </tr>
 </table>
 
