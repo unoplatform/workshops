@@ -104,6 +104,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "weitzhandler",
+      "name": "Shimmy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2716316?v=4",
+      "profile": "http://blogs.microsoft.co.il/shimmy/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
