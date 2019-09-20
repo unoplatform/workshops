@@ -9,7 +9,7 @@ namespace TodoApp.Shared.Controls
     public partial class NativeProgress : Control
     {
         /// 🛈 base("progress") would create a <progress> and </progress> HTML element.
-        public NativeProgress()  : base ("TODO"); // 🎯 Instantiate the correct HTML element.
+        public NativeProgress()  : base ("TODO") // 🎯 Instantiate the correct HTML element.
         {
             MinHeight = 20;
             HorizontalAlignment = HorizontalAlignment.Stretch;
