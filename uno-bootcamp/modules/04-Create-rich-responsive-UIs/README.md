@@ -10,7 +10,7 @@ The Uno Platform aggressively fast-follows the Microsoft Windows and Microsoft W
 
 ## 💡 XAML Overview
 
-This workshop assumes pre-existing knowledge of XAML, if you are unfamilar with the topic then there's a [tome of knowledge available from Microsoft](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-overview).
+This workshop assumes pre-existing knowledge of XAML, if you are unfamilar with the topic then there's a [tons of knowledge available from Microsoft](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-overview).
 
 ## 💡 XAML with Uno
 
