@@ -117,6 +117,33 @@ Now, we can use this converter in our binding within our XAML:
 
 This will take our `State` variable from our model and pass it into our converter, which will then return some text for our TextBlock's `Text` property to consume.
 
+## 💡 Third-Party Libraries
+
+There are a number of third-party UWP control libraries available which can also work with Uno. Just like the rest of Uno, you can leverage these existing resources and their standard XAML patterns to build your applications.
+
+For this app, we're going to need a few different types of Value Converters to properly bind data to our UI. However, rather than writing these all ourselves, we can leverage work done by the community for more common conversion scenarios. The [Windows Community Toolkit](https://aka.ms/wct) provides a number of converters we can leverage.
+
+All we need to do to leverage this control is add a NuGet reference to `Uno.Microsoft.Toolkit.Uwp.UI` to each of our projects. This is the Uno compatible version of the package _Microsoft.Toolkit.Uwp.UI.Controls_, but it contains the same namespace as the original so you can use the same XAML with Uno that you would any other UWP project that used the toolkit!
+
+To add this package:
+
+1. Right-click on your solution root at the top of your Solution Explorer tree and select `🎁 Manage NuGet Packages for Solution...`.
+2. Click on the `Browse` tab and type `Uno.Microsoft.Toolkit.Uwp.UI` into the search box.
+3. You should see a result returned on the left you can click on.
+4. ☑ Check the box at the top-left of the list of your projects that appeared to the right of the search results. This will select all your project heads to install the package to.
+5. Then click the `Install` button.
+6. Two dialogs will appear afterwards, one is about a list of dependencies the package needs, and the other is about accepting responsibility for the software license of using open-source software. Accept both of these dialogs to continue.
+
+📝 It's important to be aware of the licenses of code you use within your project as they may impose restrictions or require attribution for using them. Luckily, the Windows Community Toolkit uses the [MIT License](https://choosealicense.com/licenses/mit/) which is permissive as long as you attribute its use by including a copy of the license text in your software.
+
+📝 Remember that because we're using a Shared project for our Uno application, that's why we need to add our NuGet dependency to each individual head of our application.
+
+Once we've added the NuGet reference, we can just include the xmlns namespace in our first tag at the top of our _Styles\Application\Converters.xaml_ to access these controls `xmlns:wct_converters="using:Microsoft.Toolkit.Uwp.UI.Converters"` and add a converter resource:
+
+```
+<wct_converters:CollectionVisibilityConverter x:Key="FromAnyToVisibleConverter" />
+```
+
 ## 💡 Debugging XAML
 
 Enabling `Show All Files` will show the output from the Uno code generator and UWP XAML code generators.
@@ -157,6 +184,7 @@ Finally, add a reference to the `Uno.UI` package in the UWP project to provide a
 
 ## 📚 Additional Reading Material
 
+- [Windows Community Toolkit Value Converter Docs](https://docs.microsoft.com/en-us/windows/communitytoolkit/helpers/converters)
 - [VisibleBoundsPadding behavior][docs-visualboundspadding]
 - https://medium.com/@unoplatform/talkin-bout-my-generation-how-the-uno-platform-generates-code-part-1-under-the-hood-7664d83c4f90
 - https://platform.uno/docs/articles/implemented/windows-ui-xaml-controls-commandbar.html
@@ -179,7 +207,6 @@ In [the next module][next-module] you'll learn about the next philosophical tena
 [src-xaml]: TodoApp/TodoApp.Shared/MainPage.xaml
 [src-xaml-cs]: TodoApp/TodoApp.Shared/MainPage.xaml.cs
 [src-viewmodel]: TodoApp/TodoApp.Shared/ViewModels/MainPageViewModel.cs
-
 
 [platform-specific-csharp]: https://platform.uno/docs/articles/platform-specific-csharp.html
 [platform-specific-xaml]: https://platform.uno/docs/articles/platform-specific-xaml.html

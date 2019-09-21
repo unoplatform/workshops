@@ -135,7 +135,7 @@
 
             <Grid Grid.Row="3"
                   Padding="5"
-                  Visibility="{Binding Todos, Converter={StaticResource FromAnyToInvisibileConverter}}">
+                  Visibility="{Binding Todos, Converter={StaticResource FromAnyToInvisibleConverter}}">
                 <TextBlock Text="There are no TODOS"
                            HorizontalAlignment="Center"
                            FontSize="16"
