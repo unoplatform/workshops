@@ -8,14 +8,14 @@ If you choose to use the Uno Platform (and we sincerely hope you do) it's import
 
 If your organization requires a deeper level of support beyond our community support, please [contact us][commercial-support]. Our professional support is more than a contract – it is a shared responsibility for your project success. Our engineering team will collaborate with you to ensure the success of your projects, and our custom application development team at nventive is also available to lend its expertise.
 
-This module will introduce to the internals of the Uno Platform code-base. The team has built in plenty of escape hatches that enables you to be autonomous without being dependant on pull-requests being merged. We hope that that this knowledge will enable you to become self-reliant, to not [push your pull-requests][dont-push-your-pull-requests] if you are ever caught in a jam and ultimately become a regular contributor to the open-source project. A growing open-source project, is a healthy open-source project. 💖
+This module will introduce to the internals of the Uno Platform code-base. The team has built in plenty of escape hatches that enables you to be autonomous without being dependant on pull-requests being merged. We hope that that this knowledge will enable you to become self-reliant, to not [push your pull-requests][dont-push-your-pull-requests] if you are ever caught in a jam and ultimately become a regular contributor to the open-source project. A growing open-source project is a healthy open-source project. 💖
 
 ## 💡 Walk through the code base
 
 ### What's implemented
 
 1. 🎯 Visit [uno/src/Uno.UI/Generated][src-unoui-generated] to learn what features are implemented and consumed by the program that generates the Uno Platform's documentation.
-1. 📚 What is `Uno.NotImplemented`? Note that you can make not implemented API's fatal exceptions by setting `ApiInformation.IsFailWhenNotImplemented = true`.
+1. 📚 What is `Uno.NotImplemented`? Note that you can make not implemented APIs fatal exceptions by setting `ApiInformation.IsFailWhenNotImplemented = true`.
 1. 📚 What is the UWP Sync Generator?
 1. 📚 What is the purpose of the Generated folder?
 
@@ -49,7 +49,7 @@ When contributing to the Uno Platform or changing Uno's internals we highly reco
 
 ### Cross Targeting Override
 
-One of the biggest productivity improvements, apart from using Visual Studio Solution Filters, is usage of the [cross targeting override][src-crosstargeting-override] escape hatch. It can be enabled by renaming from `crosstargeting_override.props.sample` to `crosstargeting_override.props`.
+One of the biggest productivity improvements, apart from using Visual Studio Solution Filters, is usage of the [cross targeting override][src-crosstargeting-override] escape hatch. It can be enabled by renaming `crosstargeting_override.props.sample` to `crosstargeting_override.props`.
 
 There are two key knobs in the cross-targeting override:
 
@@ -60,7 +60,7 @@ There are two key knobs in the cross-targeting override:
 
 Unfortunately, Visual Studio for Windows does not support incremental builds on a per target framework moniker (TFM) basis and builds all target framework monikers referenced in an project if build is required. Which means, if you load the Uno Platform via the `Uno.UI-Android-only.slnf` solution filter with the intention of only making changes to the Android platform and make a change to a project that defines multiple target framework monikers defined, such as `Uno.UI` Visual Studio for Windows will compile the `iOS`, `WebAssembly` and `UWP` heads.
 
-Inside of the [cross targeting override file][src-crosstargeting-override], you'll find a property called `UnoTargetFrameworkOverride` which provides you with a way to selectively choose which target framework monikers are compiled by Visual Studio for Windows.  It's really important that you close Visual Studio for Windows before making changes to `UnoTargetFrameworkOverride`. Ensure, that you do or Visual Studio for Windows may become unresponsive.
+Inside of the [cross targeting override file][src-crosstargeting-override], you'll find a property called `UnoTargetFrameworkOverride` which provides you with a way to selectively choose which target framework monikers are compiled by Visual Studio for Windows.  It's really important that you close Visual Studio for Windows before making changes to `UnoTargetFrameworkOverride`. Ensure that you do or Visual Studio for Windows may become unresponsive.
 
 ```xml
 <!--
@@ -194,7 +194,7 @@ If your organization requires a deeper level of support beyond our community sup
 [src-unoui-ui-xaml]: https://github.com/unoplatform/uno/tree/master/src/Uno.UI/UI/Xaml
 [src-content-dialog-tests]: https://github.com/unoplatform/uno/blob/master/src/SamplesApp/SamplesApp.UITests/Windows_UI_Xaml_Controls/ContentDialog/UnoSamples_Tests.ContentDialog.cs
 
-[samples-app-wasn]: https://unoui-sampleapp-unoui-sampleapp-staging.azurewebsites.net/
+[samples-app-wasm]: https://unoui-sampleapp-unoui-sampleapp-staging.azurewebsites.net/
 
 [solution-filters]: https://docs.microsoft.com/en-us/visualstudio/ide/filtered-solutions?view=vs-2019
 
