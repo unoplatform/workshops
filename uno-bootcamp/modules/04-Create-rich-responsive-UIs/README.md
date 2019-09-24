@@ -123,7 +123,7 @@ Enabling `Show All Files` will show the output from the Uno code generator and U
 
 ![Debugging XAML show all files](debugging-xaml-show-all-files.png)
 
-By adding the `FeatureConfiguration.UIElement.AssignDOMXamlName = true;` into the program.cs of WebAssembly application (Wasm head), you will see the XAML names directly in the DOM by using the browser F12 tools.  Make sure to update the name spaces to include using Uno.UI;
+By adding the `FeatureConfiguration.UIElement.AssignDOMXamlName = true;` into the _Program.cs_ file of your WebAssembly application (Wasm head), you will see the XAML names directly in the DOM by using the browser F12 tools.  Make sure to update the namespaces to include `using Uno.UI`;
 
 ```xml
 using Uno.UI;
