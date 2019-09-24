@@ -206,4 +206,4 @@ In [the next module][next-module] you'll learn about the next philosophical tena
 [platform-specific-csharp]: https://platform.uno/docs/articles/platform-specific-csharp.html
 [platform-specific-xaml]: https://platform.uno/docs/articles/platform-specific-xaml.html
 
-[docs-visualboundspadding]: https://github.com/unoplatform/uno/blob/master/src/Uno.UI.Toolkit/VisibleBoundsPadding.md
+[docs-visualboundspadding]: https://github.com/unoplatform/uno/blob/master/doc/articles/features/VisibleBoundsPadding.md
