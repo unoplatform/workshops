@@ -43,7 +43,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## License 
 
-These workshop are made available under the [Apache License, Version 2][license]. If you use this material to conduct your own workshop, please share where it was used and [feedback by creating a new issue on GitHub][share-feedback]. If you see a opportunity to improve the courseware please send in a pull-request.
+These workshops are made available under the [Apache License, Version 2][license]. If you use this material to conduct your own workshop, please share where it was used and [feedback by creating a new issue on GitHub][share-feedback]. If you see an opportunity to improve the courseware, please send in a pull-request.
 
 <!-- in-line links -->
 [uno-platform]: https://platform.uno/
