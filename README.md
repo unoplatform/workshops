@@ -1,4 +1,8 @@
-# Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors)
+# Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors)
+
+The Uno Platform (Pronounced 'Oono' or 'Ouno') is a Universal Windows Platform Bridge that allows UWP-based code (C# and XAML) to run on iOS, Android, and WebAssembly. It provides the full definitions of the UWP Windows 10 October 2018 Update (17763), and the implementation of a growing number of parts of the UWP API, such as **Windows.UI.Xaml**, to enable UWP applications to run on these platforms.
+
+Use the UWP tooling from Windows in [Visual Studio](https://www.visualstudio.com/), such as [XAML Edit and Continue](https://blogs.msdn.microsoft.com/visualstudio/2016/04/06/ui-development-made-easier-with-xaml-edit-continue/) and [C# Edit and Continue](https://docs.microsoft.com/en-us/visualstudio/debugger/how-to-use-edit-and-continue-csharp), build your application as much as possible on Windows, then validate that your application runs on iOS, Android and WebAssembly.
 
 ## Workshops
 
@@ -34,6 +38,10 @@ Thanks goes to these wonderful people (and companies!)⁠ — [emoji key](https:
     <td align="center"><a href="https://github.com/jjcolumb"><img src="https://avatars0.githubusercontent.com/u/22223689?v=4" width="100px;" alt="Jose Columbie"/><br /><sub><b>Jose Columbie</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=jjcolumb" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Sushi21"><img src="https://avatars0.githubusercontent.com/u/35455125?v=4" width="100px;" alt="sushi21"/><br /><sub><b>sushi21</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=sushi21" title="Code">💻</a></td>
     <td align="center"><a href="https://medium.com/@hminaya/"><img src="https://avatars1.githubusercontent.com/u/586656?v=4" width="100px;" alt="Hector Minaya"/><br /><sub><b>Hector Minaya</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=hminaya" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://luizbon.com"><img src="https://avatars1.githubusercontent.com/u/292532?v=4" width="100px;" alt="Luiz Adilson da Silva Bon"/><br /><sub><b>Luiz Adilson da Silva Bon</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=luizbon" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/panwalas"><img src="https://avatars3.githubusercontent.com/u/39371808?v=4" width="100px;" alt="Swapnil Panwala"/><br /><sub><b>Swapnil Panwala</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=panwalas" title="Documentation">📖</a></td>
   </tr>
 </table>
 

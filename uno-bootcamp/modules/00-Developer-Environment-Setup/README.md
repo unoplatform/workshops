@@ -56,7 +56,7 @@ Attendees will need a Windows 10 (version 1903 or higher recommended) computer w
 
 ## What's next
 
-🎉 that's it. Your computer is now setup to do software development with the Uno Platform. In the [next module][next-module] you'll learn all about the Uno Platform and build your first application via the Uno Solution Template generator.
+🎉 That's it. Your computer is now set up to do software development with the Uno Platform. In the [next module][next-module] you'll learn all about the Uno Platform and build your first application via the Uno Solution Template generator.
 
 <!-- in-line links -->
 [next-module]: ../01-Introduction-to-Uno/README.md

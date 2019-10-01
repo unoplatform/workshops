@@ -2,19 +2,19 @@
 
 ## 📖 Overview
 
-This workshop provides a walk-through of the basics of creating an application with the [Uno Platform][uno-platform]. Each module contains some background information on major features and concepts in the Uno Platform, and includes activities to apply what you have learned.
+This workshop provides a walk-through of the basics of creating an application with the [Uno Platform][uno-platform]. Each module contains some background information on major features and concepts in the Uno Platform and includes activities to apply what you have learned.
 
-By the end of this module you will:
+By the end of this module, you will:
 
 - Confirm your computer is configured correctly and has the correct software installed.
-- Use the Uno Platform Solution Templates to generate a application.
+- Use the Uno Platform Solution Templates to generate an application.
 - Learn what the Uno Platform is and how it is not a complete replacement of native UI frameworks.
-- Understand the project structure Uno uses, the reasons why and terminology.
+- Understand the project structure Uno uses, the reasons why, and terminology.
 - Understand the purpose of each NuGet package of the Uno Platform and what's inside of them.
 
 ## ✋ Before You Begin
 
-You need to have Visual Studio for Windows and the Uno Platform Solution Templates installed. Additionally, Developer Mode in Windows 10 must be enabled. It is assumed that you have downloaded, installed and configured your computer as per the checklist [found in the previous module][previous-module]. If you are doing this workshop as part of a classroom, it is important to pre-install these components of Visual Studio for Windows before attendance as you'll need to download upwards of 12Gb of software from Microsoft.
+You need to have Visual Studio for Windows, and the Uno Platform Solution Templates installed. Additionally, Developer Mode in Windows 10 must be enabled. It is assumed that you have downloaded, installed, and configured your computer as per the checklist [found in the previous module][previous-module]. If you are doing this workshop as part of a classroom, it is important to pre-install these components of Visual Studio for Windows before attendance as you'll need to download upwards of 12Gb of software from Microsoft.
 
 ## 💡 What is the Uno Platform
 
@@ -30,11 +30,11 @@ With Xamarin, C# comes to all these platforms; however, it only provides transpa
 
 To avoid having to learn the UI-layout techniques and approaches for each platform, the Uno Platform mimics the Windows XAML approach of defining UI and layouts. This translates into the ability to share styles, layouts, and data-bindings while retaining the ability to mix XAML-style and native layouts.
 
-It is incredibly easy to mix UWP view types with purely native views. For instance, a `StackPanel` can contain a `RelativeLayout` on Android, or a `MKMapView` on iOS.
+It is incredibly easy to mix UWP view types with purely native views. For instance, a `StackPanel` can contain a `RelativeLayout` on Android or an `MKMapView` on iOS.
 
-This is possible because, in the Uno Platform, all views inherit from the native base view type. On Android this means `View`. On iOS this means `UIView`. Since Uno couldn't change the design of the iOS or Android frameworks, Uno made `DependencyObject` a interface with a implementation that is automatically supplied by [code generation][source-generator]. This design decision allows an Uno `FrameworkElement` to be a `View` or `UIView` and at the same time to be a `DependencyObject`.
+This is possible because, in the Uno Platform, all views inherit from the native base view type. On Android, this means `View`. On iOS, this means `UIView`. Since Uno couldn't change the design of the iOS or Android frameworks, Uno made `DependencyObject` an interface with an implementation that is automatically supplied by [code generation][source-generator]. This design decision allows an Uno `FrameworkElement` to be a `View` or `UIView` and at the same time to be a `DependencyObject`.
 
-![With Uno Platform, you can empower your existing .NET teams to build beautiful and performant, single codebase, cross-platform web, mobile and desktop apps.](uno-architecture.png)
+![With Uno Platform, you can empower your existing .NET teams to build beautiful and performant, single codebase, cross-platform web, mobile, and desktop apps.](uno-architecture.png)
 
 In summary, the Uno Platform provides the ability for developers to reuse known layout and coding techniques on all platforms, resulting in a gain of overall productivity when creating UI-rich applications. On iOS and Android, the Uno Platform relies extensively on the Xamarin Native stack. On WebAssembly, the Uno Platform relies directly on the Mono-Wasm runtime.
 
@@ -42,11 +42,11 @@ In summary, the Uno Platform provides the ability for developers to reuse known 
 
 The Uno Platform is not meant to be a complete replacement of all the native UI frameworks. This would be the lowest-denominator approach and would result in end-users noticing the non-native appearance or behavior of an application on their device. Having an iOS application that behaves like an Android application may bother users.
 
-Instead the Uno Platform provides a common set of layout and controls, designed to provide the ability to share an important part of an application's code and markup; however, it leaves developers with the ability to retain the native look and feel. At the same time it provides a way to have a pixel-perfect UI and UX being identical on all platforms. Commonly, this look and feel will be found in the navigation, transitions and animations, main pages, and edges of the screen.
+Instead the Uno Platform provides a common set of layout and controls, designed to provide the ability to share an important part of an application's code and markup; however, it leaves developers with the ability to retain the native look and feel. At the same time, it provides a way to have a pixel-perfect UI and UX being identical on all platforms. Commonly, this look and feel will be found in the navigation, transitions and animations, main pages, and edges of the screen.
 
 ## 🎯 Create a Cross-Platform App (Uno Platform)
 
-> 🛈 If you cannot find the Cross-Platform App (Uno Platform) template then the Uno Platform Solution Templates may not be installed. You'll find instructions where you can download them from [in the previous module][previous-module].
+> 🛈 If you cannot find the Cross-Platform App (Uno Platform) template, then the Uno Platform Solution Templates may not be installed. You'll find instructions where you can download them from [in the previous module][previous-module].
 
 ![Create a new project that uses the Cross-Platform App (Uno Platform) template](create-a-new-project.png)
 
@@ -55,7 +55,7 @@ Instead the Uno Platform provides a common set of layout and controls, designed 
 1. Search for `Uno`.
 1. Select `Cross-Platform App (Uno Platform)`.
 1. Name the Project name as `Todo`.
-1. Specify the Location as a folder in the workshop git repostiory.
+1. Specify the Location as a folder in the workshop git repository.
 1. Press `Create` to generate your Uno application.
 1. Make sure to add Newtonsoft.Json package to all heads, and Uno.Wasm.WebSockets to the Wasm head.
 
@@ -83,12 +83,12 @@ It's important to be aware that the code in a shared-project file is compiled se
 Here's the rule of thumb (tm):
 
 - Bootstrapping code, packaging settings, and platform-specific code goes in the corresponding `platform head`.
-- Your business logic goes in the `shared project` or in a `netstandard20` project.
-- Your user interface goes in the `shared project`.
+- Your business logic goes into the `shared project` or in a `netstandard20` project.
+- Your user interface goes into the `shared project`.
 - String resources normally go in the `shared project`.
 - Image assets may go either in the `shared project` or under each `platform head`.
 - Font assets must be placed in each `platform head`.
-- NuGet packages must be added to each `platform head` unless that package enables `platform head` functionality and in which case install the package into just that `platform head`.
+- NuGet packages must be added to each `platform head` unless that package enables `platform head` functionality and in which case, install the package into just that `platform head`.
 
 
 ## 🎯 Update Dependencies
@@ -114,7 +114,7 @@ Low-level foundation for the implementation of Uno.UI. It's basically a bunch of
 
 ### Uno.UI
 
-This is the main part of Uno.UI. It not only contains implementation of controls on all supported platforms, but also a code generator and even a _code analyzer_ to help developers when they are using it.
+This is the main part of Uno.UI. It not only contains an implementation of controls on all supported platforms, but also a code generator and even a _code analyzer_ to help developers when they are using it.
 
 [Sources][uno-ui-sources] /
 [Documentation][uno-ui-docs]
@@ -129,13 +129,13 @@ The usage of this package is optional, but there's no good reason to remove it e
 
 ### Uno.Wasm.Bootstrap
 
-This is for wasm. It's a toolkit done by Uno to easily run .NET code in a browser using Mono-Wasm.
+This is for wasm. It's a toolkit done by Uno to run .NET code in a browser using Mono-Wasm easily.
 
 [Sources & documentation][uno-wasm-sources]
 
 ### Uno.CodeGen
 
-This is an optional dependency, we recommend that you use it. It supplies utilities to make immutable classes in C# and automate the code for comparisons.
+This is an optional dependency, and we recommend that you use it. It supplies utilities to make immutable classes in C# and automate the code for comparisons.
 
 [Sources & documentation][uno-codegen-sources]
 
@@ -150,7 +150,7 @@ This is an optional dependency, we recommend that you use it. It supplies utilit
 
 ## ⏭️ What's next
 
-In [the next module][next-module] you'll learn about the philosophy of the Uno Platform which had guided the development of past and future  architectural decisions. Each module from here onwards teaches you about each philosophical tenant and includes activities to apply what you have learned.
+In [the next module][next-module] you'll learn about the philosophy of the Uno Platform, which had guided the development of past and future architectural decisions. Each module from here onwards teaches you about each philosophical tenant and includes activities to apply what you have learned.
 
 <!-- in-line links -->
 [uno-platform]: https://platform.uno/

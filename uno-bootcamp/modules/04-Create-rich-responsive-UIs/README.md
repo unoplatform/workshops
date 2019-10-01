@@ -4,13 +4,13 @@
 
 Until recently, all Windows 10 XAML platform controls were tightly-coupled to the version of the OS run by the user. This meant fixing any bugs related to platform controls would require an update to the user's entire OS.
 
-The [WinUI](https://aka.ms/winui) library changes this by decoupling the platform controls from the OS and ships independently and in the open on GitHub. With the upcoming WinUI v3.0, the majority of the platform controls will be open-sourced and available to be updated independent of Windows 10. This also allows your app to take fixes for controls while still running on an older OS version and not requiring the user to update their machine to get a bug fix in a control.
+The [WinUI](https://aka.ms/winui) library changes this by decoupling the platform controls from the OS and ships independently and in the open on GitHub. With the upcoming WinUI v3.0, the majority of the platform controls will be open-sourced and available to be updated separately from Windows 10. This also allows your app to take fixes for controls while still running on an older OS version and not requiring the user to update their machine to get a control bug fix.
 
-The Uno Platform aggressively fast-follows the Microsoft Windows and Microsoft WinUI roadmap, as Microsoft adds new controls and public APIs they will be added to the Uno Platform either by the team or via community contributions.
+The Uno Platform aggressively fast-follows the Microsoft Windows and Microsoft WinUI roadmap. As Microsoft adds new controls and public APIs, they will be added to the Uno Platform either by the team or via community contributions.
 
 ## 💡 XAML Overview
 
-This workshop assumes pre-existing knowledge of XAML, if you are unfamilar with the topic then there's a [tons of knowledge available from Microsoft](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-overview).
+This workshop assumes pre-existing knowledge of XAML, and if you are unfamiliar with the topic, then there's a [tons of knowledge available from Microsoft](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-overview).
 
 ## 💡 XAML with Uno
 
@@ -54,7 +54,7 @@ There can be times when certain features aren't yet supported by Uno OR that you
 
 There are two code layout techniques that can be used to implement platform-specific code with the Uno Platform:
 
-1. Place platform-specific code in a file which is only included in the desired `platform head`.
+1. Place platform-specific code in a file that is only included in the desired `platform head`.
 2. Use conditionals within a file within the `shared project` to conditionally implement platform-specific code.
 
 In Visual Studio, a `shared project` is just a list of files. Referencing a `shared project` in an ordinary `.csproj` project causes those files to be included in the project. They're treated in exactly the same way as the files inside the project.
@@ -66,11 +66,11 @@ The Uno Platform provides you with two techniques to conditionally implement pla
 
 ## 💡 ValueConverters
 
-XAML allows us to easily bind our data model to our view. However, the type of data value the view is expecting sometimes doesn't match the type of the data in our model.
+XAML allows us to bind our data model to our view easily. However, the type of data value the view is expecting sometimes doesn't match the type of data in our model.
 
 Rather than having to re-work our model, we can create a helper value converter in order to transform the data coming from the model into a type the view can understand.
 
-To do this we just simply create a class that implements the `IValueConverter` interface.
+To do this, we just simply create a class that implements the `IValueConverter` interface.
 
 ```csharp
 using System;
@@ -159,7 +159,7 @@ You won't need to implement the datastore or model the entities, that has been d
 
 ## 🎯 Use `VisualBoundsPadding` to manage the notch
 
-If you run the app on an iPhoneX, You'll see something like this:
+If you run the app on an iPhone X, You'll see something like this:
 
 ![Problem with the notch](uno-notch-problem.png)
 

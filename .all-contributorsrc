@@ -176,6 +176,24 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "luizbon",
+      "name": "Luiz Adilson da Silva Bon",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/292532?v=4",
+      "profile": "http://luizbon.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "panwalas",
+      "name": "Swapnil Panwala",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/39371808?v=4",
+      "profile": "https://github.com/panwalas",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
