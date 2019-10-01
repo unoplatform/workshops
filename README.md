@@ -1,4 +1,4 @@
-# Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors)
+# Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-22-orange.svg?style=flat-square)](#contributors)
 
 The Uno Platform (Pronounced 'Oono' or 'Ouno') is a Universal Windows Platform Bridge that allows UWP-based code (C# and XAML) to run on iOS, Android, and WebAssembly. It provides the full definitions of the UWP Windows 10 October 2018 Update (17763), and the implementation of a growing number of parts of the UWP API, such as **Windows.UI.Xaml**, to enable UWP applications to run on these platforms.
 
@@ -43,6 +43,7 @@ Thanks goes to these wonderful people (and companies!)⁠ — [emoji key](https:
     <td align="center"><a href="http://luizbon.com"><img src="https://avatars1.githubusercontent.com/u/292532?v=4" width="100px;" alt="Luiz Adilson da Silva Bon"/><br /><sub><b>Luiz Adilson da Silva Bon</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=luizbon" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/panwalas"><img src="https://avatars3.githubusercontent.com/u/39371808?v=4" width="100px;" alt="Swapnil Panwala"/><br /><sub><b>Swapnil Panwala</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=panwalas" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/TopperDEL"><img src="https://avatars2.githubusercontent.com/u/1833242?v=4" width="100px;" alt="TopperDEL"/><br /><sub><b>TopperDEL</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=TopperDEL" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Parikshit-Hooda"><img src="https://avatars1.githubusercontent.com/u/25405707?v=4" width="100px;" alt="Parikshit Hooda"/><br /><sub><b>Parikshit Hooda</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=Parikshit-Hooda" title="Documentation">📖</a></td>
   </tr>
 </table>
 
