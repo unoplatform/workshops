@@ -1,4 +1,4 @@
-# Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-19-orange.svg?style=flat-square)](#contributors)
+# Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors)
 
 ## Workshops
 
@@ -37,6 +37,7 @@ Thanks goes to these wonderful people (and companies!)⁠ — [emoji key](https:
   </tr>
   <tr>
     <td align="center"><a href="http://luizbon.com"><img src="https://avatars1.githubusercontent.com/u/292532?v=4" width="100px;" alt="Luiz Adilson da Silva Bon"/><br /><sub><b>Luiz Adilson da Silva Bon</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=luizbon" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/panwalas"><img src="https://avatars3.githubusercontent.com/u/39371808?v=4" width="100px;" alt="Swapnil Panwala"/><br /><sub><b>Swapnil Panwala</b></sub></a><br /><a href="https://github.com/unoplatform/workshops/commits?author=panwalas" title="Documentation">📖</a></td>
   </tr>
 </table>
 
