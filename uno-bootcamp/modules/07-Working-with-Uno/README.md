@@ -8,7 +8,7 @@ If you choose to use the Uno Platform (and we sincerely hope you do) it's import
 
 If your organization requires a deeper level of support beyond our community support, please [contact us][commercial-support]. Our professional support is more than a contract – it is a shared responsibility for your project success. Our engineering team will collaborate with you to ensure the success of your projects, and our custom application development team at nventive is also available to lend its expertise.
 
-This module will introduce to the internals of the Uno Platform code-base. The team has built in plenty of escape hatches that enables you to be autonomous without being dependant on pull-requests being merged. We hope that that this knowledge will enable you to become self-reliant, to not [push your pull-requests][dont-push-your-pull-requests] if you are ever caught in a jam and ultimately become a regular contributor to the open-source project. A growing open-source project is a healthy open-source project. 💖
+This module will introduce to the internals of the Uno Platform code-base. The team has built in plenty of escape hatches that enables you to be autonomous without being dependant on pull-requests being merged. We hope that this knowledge will enable you to become self-reliant, to not [push your pull-requests][dont-push-your-pull-requests] if you are ever caught in a jam and ultimately become a regular contributor to the open-source project. A growing open-source project is a healthy open-source project. 💖
 
 ## 💡 Walk through the code base
 
