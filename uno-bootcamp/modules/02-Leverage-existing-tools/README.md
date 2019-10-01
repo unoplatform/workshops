@@ -2,9 +2,9 @@
 
 ## 📖 Overview
 
-One of the [philosophical tenants][philosophy-of-uno] of the [Uno Platform][uno-platform] is that, wherever possible, the platform should `leverage existing tools` as Microsoft's tooling is a treat to work with. With the Uno Platform you can, and should, build your app with those tools as part of your inner-development loop with the Universal Windows Platform and then as part of your outer-development loop validated by deploying your application to iOS, Android, and the web via WebAssembly. 
+One of the [philosophical tenants][philosophy-of-uno] of the [Uno Platform][uno-platform] is that, wherever possible, the platform should `leverage existing tools` as Microsoft's tooling is a treat to work with. With the Uno Platform, you can, and should, build your app with those tools as part of your inner-development loop with the Universal Windows Platform and then as part of your outer-development loop validated by deploying your application to iOS, Android, and the web via WebAssembly. 
 
-In this module you'll be (re)introduced to three key tools and learn the most productive way to develop an application:
+In this module, you'll be (re)introduced to three key tools and learn the most productive way to develop an application:
 
 - [Edit and Continue][edit-and-continue].
 - [Live Visual Tree][live-visual-tree].
@@ -14,8 +14,8 @@ In this module you'll be (re)introduced to three key tools and learn the most pr
 
 ![Uno Project Structure](../01-Introduction-to-Uno/uno-project-structure.png)
 
-1. Right click on the `Todo.UWP` application and select `Set as Startup Project`.
-1. Right click on the `Todo.UWP` application and select `Deploy`.
+1. Right-click on the `Todo.UWP` application and select `Set as Startup Project`.
+1. Right-click on the `Todo.UWP` application and select `Deploy`.
 1. Ensure the platform selector is set to `Todo.UWP`.
 1. Navigate to `Debug -> Start Debugging` to launch the application.
 
@@ -26,13 +26,13 @@ In this module you'll be (re)introduced to three key tools and learn the most pr
 > 🛈️ [Edit and Continue][edit-and-continue] is a time-saving feature that enables you to make changes to your source code while your program is in break mode. When you resume execution of the program by choosing an execution command like `Continue` or `Step`, `Edit and Continue` automatically applies the code changes. This allows you to make changes to your code during a debugging session, instead of having to stop, recompile your entire program, and restart the debugging session.
 
 1. Introduce people to feature, don't assume pre-existing knowledge.
-1. Start up the UWP head of the Todo app in `DEBUG` mode (right click ->
+1. Startup the UWP head of the Todo app in `DEBUG` mode (right-click ->
 
 -->
 
 ## 🎯 Play with Live Visual Tree
 
->❗️ [Live Visual Tree][live-visual-tree] provides you with a real-time view of your running XAML code via the `Live Visual Tree` and the `Live Property Explorer`. These two tools give you a tree view of the UI elements of your running XAML application, and show you the runtime properties of any UI element you select.
+>❗️ [Live Visual Tree][live-visual-tree] provides you with a real-time view of your running XAML code via the `Live Visual Tree` and the `Live Property Explorer`. These two tools give you a tree view of the UI elements of your running XAML application and show you the runtime properties of any UI element you select.
 
 ![Live Visual Tree](live-visual-tree.png)
 
