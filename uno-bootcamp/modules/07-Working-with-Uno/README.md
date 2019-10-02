@@ -118,6 +118,9 @@ The packages are located under this directory: "%USERPROFILE%\.nuget\packages".
 <!--<UnoNugetOverrideVersion>1.45.0</UnoNugetOverrideVersion>-->
 ```
 
+If after enabling `UnoNugetOverrideVersion` you don't see the expected results check the `bin/obj` folder of your consuming application and check the file modification dates. When in doubt - delete `bin/obj` and then start troubleshooting from a clean slate.
+
+
 ## 🎯 Vendoring Uno
 
 1. Fork the Uno Platform source code from GitHub.
