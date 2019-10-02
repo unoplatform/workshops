@@ -6,7 +6,7 @@ Use the UWP tooling from Windows in [Visual Studio](https://www.visualstudio.com
 
 ## Workshops
 
-- [Uno Bootcamp](uno-bootcamp): In this single day intensive workshop, you'll be introduced to the development philosophy of Uno and build a new application from scratch that uses the philosophy. You’ll also learn from productivity tips and how Uno works under the hood.
+- [Uno Bootcamp](uno-bootcamp): In this relaxed single day workshop, you'll be introduced to the development philosophy of Uno and build a new application from scratch that uses the philosophy. You’ll also learn from productivity tips and how Uno works under the hood.
 
 ## Contributors ✨
 
@@ -53,7 +53,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## License 
 
-These workshops are made available under the [Apache License, Version 2][license]. If you use this material to conduct your workshop, please share where it was used and [feedback by creating a new issue on GitHub][share-feedback]. If you see an opportunity to improve the courseware, please send it in a pull-request.
+These workshops are made available under the [Apache License, Version 2][license]. If you use this material to run a workshop, please share where it was used and [feedback by creating a new issue on GitHub][share-feedback]. If you see an opportunity to improve the courseware, please send it in a pull-request.
 
 <!-- in-line links -->
 [uno-platform]: https://platform.uno/
