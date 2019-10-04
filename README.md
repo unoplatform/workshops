@@ -1,4 +1,5 @@
-# Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors)
+# Workshops for the Uno Platform
+[![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors) [![GitHub forks](https://img.shields.io/github/forks/unoplatform/workshops.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/unoplatform/workshops/network/) [![GitHub stars](https://img.shields.io/github/stars/unoplatform/workshops.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/unoplatform/workshops/stargazers/) 
 
 The Uno Platform (Pronounced 'Oono' or 'Ouno') is a Universal Windows Platform Bridge that allows UWP-based code (C# and XAML) to run on iOS, Android, and WebAssembly. It provides the full definitions of the UWP Windows 10 October 2018 Update (17763), and the implementation of a growing number of parts of the UWP API, such as **Windows.UI.Xaml**, to enable UWP applications to run on these platforms.
 
