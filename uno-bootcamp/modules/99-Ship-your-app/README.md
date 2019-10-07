@@ -1,6 +1,6 @@
 # Ship it!
 
-Congratulation! Your _TODO App_ is now completed.
+Congratulations! Your _TODO App_ is now completed.
 
 It's now time to ship it to different stores and push the WASM version on a web site for everybody to appreciate it.
 

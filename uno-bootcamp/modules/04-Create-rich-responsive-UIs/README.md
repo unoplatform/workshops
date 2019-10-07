@@ -62,7 +62,7 @@ In Visual Studio, a `shared project` is just a list of files. Referencing a `sha
 The Uno Platform provides you with two techniques to conditionally implement platform-specific code within a shared project:
 
 1. [Platform-specific C# code in Uno][platform-specific-csharp].
-1. [Platform-specific XAML markup in Uno][platform-specific-xaml].
+2. [Platform-specific XAML markup in Uno][platform-specific-xaml].
 
 ## 💡 ValueConverters
 
@@ -154,8 +154,8 @@ namespace TodoApp.Wasm
 You won't need to implement the datastore or model the entities, that has been done for you.
 
 1. [ ] Review [TodoApp.Shared/ViewModels/MainPageViewModel.cs][src-viewmodel]
-1. [ ] Implement [TodoApp/TodoApp.Shared/*.xaml][src-xaml]
-1. [ ] Implement [TodoApp/TodoApp.Shared/*.xaml.cs][src-xaml-cs]
+2. [ ] Implement [TodoApp/TodoApp.Shared/*.xaml][src-xaml]
+3. [ ] Implement [TodoApp/TodoApp.Shared/*.xaml.cs][src-xaml-cs]
 
 ## 🎯 Use `VisualBoundsPadding` to manage the notch
 
@@ -168,8 +168,8 @@ As you can see, the **TODOS** header is placed under the device notch.
 To fix this problem, Uno offers you a nice tool called the `VisualBoundsPadding`. The goal of this tool is to add padding to content you don't want to be altered by the notch.
 
 1. Add the namespace declaration `xmlns:toolkit="using:Uno.UI.Toolkit"` to your XAML file
-1. Add `toolkit:VisibleBoundsPadding.PaddingMask="Top"` to your _Header_ `<Grid>`
-1. Add `toolkit:VisibleBoundsPadding.PaddingMask="Left,Right"` to your _Content_ `<Grid>`
+2. Add `toolkit:VisibleBoundsPadding.PaddingMask="Top"` to your _Header_ `<Grid>`
+3. Add `toolkit:VisibleBoundsPadding.PaddingMask="Left,Right"` to your _Content_ `<Grid>`
 
 The result will look like this and will follow the requirement of the platform vendor:
 

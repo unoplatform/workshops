@@ -51,13 +51,13 @@ Instead the Uno Platform provides a common set of layout and controls, designed 
 ![Create a new project that uses the Cross-Platform App (Uno Platform) template](create-a-new-project.png)
 
 1. Launch Visual Studio for Windows (any edition).
-1. Navigate to `File -> New -> Project`.
-1. Search for `Uno`.
-1. Select `Cross-Platform App (Uno Platform)`.
-1. Name the Project name as `Todo`.
-1. Specify the Location as a folder in the workshop git repository.
-1. Press `Create` to generate your Uno application.
-1. Make sure to add Newtonsoft.Json package to all heads, and Uno.Wasm.WebSockets to the Wasm head.
+2. Navigate to `File -> New -> Project`.
+3. Search for `Uno`.
+4. Select `Cross-Platform App (Uno Platform)`.
+5. Name the Project name as `Todo`.
+6. Specify the Location as a folder in the workshop git repository.
+7. Press `Create` to generate your Uno application.
+8. Make sure to add Newtonsoft.Json package to all heads, and Uno.Wasm.WebSockets to the Wasm head.
 
 ## 💡 Project Structure
 
@@ -96,12 +96,12 @@ Here's the rule of thumb (tm):
 ![Uno Platform Dependencies](uno-platform-dependencies.png)
 
 1. Right Click `Solution 'Todo'` in Solution Explorer
-1. Click `Manage NuGet Packages for Solution`
-1. Navigate to the Updates tab
-1. Update `Uno.UI`
-1. Update `Uno.Core`
-1. Update `Uno.UniversalImageLoader`
-1. Update `Uno.Wasm.Bootstrap`
+2. Click `Manage NuGet Packages for Solution`
+3. Navigate to the Updates tab
+4. Update `Uno.UI`
+5. Update `Uno.Core`
+6. Update `Uno.UniversalImageLoader`
+7. Update `Uno.Wasm.Bootstrap`
 
 ## 💡 Uno Platform Dependencies
 

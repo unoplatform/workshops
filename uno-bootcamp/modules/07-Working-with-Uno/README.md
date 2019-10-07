@@ -15,9 +15,9 @@ This module will introduce to the internals of the Uno Platform code-base. The t
 ### What's implemented
 
 1. 🎯 Visit [uno/src/Uno.UI/Generated][src-unoui-generated] to learn what features are implemented and consumed by the program that generates the Uno Platform's documentation.
-1. 📚 What is `Uno.NotImplemented`? Note that you can make not implemented APIs fatal exceptions by setting `ApiInformation.IsFailWhenNotImplemented = true`.
-1. 📚 What is the UWP Sync Generator?
-1. 📚 What is the purpose of the Generated folder?
+2. 📚 What is `Uno.NotImplemented`? Note that you can make not implemented APIs fatal exceptions by setting `ApiInformation.IsFailWhenNotImplemented = true`.
+3. 📚 What is the UWP Sync Generator?
+4. 📚 What is the purpose of the Generated folder?
 
 ### UI implementations
 
@@ -27,13 +27,13 @@ This module will introduce to the internals of the Uno Platform code-base. The t
 ### Source code generation
 
 1. 🎯 Visit the source code at [uno/src/SourceGenerators][src-sourcegenerators]
-1. 🎯 Read https://github.com/unoplatform/uno/pull/1241/files
+2. 🎯 Read https://github.com/unoplatform/uno/pull/1241/files
 
 ### Integration Tests
 
 1. 🎯 Visit [the samples app][samples-app-wasm] which is deployed from `master` after every commit.
-1. 🎯 Visit source code at [uno/src/SamplesApp][src-samples-app]
-1. 📚 If you contribute a pull-request, then we [expect tests][src-content-dialog-tests] to be included. This is our north star golden example of automated integration test w/droid, ios, wasm heads, and screenshot targeting
+2. 🎯 Visit source code at [uno/src/SamplesApp][src-samples-app]
+3. 📚 If you contribute a pull-request, then we [expect tests][src-content-dialog-tests] to be included. This is our north star golden example of automated integration test w/droid, ios, wasm heads, and screenshot targeting
 
 ### Visual Studio Solution Filters
 
@@ -124,31 +124,31 @@ If after enabling `UnoNugetOverrideVersion` you don't see the expected results c
 ## 🎯 Vendoring Uno
 
 1. Fork the Uno Platform source code from GitHub.
-1. Configure the NuGet package override to use the same version used in the Todo app.
-1. Make the required changes to the Uno Platform source code.
-1. Commit your changes to your fork of the Uno Platform.
-1. Build the Uno Platform in Visual Studio for Windows.
-1. Load the Todo application in Visual Studio for Windows.
+2. Configure the NuGet package override to use the same version used in the Todo app.
+3. Make the required changes to the Uno Platform source code.
+4. Commit your changes to your fork of the Uno Platform.
+5. Build the Uno Platform in Visual Studio for Windows.
+6. Load the Todo application in Visual Studio for Windows.
 
 ## 🎯 Source level step debugging
 
 1. Clone the Uno Platform source code from GitHub.
-1. Configure the NuGet package override to use the same version used in the Todo app.
-1. Build the Uno Platform in Visual Studio for Windows.
-1. Load the Todo application in Visual Studio for Windows.
-1. Set debug points, step in and out.
+2. Configure the NuGet package override to use the same version used in the Todo app.
+3. Build the Uno Platform in Visual Studio for Windows.
+4. Load the Todo application in Visual Studio for Windows.
+5. Set debug points, step in and out.
 
 
 ### 🎯 Debugging the source generator
 
 1. Create a side app and note which version of `Uno.UI` is used as a `PackageReference`
-1. [Override](https://github.com/unoplatform/uno/blob/7f003e13f34f899a4b9ac04552317920f961247a/src/crosstargeting_override.props.sample#L45) the NuGet package cache and use the same version for `Uno.UI` as is used in the side app.
-1. Build the side application which will start an initial `Uno.SourceGenerationHost.exe` process
-1. Attach to all the `Uno.SourceGenerationHost.exe` processes (there may be many) from the `Uno.UI` solution
-1. Rebuild the side app
-1. Your breakpoints in the source generators will hit
-1. Output from the generator is stored at `obj\Debug\netstandard2.0\g\XamlCodeGenerator`
-1. If you need to restart debugging after making significant code changes to the source generator, then make sure you terminate all existing processes (`taskkill /fi "imagename eq Uno.SourceGeneration.Host.exe" /f /t`) in between development iterations.
+2. [Override](https://github.com/unoplatform/uno/blob/7f003e13f34f899a4b9ac04552317920f961247a/src/crosstargeting_override.props.sample#L45) the NuGet package cache and use the same version for `Uno.UI` as is used in the side app.
+3. Build the side application which will start an initial `Uno.SourceGenerationHost.exe` process
+4. Attach to all the `Uno.SourceGenerationHost.exe` processes (there may be many) from the `Uno.UI` solution
+5. Rebuild the side app
+6. Your breakpoints in the source generators will hit
+7. Output from the generator is stored at `obj\Debug\netstandard2.0\g\XamlCodeGenerator`
+8. If you need to restart debugging after making significant code changes to the source generator, then make sure you terminate all existing processes (`taskkill /fi "imagename eq Uno.SourceGeneration.Host.exe" /f /t`) in between development iterations.
 
 ## 📚 Additional Reading Material
 
