@@ -332,3 +332,6 @@ ASALocalRun/
 # Cake
 !tools/packages.config
 tools/*
+
+# to ignore the .DS_Store files automatically created in a Mac
+.DS_Store
