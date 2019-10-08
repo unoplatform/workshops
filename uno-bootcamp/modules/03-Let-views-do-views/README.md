@@ -43,14 +43,14 @@ The first step to mastering the Model-View-ViewModel software design pattern is 
 There are nine concerns that require domain modeling:
 
 1. [ ] A way to add items to the todo list.
-1. [ ] A list of todo items.
-1. [ ] Each todo item has a boolean status - incomplete or complete.
-1. [ ] Each todo item has a description that can be changed.
-1. [ ] Each todo item has a way to delete it.
-1. [ ] A count of the number of incomplete items that remain.
-1. [ ] A count of the total number of items.
-1. [ ] Commands that filter the list of todo items - all, active, and completed.
-1. [ ] A command that clears all completed items.
+2. [ ] A list of todo items.
+3. [ ] Each todo item has a boolean status - incomplete or complete.
+4. [ ] Each todo item has a description that can be changed.
+5. [ ] Each todo item has a way to delete it.
+6. [ ] A count of the number of incomplete items that remain.
+7. [ ] A count of the total number of items.
+8. [ ] Commands that filter the list of todo items - all, active, and completed.
+9. [ ] A command that clears all completed items.
 
 </p>
 </details><br/>
@@ -63,12 +63,12 @@ Now that you have modeled the domain, it is time to think about what that the us
 There are seven application behaviors:
 
 1. [ ] When there are no items in the todo list - the majority of all controls are hidden.
-1. [ ] When an item is added to the todo list — the item is added to the top of the list.
-1. [ ] When an item is marked as complete — the todo item is struck out.
-1. [ ] When an item is deleted — the todo item disappears.
-1. [ ] When the boolean status of todo item changes — the number of todo items left updates automatically.
-1. [ ] The buttons filter the todo list — display all, display only active and display only completed.
-1. [ ] When the clear completed button is pressed — all completed items are removed from the todo list.
+2. [ ] When an item is added to the todo list — the item is added to the top of the list.
+3. [ ] When an item is marked as complete — the todo item is struck out.
+4. [ ] When an item is deleted — the todo item disappears.
+5. [ ] When the boolean status of todo item changes — the number of todo items left updates automatically.
+6. [ ] The buttons filter the todo list — display all, display only active and display only completed.
+7. [ ] When the clear completed button is pressed — all completed items are removed from the todo list.
 
 </p>
 </details><br/>

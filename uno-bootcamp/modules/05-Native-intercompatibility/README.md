@@ -47,14 +47,14 @@ As views in Uno inherit directly from native views on Android/iOS, they need to 
 There are two code layout techniques that can be used to implement platform-specific code with the Uno Platform:
 
 1. Place platform-specific code in a file that is only included in the desired `platform head`.
-1. Use conditionals within a file within the `shared project` to conditionally implement platform-specific code.
+2. Use conditionals within a file within the `shared project` to conditionally implement platform-specific code.
 
 In Visual Studio, a `shared project` is just a list of files. Referencing a `shared project` in an ordinary `.csproj` project causes those files to be included in the project. They're treated in exactly the same way as the files inside the project.
 
 The Uno Platform provides you with two techniques to conditionally implement platform-specific code within a shared project:
 
 1. [Platform-specific C# code in Uno][platform-specific-csharp].
-1. [Platform-specific XAML markup in Uno][platform-specific-xaml].
+2. [Platform-specific XAML markup in Uno][platform-specific-xaml].
 
 ## 💡 Platform-specific controls in Uno
 
@@ -108,13 +108,13 @@ The implementation of iOS and Android has been done for you. You'll need to do t
 ```
 
 1. [ ] Review [TodoApp/TodoApp.Shared/*.xaml][src-xaml]
-1. [ ] Review [TodoApp/TodoApp.Shared/*.xaml.cs][src-xaml-cs]
-1. [ ] Review [TodoApp/TodoApp.SharedControls/NativeProgress.md][src-controls]
-1. [ ] Review [TodoApp/TodoApp.SharedControls/NativeProgress.cs][src-controls]
-1. [ ] Review [TodoApp/TodoApp.SharedControls/NativeProgress.Droid.cs][src-controls]
-1. [ ] Review [TodoApp/TodoApp.SharedControls/NativeProgress.iOS.cs][src-controls]
-1. [ ] Review [TodoApp/TodoApp.SharedControls/NativeProgress.UWP.cs][src-controls]
-1. [ ] Implement [TodoApp/TodoApp.SharedControls/NativeProgress.WASM.cs][src-controls]
+2. [ ] Review [TodoApp/TodoApp.Shared/*.xaml.cs][src-xaml-cs]
+3. [ ] Review [TodoApp/TodoApp.SharedControls/NativeProgress.md][src-controls]
+4. [ ] Review [TodoApp/TodoApp.SharedControls/NativeProgress.cs][src-controls]
+5. [ ] Review [TodoApp/TodoApp.SharedControls/NativeProgress.Droid.cs][src-controls]
+6. [ ] Review [TodoApp/TodoApp.SharedControls/NativeProgress.iOS.cs][src-controls]
+7. [ ] Review [TodoApp/TodoApp.SharedControls/NativeProgress.UWP.cs][src-controls]
+8. [ ] Implement [TodoApp/TodoApp.SharedControls/NativeProgress.WASM.cs][src-controls]
 
 ## 📚 Additional Reading Material
 

@@ -15,9 +15,9 @@ In this module, you'll be (re)introduced to three key tools and learn the most p
 ![Uno Project Structure](../01-Introduction-to-Uno/uno-project-structure.png)
 
 1. Right-click on the `Todo.UWP` application and select `Set as Startup Project`.
-1. Right-click on the `Todo.UWP` application and select `Deploy`.
-1. Ensure the platform selector is set to `Todo.UWP`.
-1. Navigate to `Debug -> Start Debugging` to launch the application.
+2. Right-click on the `Todo.UWP` application and select `Deploy`.
+3. Ensure the platform selector is set to `Todo.UWP`.
+4. Navigate to `Debug -> Start Debugging` to launch the application.
 
 <!-- E&C is currently broken in VS2019
 
