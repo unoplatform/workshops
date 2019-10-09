@@ -4,7 +4,7 @@ Congratulations! Your _TODO App_ is now completed.
 
 It's now time to ship it to different stores and push the WASM version on a web site for everybody to appreciate it.
 
-Few steps remains to publish to a store, like...
+A few steps remain to publish your app to a store, like...
 
 * Add more features - like a persistence of the todo list or a synchronization with a server
 * Write down a marketing description for your app
