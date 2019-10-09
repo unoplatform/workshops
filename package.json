@@ -11,7 +11,7 @@
     "remark-preset-lint-recommended": "^3.0.3"
   },
   "devDependencies": {
-    "markdownlint": "^0.16.0",
+    "markdownlint": "^0.17.0",
     "markdownlint-cli": "^0.18.0"
   },
   "scripts": {
