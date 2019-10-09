@@ -48,13 +48,13 @@ Thanks goes to these wonderful people (and companies!)⁠ — [emoji key](https:
   </tr>
 </table>
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- ALL-CONTRIBUTORS-LIST: END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ## License 
 
-These workshops are made available under the [Apache License, Version 2][license]. If you use this material to run a workshop, please share where it was used and [feedback by creating a new issue on GitHub][share-feedback]. If you see an opportunity to improve the courseware, please send in a pull-request.
+These workshops are made available under the [Apache License, Version 2][license]. If you use this material to run a workshop, please share where it was used and [feedback by creating a new issue on GitHub][share-feedback]. If you see an opportunity to improve the courseware, please send it in a pull-request.
 
 <!-- in-line links -->
 [uno-platform]: https://platform.uno/
