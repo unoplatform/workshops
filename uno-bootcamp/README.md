@@ -2,7 +2,7 @@
 
 ## Overview
 
-With the [Uno Platform][uno-platform], you can empower your existing .NET teams to build beautiful and performant, single codebase, cross-platform web, mobile, and desktop apps. In this single-day intensive workshop, we’re going to introduce you to the development philosophy of Uno and build a new application from scratch that uses the philosophy. You’ll also learn from the creators of Uno productivity tips and how Uno works under the hood.
+With the [Uno Platform][uno-platform] you can empower your existing .NET teams to build beautiful, performant, single codebase and cross-platform web, mobile and desktop apps. In this single-day intensive workshop, we’re going to introduce you to the development philosophy of Uno and build a new application from scratch that uses this philosophy. You’ll also learn from the creators of Uno productivity tips and how Uno works under the hood.
 
 ## Topics Covered
 
