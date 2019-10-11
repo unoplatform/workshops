@@ -221,6 +221,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "nocategory",
+      "name": "nocategory",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12294525?v=4",
+      "profile": "https://github.com/nocategory",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
