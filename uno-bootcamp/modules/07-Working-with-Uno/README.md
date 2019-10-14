@@ -22,7 +22,7 @@ This module will introduce to the internals of the Uno Platform code-base. The t
 ### UI implementations
 
 1. 🎯 Visit the source code of where XAML controls can be found - [uno/src/Uno.UI/UI/Xaml][src-unoui-ui-xaml]. 
-2. 🎯 Note usage of partial classes and the naming the convention of `MyControl.cs`, `MyControl.iOS.cs`, `MyControl.Droid.cs`, `MyControl.wasm.cs`.
+2. 🎯 Note usage of partial classes and the naming the convention of `MyControl.cs`, `MyControl.iOS.cs`, `MyControl.Android.cs`, `MyControl.wasm.cs`.
 
 ### Source code generation
 
