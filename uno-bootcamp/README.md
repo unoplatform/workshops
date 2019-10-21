@@ -47,7 +47,7 @@ Throughout the workshop you'll encounter the following emoji — here's what the
 
 ## License
 
-This workshop is available under [Apache License, Version 2][license]. If you use this material to conduct your own workshop, please share where it was used and [feedback by creating a new issue on GitHub][share-feedback]. If you see an opportunity to improve the courseware, please send in a pull-request.
+This workshop is available under [Apache License, Version 2][license]. If you use this material to conduct your own workshop, please share where it was used and [feedback by creating a new issue on GitHub][share-feedback]. If you see an opportunity to improve the courseware, please send it in a pull-request.
 
 <!-- in-line links -->
 [uno-platform]: https://platform.uno/
