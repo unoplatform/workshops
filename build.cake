@@ -20,7 +20,6 @@ Setup(context =>
     NpmInstall();
 });
 
-
 Teardown(context =>
 {
     Information("Starting Teardown...");
@@ -32,8 +31,6 @@ Teardown(context =>
 
     Information("Finished running tasks.");
 });
-
-
 
 //////////////////////////////////////////////////////////////////////
 // TASKS
@@ -85,7 +82,6 @@ Task("Restore-NuGet-Packages")
             NuGetRestore(solution.FullPath);
         }
     });
-
 
 Task("Build")
     .IsDependentOn("Format")
