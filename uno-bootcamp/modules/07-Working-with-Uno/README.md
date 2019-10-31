@@ -211,3 +211,4 @@ If your organization requires a deeper level of support beyond our community sup
 [support-your-supply-chain]: https://www.youtube.com/watch?v=0t85TyH-h04
 [open-source-maintainers-are-jerks]: https://www.youtube.com/watch?v=Mm_RuObpeGo
 [rebuilding-the-cathedral]: https://www.youtube.com/watch?v=VS6IpvTWwkQ
+[Open up to Open Source]: https://www.youtube.com/watch?v=BqFkpDIX1EQ
