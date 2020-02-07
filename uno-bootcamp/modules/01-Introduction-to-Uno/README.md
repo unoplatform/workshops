@@ -96,12 +96,13 @@ Here's the rule of thumb (tm):
 ![Uno Platform Dependencies](uno-platform-dependencies.png)
 
 1. Right Click `Solution 'Todo'` in Solution Explorer
-2. Click `Manage NuGet Packages for Solution`
-3. Navigate to the Updates tab
-4. Update `Uno.UI`
-5. Update `Uno.Core`
-6. Update `Uno.UniversalImageLoader`
-7. Update `Uno.Wasm.Bootstrap`
+1. Click `Manage NuGet Packages for Solution`
+1. Check the `Include prerelease` box
+1. Navigate to the Updates tab
+1. Update `Uno.UI`
+1. Update `Uno.Core`
+1. Update `Uno.UniversalImageLoader`
+1. Update `Uno.Wasm.Bootstrap`
 
 ## 💡 Uno Platform Dependencies
 
