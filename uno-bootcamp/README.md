@@ -16,7 +16,7 @@ With the [Uno Platform][uno-platform] you can empower your existing .NET teams t
 
 ## Computer Setup
 
-Attendees will need a computer with [Visual Studio for Windows and the Uno Platform Solution Templates installed][developer-environment-setup]. Additionally, [Developer Mode in Windows 10][developer-environment-setup] must be enabled. If you are doing this workshop as part of a classroom, it is important to [pre-install and configures these components][developer-environment-setup] before attendance as you'll need to download upwards of 12Gb of software from Microsoft.
+Attendees will need a computer with [Visual Studio (Any edition) for Windows and the Uno Platform Solution Templates installed][developer-environment-setup]. Additionally, [Developer Mode in Windows 10][developer-environment-setup] must be enabled. If you are doing this workshop as part of a classroom, it is important to [pre-install and configures these components][developer-environment-setup] before attendance as you'll need to download upwards of 12Gb of software from Microsoft.
 
 
 ## Suggested Agenda
