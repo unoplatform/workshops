@@ -97,7 +97,6 @@ Here's the rule of thumb (tm):
 
 1. Right Click `Solution 'Todo'` in Solution Explorer
 1. Click `Manage NuGet Packages for Solution`
-1. Check the `Include prerelease` box
 1. Navigate to the Updates tab
 1. Update `Uno.UI`
 1. Update `Uno.Core`
