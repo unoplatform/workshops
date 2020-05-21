@@ -57,7 +57,7 @@ Instead the Uno Platform provides a common set of layout and controls, designed 
 5. Name the Project name as `Todo`.
 6. Specify the Location as a folder in the workshop git repository.
 7. Press `Create` to generate your Uno application.
-8. Make sure to add Newtonsoft.Json package to all heads, and Uno.Wasm.WebSockets to the Wasm head.
+8. Make sure to add Newtonsoft.Json package to all heads.
 
 ## 💡 Project Structure
 
