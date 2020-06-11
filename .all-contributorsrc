@@ -230,11 +230,21 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "sidhyatikku",
+      "name": "Sidhya Tikku",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/33092447?v=4",
+      "profile": "http://sidhyatikku.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
   "projectName": "workshops",
   "projectOwner": "unoplatform",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
