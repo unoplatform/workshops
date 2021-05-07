@@ -18,8 +18,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Converters\FromBooleanToDoubleConverter.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Converters\FromEnumerableAnyToVisibilityConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\FromEnumerableToCountConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\FromStateItemsRemainingToPluralConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\FromStateItemsRemainingToProgressConverter.cs" />
