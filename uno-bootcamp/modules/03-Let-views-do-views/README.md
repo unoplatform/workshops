@@ -13,7 +13,7 @@ Unfortunately, most frameworks, including the Universal Windows Platform, didn't
 So, since user-interface classes are untestable via unit test runners, the goal with the `Model-View-ViewModel` design pattern is to put as much of your *interesting code*, into a class that *represents the View*, but is just a regular class we can create. Then, we want the actual code in the View to be
 as boring, mechanical, and as short as possible, because it is inherently untestable.
 
-This regular, testable class is called the `ViewModel`, and it is the *Model of a View*. A view is a composable piece of the UI that handles a particular and well-defined UI function on the page. This means that each *View will usually have one Viewmodel* to handle that function. This doesn't have to be strictly true, but it is generally the case.
+This regular, testable class is called the `ViewModel`, and it is the *Model of a View*. A view is a composable piece of the UI that handles a particular and well-defined UI function on the page. This means that each *View will usually have one ViewModel* to handle that function. This doesn't have to be strictly true, but it is generally the case.
 
 ![A diagram of the Model-View-ViewModel architectural pattern](model-view-viewmodel.png)
 

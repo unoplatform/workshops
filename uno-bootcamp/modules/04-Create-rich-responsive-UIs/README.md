@@ -159,7 +159,7 @@ You won't need to implement the datastore or model the entities, that has been d
 
 ## 🎯 Use `VisualBoundsPadding` to manage the notch
 
-If you run the app on an iPhone X, You'll see something like this:
+If you run the app on an iPhone X, or newer, you'll see something like this:
 
 ![Problem with the notch](uno-notch-problem.png)
 
