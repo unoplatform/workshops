@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <Authors>Uno Platform</Authors>
+    <PackageProjectUrl>https://github.com/unoplatform/workshops</PackageProjectUrl>
+    <PackageIconUrl>https://nv-assets.azurewebsites.net/logos/uno.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/unoplatform/workshops</RepositoryUrl>
+    <Copyright>Copyright (C) 2015-$([System.DateTime]::Now.ToString(`yyyy`)) Uno Platform - all rights reserved</Copyright>
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <Description>Base resources for the Uno Platform SimpleCalc Workshop.</Description>
+    <Version>255.255.255.255</Version><!-- Version management is now done through NuGet, this avoids issues related version mismatch -->
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageIcon>uno-logo.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="*.props;*.cs;*.xaml" Pack="true" PackagePath="build" />
+    <None Include="uno-logo.png" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>

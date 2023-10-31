@@ -1,0 +1,30 @@
+<Project>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AppThemeService.cs" LinkBase="Services" Visible="true" />
+    <Compile Include="$(MSBuildThisFileDirectory)IAppThemeService.cs" LinkBase="Services" Visible="true" />
+    <Compile Include="$(MSBuildThisFileDirectory)Calculator.cs" LinkBase="Business" Visible="true" />
+    <Compile Include="$(MSBuildThisFileDirectory)KeyboardBehavior.cs" LinkBase="Behaviors" Visible="true" />
+    <Compile Include="$(MSBuildThisFileDirectory)KeyInput.cs" LinkBase="Business" Visible="true" />
+    <Compile Include="$(MSBuildThisFileDirectory)IsExternalInit.cs" LinkBase="_Compat"
+             Condition="$(TargetFramework.StartsWith('netstandard')) AND !Exists('_Compat\IsExternalInit.cs')" />
+  </ItemGroup>
+
+  <Choose>
+    <When Condition="Exists('MainPage.xaml')">
+      <ItemGroup>
+        <Page Include="$(MSBuildThisFileDirectory)ColorPaletteOverride.xaml"
+              Generator="MSBuild:Compile"
+              XamlRuntime="WinUI"
+              LinkBase="Styles"
+              Visible="true" />
+      </ItemGroup>
+    </When>
+    <When Condition="Exists('MainPage.cs')">
+      <ItemGroup>
+        <Compile Include="$(MSBuildThisFileDirectory)ColorPaletteOverride.cs"
+                 LinkBase="Styles"
+                 Visible="true" />
+      </ItemGroup>
+    </When>
+  </Choose>
+</Project>
