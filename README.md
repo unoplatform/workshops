@@ -8,6 +8,10 @@ Use the  tooling from Windows in [Visual Studio](https://www.visualstudio.com/),
 
 - [Uno Bootcamp](uno-bootcamp): In this single day workshop, you'll be introduced to the development philosophy of Uno Platform and build a new application from scratch that uses the philosophy. You’ll also learn from productivity tips and how Uno works under the hood.
 
+## Contributing and debugging the workshops
+
+Refer to [this page](test-docs.md) to learn more about how to test the workshops.
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people (and companies!)⁠ — [emoji key](https://allcontributors.org/docs/en/emoji-key):
