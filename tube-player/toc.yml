@@ -1,0 +1,26 @@
+items:
+- name: Tube Player
+  href: README.md
+  items:
+  - name: 01 - Getting Started
+    href: modules/01-Getting-started/README.md
+  - name: 02 - Creating basic UI layout with C# markup
+    href: modules/02-Creating-basic-layout-with-C-markup/README.md
+  - name: 03 - Connect UI with mock data
+    href: modules/03-Connect-UI-with-mock-data/README.md
+  - name: 04 - Importing UI from Figma
+    href: modules/04-Importing-UI-from-Figma/README.md
+  - name: 05 - Creating the UI
+    href: modules/05-Creating-the-UI/README.md
+  - name: 06 - Theme Overrides
+    href: modules/06-Theme-overrides/README.md
+  - name: 07 - Navigation
+    href: modules/07-Navigation/README.md
+  - name: 08 - Add API endpoints
+    href: modules/08-Add-API-endpoints/README.md
+  - name: 09 - FeedView Templates
+    href: modules/09-FeedView-None-And-Error-templates/README.md
+  - name: 10 - Media Player
+    href: modules/10-Add-media-player/README.md
+  - name: 11 - Finalization
+    href: modules/11-App-finalization/README.md
