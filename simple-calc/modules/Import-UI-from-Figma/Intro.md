@@ -22,12 +22,12 @@ In this module, you'll learn how to export the UI from a pre-existing Figma desi
 
 1. The SimpleCalculator design will open in Figma, displaying the Cover page:
 
-    <!-- TODO: Add screenshot after figma file branch is merged -->
+   ![Figma menu plugin](../../art/figma-cover.png)
 
 1. To export the UI from Figma, you'll need to install the Uno Platform plugin. To enable that you will need to create your own copy of the SimpleCalculator design.  
     In the top menu in the center of the screen click the little down arrow and select *Duplicate to your drafts* from the menu.
 
-    <!-- TODO: Add screenshot after figma file branch is merged -->
+   ![Figma menu plugin](../../art/figma-duplicate-drafts.png)
 
 1. The duplicated file will open in a new tab and additional menu items and controls will appear on the Figma ribbon.
 

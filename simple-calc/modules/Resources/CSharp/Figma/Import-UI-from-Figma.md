@@ -8,9 +8,9 @@ uid: Workshop.SimpleCalc.Figma.CSharp
 
 ![Figma menu plugin](../../../../art/figma-plugin-export-csharp.png)
 
-3. Select all contents starting from the line following this and ending at the semicolon (;).
+3. Select all contents starting from the line following `this` and ending at the semicolon (;).
 
-<!-- TODO: Add screenshot after figma file branch is merged -->
+![Figma Export](../../../../art/figma-export-csharp.png)
 
 You can access the page content by [clicking here.](MainPage.cs)
 
@@ -18,13 +18,11 @@ You can access the page content by [clicking here.](MainPage.cs)
 
 5. Open MainPage.cs and replace all the Page contents with the copied code.
 
-6. To set the appropriate font size for all buttons, access the MaterialFontsOverride.cs file in the Style folder. Go to the Figma Plugin, in the Export tab, and select Fonts Override File from the dropdown menu. Copy the content in the ResourceDictionary and replace it in your MaterialFontsOverride.xaml cs.
+6. To set the appropriate font size for all buttons, access the MaterialFontsOverride.cs file in the Style folder. Go to the Figma Plugin, in the Export tab, and select Fonts Override File from the dropdown menu. Copy the content in the ResourceDictionary and replace it in your MaterialFontsOverride.cs.
 
-<!-- TODO: Add screenshot after figma file branch is merged -->
-
+![Figma Export](../../../../art/figma-export-fonts-csharp.png)
 
 You can access the FontOverride file by [clicking here.](MaterialFontsOverride.cs)
-
 
 7. Now we need to prepare our UI with the Binding expressions that we will need in the App Architecture module. First let's add the `DataContext` to the page. To do so add `.DataContext(new TempDataContext(), (page, vm) => page` before the `.Content` definition. Ensure to properly terminate the DataContext with a closing `)` preceding the semicolon at the end of the page's code.
 

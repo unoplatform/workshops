@@ -5,6 +5,8 @@ uid: Workshop.SimpleCalc.Overview
 
 The Simple Calc workshop is here to help you get started building an app for Desktop, Mobile, and Web with Uno Platform. This workshop is designed to help you get your developer environment set up to start building your first app, while learning about the tools, libraries, and patterns that will help you to build your apps with the Uno Platform.
 
+This app was developed using Uno Platform and draws inspiration from [@adolfomarinucci](https://x.com/adolfomarinucci)'s [Calculator project](https://github.com/adospace/reactorui-maui/tree/main/samples/Calculator).
+
 ## What you will learn
 
 - How to prepare your environment to build multi-platform apps with Uno Platform, whether you're using Visual Studio (Windows) or Visual Studio Code (Windows or Mac).
