@@ -1,0 +1,54 @@
+items:
+- name: Simple Calc
+  href: README.md
+  items:
+  - name: Getting Started
+    href: modules/Getting Started/README.md
+  - name: XAML with MVUX
+    items:
+    - name: 01 Build your first project
+      href: modules/MVUX-XAML/01-Build your first Project/README.md
+    - name: 02 Import UI from Figma
+      href: modules/MVUX-XAML/02-Import UI from Figma/README.md
+    - name: 03 Creating the Layout
+      href: modules/MVUX-XAML/03-Creating the Layout/README.md
+    - name: 04 App Architecture
+      href: modules/MVUX-XAML/04-App Architecture/README.md
+    - name: 05 Finish the App
+      href: modules/MVUX-XAML/05-Finish the App/README.md
+  - name: XAML with MVVM
+    items:
+    - name: 01 Build your first project
+      href: modules/MVVM-XAML/01-Build your first Project/README.md
+    - name: 02 Import UI from Figma
+      href: modules/MVVM-XAML/02-Import UI from Figma/README.md
+    - name: 03 Creating the Layout
+      href: modules/MVVM-XAML/03-Creating the Layout/README.md
+    - name: 04 App Architecture
+      href: modules/MVVM-XAML/04-App Architecture/README.md
+    - name: 05 Finish the App
+      href: modules/MVVM-XAML/05-Finish the App/README.md
+  - name: CSharp Markup with MVUX
+    items:
+    - name: 01 Build your first project
+      href: modules/MVUX-CSharp/01-Build your first Project/README.md
+    - name: 02 Import UI from Figma
+      href: modules/MVUX-CSharp/02-Import UI from Figma/README.md
+    - name: 03 Creating the Layout
+      href: modules/MVUX-CSharp/03-Creating the Layout/README.md
+    - name: 04 App Architecture
+      href: modules/MVUX-CSharp/04-App Architecture/README.md
+    - name: 05 Finish the App
+      href: modules/MVUX-CSharp/05-Finish the App/README.md
+  - name: CSharp Markup with MVVM
+    items:
+    - name: 01 Build your first project
+      href: modules/MVVM-CSharp/01-Build your first Project/README.md
+    - name: 02 Import UI from Figma
+      href: modules/MVVM-CSharp/02-Import UI from Figma/README.md
+    - name: 03 Creating the Layout
+      href: modules/MVVM-CSharp/03-Creating the Layout/README.md
+    - name: 04 App Architecture
+      href: modules/MVVM-CSharp/04-App Architecture/README.md
+    - name: 05 Finish the App
+      href: modules/MVVM-CSharp/05-Finish the App/README.md
