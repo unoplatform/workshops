@@ -12,7 +12,7 @@ Use the  tooling from Windows in [Visual Studio](https://www.visualstudio.com/),
 
 Refer to [this page](test-docs.md) to learn more about how to test the workshops.
 
-# Contributors
+## Contributors
 Thank you to these wonderful people (List made with [contrib.rocks](https://contrib.rocks)):
 
 [![Uno Workshops Contributors](https://contrib.rocks/image?repo=unoplatform/workshops)](https://github.com/unoplatform/workshops/graphs/contributors)
