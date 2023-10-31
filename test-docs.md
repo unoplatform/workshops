@@ -1,4 +1,4 @@
-The content of the workshops are embedded as part of the Uno Platform docs using DocFx.
+The content of the workshops is embedded as part of the Uno Platform docs using DocFx.
 
 To test the workshop follow these instructions:
 
