@@ -14,18 +14,23 @@ If you are new to the Uno Platform, you may also want to check out [Uno Docs - G
 
 ### Use Uno Check to verify your system is Uno Platform ready
 
-If you are using Visual Studio, depending on the workloads that you have installed your environment may already be ready to go. As a best practice or to help solve issues following Visual Studio updates, we recommend that you run the Uno Check tool to ensure that your environment is ready to go.
+If you are using Visual Studio, depending on the workloads that you have installed, your environment may already be ready to go. As a best practice or to help solve issues following Visual Studio updates, we recommend that you run the Uno Check tool to ensure that your environment is fully set up for Uno Platform app development.
 
-Execute the following commands in the command line terminal (the current folder of the terminal doesn't matter):
+1. Execute the following command in the command line terminal (the current folder of the terminal doesn't matter):
 
-```bash
-dotnet tool install --global Uno.Check
-uno-check
-```
+    ```bash
+    dotnet tool install --global Uno.Check
+    ```
+    
+    If the tool is already installed, replace `install` with `update`.
+    
+    [Click here](xref:UnoCheck.UsingUnoCheck) to view the Uno Check tool docs.
 
-If the tool is already installed, replace `install` with `update`.
+1. Once installed, run the tool by executing the following command:
 
-[Click here](xref:UnoCheck.UsingUnoCheck) to view the Uno Check tool docs.
+    ```bash
+    uno-check
+    ```
 
 > [!NOTE]  
 > You may need to take additional steps if trying to build the Linux or GTK heads on Windows.
@@ -35,7 +40,7 @@ If the tool is already installed, replace `install` with `update`.
 
 # [Visual Studio](#tab/installation-visual-studio)
 
-Make sure you the latest version of the [Uno Platform extension for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=unoplatform.uno-platform-addin-2022) is installed, by following [these instructions](xref:Uno.GetStarted.vs2022#install-the-solution-templates).
+Make sure the latest version of the [Uno Platform extension for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=unoplatform.uno-platform-addin-2022) is installed, by following [these instructions](xref:Uno.GetStarted.vs2022#install-the-solution-templates).
 
 This extension includes the Uno Platform project templates.
 
@@ -105,9 +110,9 @@ You might be asked to reload the IDE before the projects are fully loaded. Click
 
     ![Visual Studio rename file dialog](rename-file-dialog.jpg)
 
-1. In *SecondModel.cs*, ensure the record name has changed to `VideoDetailsModel`, otherwise change it manually.
+1. In *VideoDetailsModel.cs*, ensure the record name has changed to `VideoDetailsModel`, otherwise change it manually.
 
-1. In *SecondPage.cs*, ensure `SecondPage` has changed to `VideoDetailsPage` in both the class name and constructor, otherwise change it manually, then change `BindableSecondModel` to `BindableVideoDetailsModel`.
+1. In *VideoDetailsPage.cs*, ensure `SecondPage` has changed to `VideoDetailsPage` in both the class name and constructor, otherwise change it manually, then change `BindableSecondModel` to `BindableVideoDetailsModel`.
 
 1. Make sure these references have also been changed in *App.cs*.
 
