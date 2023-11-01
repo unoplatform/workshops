@@ -74,7 +74,7 @@ dotnet new unoapp -?
 
 ---
 
-## [Optional] Obtaining a YouTube Data API v3 Key
+## Obtaining a YouTube Data API v3 Key [optional]
 
 This app will eventually search and play YouTube videos. To query this data from YouTube, a YouTube API v3 needs to be obtained. You can skip this part if you prefer running the app with local sample search data instead.
 

@@ -8,17 +8,21 @@ The objective of the Tube Player workshop is to create a simple Uno Platform app
 
 The application will be made up of a starting search page, that will accept user input in a search box and display matched results from YouTube, and a player page, which will contain a media player, that will stream the video selected on the search page.
 
-This workshop will help guide you through setting up your developer environment for developing Uno Platform applications. By the end of the workshop, you'll have built a multi-platform Uno Platform application using C# Markup and MVUX. You'll have the option to import the UI from Figma or follow along with the workshop material, to build the UI for the application. You'll also learn about the tools, libraries, and patterns available in the Uno Platform, that are there to help you rapidly build high-quality applications.
+This workshop will help guide you through setting up your developer environment for developing Uno Platform applications. By the end of the workshop, you'll have built a multi-platform Uno Platform application using C# Markup and MVUX. You'll have the option to import the UI from [Figma](https://platform.uno/unofigma) or follow along with the workshop material, to build the UI for the application. You'll also learn about the tools, libraries, and patterns available in the Uno Platform, that are there to help you rapidly build high-quality applications.
  
+On completion of the workshop you will have a working cross-platform TubePlayer app. Here's screen-recording of it (Android):
+
+![Completed TubePlayer app](11-App-Finalization/ui-output.gif)
+
 This app is created using Uno Platform and inspired from the work by [Naweed Akram](https://twitter.com/xgeno "@xgeno") on [MAUI](https://github.com/naweed/MauiTubePlayer) and [Flutter](https://github.com/naweed/FlutterTubePlayer)
 
 ## What you will learn 
 
 - How to prepare your environment to build cross-platform apps with Uno Platform whether you're using Visual Studio (Windows) or Visual Studio Code (Windows or Mac). 
 - How to create a new solution using the Uno Platform dotnet new template or the Uno Platform Template Wizard.
-- How to use the Uno Platform Figma plugin to generate your UI in C# Markup.
+- How to use the [Uno Platform Figma plugin](https://platform.uno/unofigma) to generate your UI in C# Markup from [this Figma file](https://www.figma.com/community/file/1301282286920416449) (optional).
 - How to build your app's presentation layer using C# Markup and Model-View-Update-eXtended (MVUX). 
-- How to customize your app theme and override its theme colors by using either C# code imported from Figma, or by importing a custom DSP color theme.
+- How to customize your app theme and override its theme colors by using either C# code imported from Figma, or by importing a custom DSP ([Design System Package](https://github.com/AdobeXD/design-system-package-dsp)) color theme.
 - How to use remote APIs in your app using the Uno Platform Refit extension.
 - How to customize the app icon and its splash-screen.
 
@@ -27,7 +31,7 @@ This workshop has been set up to provide you with optional content to allow you 
 ## Prerequisites 
  
 - A working understanding of C# & .NET.
-- A working understanding of Visual Studio 2022 (Windows) or Visual Studio Code (Windows or Mac)
+- A working understanding of Visual Studio 2022 (Windows) or Visual Studio Code.
  
  ## Techniques and controls used in this workshop
 

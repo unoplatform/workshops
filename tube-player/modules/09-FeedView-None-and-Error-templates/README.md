@@ -84,7 +84,7 @@ Let's add a `FeedView` to our UI. We'll start with the `ValueTemplate` first.
 
     The `FeedView` serves the data via the `FeedViewState` wrapper class to the template, the actual data is accessed via the wrapper's `Data` property.
  
-### Run the app [Optional]
+### Run the app [optional]
 
 The `FeedView`'s error template defaults to *An error occurred' text message. If you run the app, switch flight-mode on, and search YouTube, that message will display:
 
