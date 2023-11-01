@@ -12,7 +12,7 @@ This workshop will help guide you through setting up your developer environment 
  
 On completion of the workshop you will have a working cross-platform TubePlayer app. Here's screen-recording of it (Android):
 
-![Completed TubePlayer app](11-App-Finalization/ui-output.gif)
+![Completed TubePlayer app](modules/11-App-Finalization/ui-output.gif)
 
 This app is created using Uno Platform and inspired from the work by [Naweed Akram](https://twitter.com/xgeno "@xgeno") on [MAUI](https://github.com/naweed/MauiTubePlayer) and [Flutter](https://github.com/naweed/FlutterTubePlayer)
 
