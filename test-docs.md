@@ -2,7 +2,7 @@ The content of the workshops is embedded as part of the Uno Platform docs using 
 
 To test the workshop follow these instructions:
 
-1. Clone the main Uno Platform repo. If this is already cloned, make sure the branch you're running is up-to-date with the master branch.
+1. Clone the main Uno Platform repo. If this is already cloned, make sure the branch you're running is up-to-date with the upstream master branch.
 1. Open the *doc\import_extenal_docs_test.ps1* script in an editor, and modify the *workshops* element to point to the branch you want to test (if it's commented out, you may need to uncomment it first):
 
     ```bash
