@@ -31,7 +31,7 @@ This workshop has been set up to provide you with optional content to allow you 
   - Visual Studio Code (Windows or Mac)
 
 > [!NOTE]
->  For an improved development experience, we recommend using .NET8 and VisualStudio 17.8 preview. However, the workshop can still be completed with .NET7 and VisualStudio 17.7.
+>  For an improved development experience, we recommend using .NET 8 RC 2 (or later) and VisualStudio 17.8 preview 5 (or later). However, the workshop can still be completed with .NET7 and VisualStudio 17.7.
 
 ### Good to have
 
