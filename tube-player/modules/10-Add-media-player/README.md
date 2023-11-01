@@ -134,9 +134,10 @@ Run the app to see the media player playing the video from YouTube. Seek, volume
 
 ![Video opens and plays](ui-output.gif)
 
-You will notice how the video stops before navigating back to the search results (observe the play button right before the navigation happens).
+You will notice how the video stops before navigating back to the search results (observe the play button right before the navigation happens), but at the same time we still want to update the navigation bar image (currently a random picture), the app icon, as well as the splash-screen (which are currently set to the template defaults).
 
-Note that in order to be able to play the media in WASM, because of CORS issue, you will need to either create a server project (e.g. using [YARP](https://chat.openai.com/share/d633a7b6-1b3c-4730-a60b-96dfd97baa0a)), or by using a public proxy (e.g. using [CORS Anywhere](https://github.com/Rob--W/cors-anywhere)).
+> [!NOTE]
+> In order to be able to play the media in WASM, because of CORS issue, you will need to either create a server project (e.g. using [YARP](https://chat.openai.com/share/d633a7b6-1b3c-4730-a60b-96dfd97baa0a)), or by using a public proxy (e.g. using [CORS Anywhere](https://github.com/Rob--W/cors-anywhere)).
 
 ## Next step
 
