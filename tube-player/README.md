@@ -14,7 +14,7 @@ On completion of the workshop, you will have a working cross-platform TubePlayer
 
 ![Completed TubePlayer app](modules/11-App-Finalization/ui-output.gif)
 
-This app is created using Uno Platform and inspired from the work by [Naweed Akram](https://twitter.com/xgeno "@xgeno") on [MAUI](https://github.com/naweed/MauiTubePlayer) and [Flutter](https://github.com/naweed/FlutterTubePlayer)
+This app was developed using Uno Platform and draws inspiration from [Naweed Akram](https://twitter.com/xgeno "@xgeno")'s [MAUI project](https://github.com/naweed/MauiTubePlayer) and [Flutter project](https://github.com/naweed/FlutterTubePlayer).
 
 ## What you will learn 
 
@@ -61,8 +61,7 @@ The workshop utilizes the latest Uno Platform features, including:
 - [Resizetizer](xref:Uno.Resizetizer.GettingStarted)
     - Splash screen
     - App icon 
-- [Uno Check](xref:UnoCheck.UsingUnoCheck)
-<!-- TODO: Other notable controls or features? https://github.com/unoplatform/workshops-private/issues/9 -->          
+- [Uno Check](xref:UnoCheck.UsingUnoCheck)        
 
 ## Modules
 
