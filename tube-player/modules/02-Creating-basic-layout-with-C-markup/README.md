@@ -6,7 +6,7 @@ uid: Workshop.TubePlayer.BasicLayout
 
 In this module, you will use C# markup to create a UI. This will comprise of a `Grid` containing a `TextBox` which will be used to search for YouTube videos, as well as a [`ListView`](https://learn.microsoft.com/windows/apps/design/controls/listview-and-gridview) which will display results. In this module you'll rather focus on creating the UI, you will create data services and populate these controls with data in the next module.  
 
-You will also learn in this module how to setup up basic data-binding to a feed/state in the model.
+You will also learn in this module how to set up basic data-binding to a feed/state in the model.
 
 > [!NOTE]  
 > Unless we need to perform platform-specific tasks, all of the work will be done in the *TubePlayer* project, which is what's referenced by the various platform-specific projects and contains the shared functionality of the app. These are located under the  *Platforms* folder in the solution.  
@@ -34,11 +34,11 @@ You will also learn in this module how to setup up basic data-binding to a feed/
                             .Text(() => videoTitle))));
     ```    
 
-    The `ItemTemplate` extension method takes a generic argument of the expected item type. In this example we'll be using a `string`. In the upcoming modules you'll incorporate service data in the app, and this data type (`string`) will change.
+    The `ItemTemplate` extension method takes a generic argument of the expected item type. In this example, we'll be using a `string`. In the upcoming modules, you'll incorporate service data in the app, and this data type (`string`) will change.
 
 ## Clean up the model
 
-1. For now, let's clean up the model, open the *MainModel.cs* file and replace its contents with the following:
+1. For now, let's clean up the model, open the *MainModel.cs* file, and replace its contents with the following:
 
     ```csharp
     namespace TubePlayer.Presentation;

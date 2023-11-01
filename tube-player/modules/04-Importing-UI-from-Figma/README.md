@@ -2,10 +2,12 @@
 uid: Workshop.TubePlayer.Figma
 ---
 
+# Module 5 - Importing UI from Figma
+
 In the previous modules, you've learned how to create a UI using C# Markup and set up bindings to the underlying models that request data from data services.
 
 In this module, you will learn how to import a C# Markup UI from Figma.  
-Figma is a collaborative app UI design tool that allows users to create, share, and comment on designs in real time. It then allows exporting the UI in selected markup language for developers to carry on with the pre-designed app.
+Figma is a collaborative app UI design tool that allows users to create, share, and comment on designs in real-time. It then allows exporting the UI in selected markup language for developers to carry on with the pre-designed app.
 
 Uno Platform offers a Figma plugin that enables exporting the UI designed in Figma as both XAML and C# Markup.  
 In this module, you'll learn how to export C# Markup from a pre-existing Figma design for the Tube Player app, how to import it into the app you've started to create in the previous modules, and how to wire it up with the exiting presentation model and the services it's interacting with.
@@ -24,7 +26,7 @@ In this module, you'll learn how to export C# Markup from a pre-existing Figma d
 
     ![Figma sign-in complete](figma-sign-in-complete.jpg)
 
-1. You may be asked additional questions but feel free to click *Skip* those which offer this option.
+1. You may be asked additional questions but feel free to click *Skip* those that offer this option.
 
     ![Figma questionnaire](figma-questionnaire.jpg)
 
@@ -44,7 +46,7 @@ In this module, you'll learn how to export C# Markup from a pre-existing Figma d
 
     ![Figma plugins menu](figma-menu-plugins.jpg)
 
-1. Search and install the *Uno Platform (Figma to C# or XAML)* plugin:
+1. Search and install the *Uno Platform (Figma to C# or XAML)* plugin.
 
 <!-- TODO: Add instructions to install export to C# Markup plugin https://github.com/unoplatform/workshops-private/issues/37 -->
 
@@ -145,7 +147,7 @@ The plugin comes with various features and settings. As you will be using the Un
              new CardContentControl()
     ```
 
-1. Replace the other bindings either manually or using a regular-expression based find and replace. You'll also use this method replace the loosely-typed bindings in the *VideoDetailsPage* as well.
+1. Replace the other bindings either manually or using a regular-expression based find and replace. You'll also use this method to replace the loosely-typed bindings in the *VideoDetailsPage* as well.
    To replace them using a regex search using Visual Studio or Visual Studio Code, press <kbd>Ctrl</kbd>+<kbd>H</kbd>, then toggle the *Use regular expressions* option on (<kbd>Alt</kbd>+<kbd>E</kbd>). Search for the following pattern:
 
     ```
@@ -158,7 +160,7 @@ The plugin comes with various features and settings. As you will be using the Un
     () => youtubeVideo.$1
     ```
 
-1. Replace all occurences in the current *MainPage.cs* file (<kbd>Alt</kbd>+<kbd>A</kbd>):
+1. Replace all occurrences in the current *MainPage.cs* file (<kbd>Alt</kbd>+<kbd>A</kbd>):
 
     ![Visual Studio find and replace pane](find-and-replace-main-page.jpg)
 
@@ -220,7 +222,7 @@ The plugin comes with various features and settings. As you will be using the Un
     () => vm.$1
     ```
 
-1. Update the bindings here as well to avoid the nullability errors, either add nullability operators, or disable nullable reference types, for example:
+1. Update the bindings here as well to avoid the nullability errors, either add nullability operators or disable nullable reference types, for example:
 
     ```csharp
     -.Source(() => vm.Video.Channel.Snippet.Thumbnails.High.Url)

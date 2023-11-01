@@ -19,7 +19,8 @@ In the following sections, we will cover both methods for creating a new Uno app
 
 ***
 
-> **NOTE:** After creating the SimpleCalculator application, open the Solution File (Visual Studio) or Solution Folder (Visual Studio Code) and ensure you can build and run the application.
+> [!NOTE]
+> After creating the SimpleCalculator application, open the Solution File (Visual Studio) or Solution Folder (Visual Studio Code) and ensure you can build and run the application.
 
 
 ## Prepare the Project

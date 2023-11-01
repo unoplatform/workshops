@@ -79,15 +79,15 @@ There are several theme builders out there, the [Material Theme Builder](https:/
 
 1. On the top-right corner open the *Export* menu and select *Material Tokens (DSP)*.
 
-1. When prompted to save the file, paste the copied path into the file name text box, then click *Save*. Otherwise rename the downloaded file to *ColorPaletteOverride.zip* and move it to the *Styles* folder.
+1. When prompted to save the file, paste the copied path into the file name text box, then click *Save*. Otherwise, rename the downloaded file to *ColorPaletteOverride.zip* and move it to the *Styles* folder.
 
-1. When building the app, Uno Platform reads the *ColorPaletteOverride.zip* file, and applies its color overrides into the *ColorPaletteOverride.cs* file.
+1. When building the app, Uno Platform reads the *ColorPaletteOverride.zip* file and applies its color overrides into the *ColorPaletteOverride.cs* file.
 
 ---
 
 ## Run the app
 
-Since the colors generated with the project are already set to Material theme, there will be no noticeable differences in the generated app. However if you change one of the colors you might spot the differences:
+Since the colors generated with the project are already set to the Material theme, there will be no noticeable differences in the generated app. However, if you change one of the colors you might spot the differences:
 
 Regular:
 

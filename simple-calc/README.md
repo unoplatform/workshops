@@ -30,7 +30,8 @@ This workshop has been set up to provide you with optional content to allow you 
   - Visual Studio 2022 17.8 preview (Windows)
   - Visual Studio Code (Windows or Mac)
 
-> **NOTE:** For an improved development experience, we recommend using .NET8 and VisualStudio 17.8 preview. However, the workshop can still be completed with .NET7 and VisualStudio 17.7.
+> [!NOTE]
+>  For an improved development experience, we recommend using .NET8 and VisualStudio 17.8 preview. However, the workshop can still be completed with .NET7 and VisualStudio 17.7.
 
 ### Good to have
 

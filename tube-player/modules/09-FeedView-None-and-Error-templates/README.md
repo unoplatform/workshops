@@ -68,7 +68,7 @@ Let's add a `FeedView` to our UI. We'll start with the `ValueTemplate` first.
         )
     ```
 
-    Feed free to touch up the code and indent it by selecting the code and pressing <kbd>Tab</kbd> or <kbd>Shift</kbd>+<kbd>Tab</kbd> to indent/unindent code in Visual Studio.
+    Feel free to touch up the code and indent it by selecting the code and pressing <kbd>Tab</kbd> or <kbd>Shift</kbd>+<kbd>Tab</kbd> to indent/unindent code in Visual Studio.
 
 1. Change the `ItemsSource` property of the `ListView` to the `Data` property of the `FeedViewState` as follows:
 
@@ -86,7 +86,7 @@ Let's add a `FeedView` to our UI. We'll start with the `ValueTemplate` first.
  
 ### Run the app [optional]
 
-The `FeedView`'s error template defaults to *An error occurred' text message. If you run the app, switch flight-mode on, and search YouTube, that message will display:
+The `FeedView`'s error template defaults to *An error occurred' text message. If you run the app, switch flight mode on, and search YouTube, that message will display:
 
 ![Default error message shown in FeedView](ui-output-error-text.gif)    
 
