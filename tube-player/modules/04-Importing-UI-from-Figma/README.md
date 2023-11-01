@@ -12,7 +12,7 @@ In this module, you'll learn how to export C# Markup from a pre-existing Figma d
 
 ## Open the Figma file and set up an account
 
-1. Open the Tube Player Figma file via [this link](https://www.figma.com/community/file/1301282286920416449).
+1. Open the Tube Player Figma file via [this link](https://aka.platform.uno/uno-figma-tubeplayer-workshop).
 
 1. Click *Open in Figma*
 
