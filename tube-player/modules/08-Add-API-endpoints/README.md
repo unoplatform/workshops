@@ -209,11 +209,9 @@ In the *Business* folder add a file named *YoutubeService.cs* with the following
 
     ![Screen recording of actual YouTube search results](ui-output.gif)
 
-<!--
 1. In addition, try switching off the internet access of the debugging device (for example, if you're using Android Emulator turn on flight mode), then perform a search:
 
     ![Screen recording of the blank screen when searching YouTube while on flight-mode](ui-output-flight-mode.gif)
--->
 
 ## Next step
 
