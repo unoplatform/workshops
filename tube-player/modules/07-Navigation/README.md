@@ -27,7 +27,7 @@ Apply the following C# Markup extension methods to the `ListView`:
     
 The `Navigation` extension of the `ListView` configures it to navigate when an item is clicked to the `VideoDetails` page. It will also pass on the current data item which is an instance of `YoutubeVideo` and be provided to the subsequent `VideoDetailsModel` created for it, according to how you configured it in the routing.  
 
-## Remove the *Entity.cs* file [Optional]
+## Remove the *Entity.cs* file [optional]
 
 You may delete the *Entity.cs* file (located under *Business* → *Models*), as there's no longer any use of it.
 
@@ -35,7 +35,7 @@ You may delete the *Entity.cs* file (located under *Business* → *Models*), as 
 
 Run the app and observe the changes. When clicking one of the YouTube search results, the *VideoDetailsPage* will be navigated to and the *YoutubeVideo* will be passed on to it.
 
-![Navigation working in the TubePlayer app](ui-output-navigation.gif)
+![Navigation working in the TubePlayer app](ui-output.gif)
 
 ## Next module
 

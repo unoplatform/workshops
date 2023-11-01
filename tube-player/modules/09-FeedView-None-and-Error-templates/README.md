@@ -84,7 +84,7 @@ Let's add a `FeedView` to our UI. We'll start with the `ValueTemplate` first.
 
     The `FeedView` serves the data via the `FeedViewState` wrapper class to the template, the actual data is accessed via the wrapper's `Data` property.
  
-### Run the app [Optional]
+### Run the app [optional]
 
 The `FeedView`'s error template defaults to *An error occurred' text message. If you run the app, switch flight-mode on, and search YouTube, that message will display:
 
@@ -99,7 +99,7 @@ Add the following `Shapes` namespace, as well as the `Path` alias to the header 
     using Path = Microsoft.UI.Xaml.Shapes.Path;
     ```
 
-# [Import from Figma](#tab/none-template/figma)
+# [Import from Figma](#tab/figma)
 
 1. Open Figma and select the *1.3 No search results state* screen.
 
@@ -122,7 +122,7 @@ Add the following `Shapes` namespace, as well as the `Path` alias to the header 
 
 1. Append a semicolon (`;`) to the end of the method to terminate it.
 
-# [Paste in code](#tab/none-template/direct)
+# [Paste in code](#tab/direct)
 
 Copy the following code to the clipboard:
 
@@ -153,7 +153,7 @@ When you run the app next and delete the search term, you'll see how the `FeedVi
 
 ### Import template
 
-# [Import from Figma](#tab/error-template/figma)
+# [Import from Figma](#tab/figma)
 
 1. Open Figma and select the *1.2 Error first loading error* screen.
 
@@ -176,7 +176,7 @@ When you run the app next and delete the search term, you'll see how the `FeedVi
 
 1. Append a semicolon (`;`) to the end of the method to terminate it.
 
-# [Paste in code](#tab/error-template/direct)
+# [Paste in code](#tab/direct)
 
 Copy the following code to the clipboard:
 

@@ -30,9 +30,9 @@ The upcoming page will enable you to select additional features.
 ![Uno Platform template wizard customize page](template-wizard-customize.jpg)
 
 - In ***Presentation*** tab select *MVUX*.
-- In ***Markup*** tab select *C# Markup*
-- In ***Theme*** tab select *Material* and check *Import DSP*
-- In ***Extensions*** tab check: *Dependency Injection*, *Configuration*, then under under *Navigation*, select *Regions*.
+- In ***Markup*** tab select *C# Markup*.
+- In ***Theme*** tab select *Material* and check *Import DSP*.
+- In ***Extensions*** tab check: *Dependency Injection*, *Configuration*, then under *Navigation*, select *Regions*.
 - In ***Features*** tab select *Toolkit*.
 
 Click *Create* for the project to be generated.

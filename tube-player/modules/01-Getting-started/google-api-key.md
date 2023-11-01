@@ -54,7 +54,7 @@ uid: Workshop.TubePlayer.GetStarted.ApiKey
 
     ![Google Console API key configuration page](google-console-09-public-data.jpg)
 
-1. The API will be revealed to you, click the copy button and copy the API key somewhere safe and private, it will be used in module   9](xref:Workshop.TubePlayer.ApiEndpoints) when searching YouTube's data.
+1. The API key will be revealed to you, click the copy button and copy the API key somewhere safe and private, it will be used in [Module 8 - API endpoints](xref:Workshop.TubePlayer.ApiEndpoints) when searching YouTube's data.
 
     ![Google Console copy API key](google-console-10-copy-api-key.jpg)
 
@@ -64,4 +64,4 @@ uid: Workshop.TubePlayer.GetStarted.ApiKey
 
     ![Google Console copy API key](google-console-11-credentials-page.jpg)
 
-</summary>
+</details>

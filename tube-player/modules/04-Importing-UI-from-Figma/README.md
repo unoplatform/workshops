@@ -12,28 +12,39 @@ In this module, you'll learn how to export C# Markup from a pre-existing Figma d
 
 ## Open the Figma file and set up an account
 
-<!-- TODO: Verify all steps with additional mock accounts! -->
+1. Open the Tube Player Figma file via [this link](https://aka.platform.uno/uno-figma-tubeplayer-workshop).
 
-1. Open the Tube Player Figma file via [this link](https://www.figma.com/file/1QD2BvPOGya1EZshTNh7Kg). <!-- TODO verify link before release -->
+1. Click *Open in Figma*
 
 1. If you are not signed in with Figma, you will be asked to do so. Create an account if you don't have one. Follow the instructions to sign up with your Google account or use a username and password.
 
     ![Figma sign-in page](figma-sign-in.jpg)
 
-## Install the Uno Platform plugin for Figma
+1. Follow the instructions. When you've finished you may see a screen similar to the following, click *Continue to file*.
+
+    ![Figma sign-in complete](figma-sign-in-complete.jpg)
+
+1. You may be asked additional questions but feel free to click *Skip* those which offer this option.
+
+    ![Figma questionnaire](figma-questionnaire.jpg)
 
 1. The Uno Tube Player design will open in Figma, displaying the Cover page:
 
-    ![Figma Uno Tube Player cover](figma-cover.jpg)
+    ![Figma Uno Tube Player cover](figma-tube-player-open.jpg)
 
+## Install the Uno Platform plugin for Figma
+
+<!--
 1. To export XAML or C# Markup from Figma, you'll need to install the Uno Platform plugin. To enable that you will need to create your own copy of the Uno Tube Player design.  
-    In the top menu in the center of the screen click the little down arrow and select *Duplicate to your drafts* from the menu.
+    In the top menu in the center of the screen click the little down arrow and select *Duplicate* or *Duplicate to your drafts* from the menu.
 
-    ![Figma top menu open](figma-menu-duplicate.jpg)
+    ![Figma top menu open](figma-menu-duplicate.jpg) -->
 
-1. The duplicated file will open in a new tab and additional menu items and controls will appear on the Figma ribbon.
+1. Open the *Resources* menu (<kbd>Shift</kbd>+</kbd>I</kbd>) and navigate to the *Plugins* tab:
 
     ![Figma plugins menu](figma-menu-plugins.jpg)
+
+1. Search and install the *Uno Platform* plugin:
 
 <!-- TODO: Add instructions to install export to C# Markup plugin https://github.com/unoplatform/workshops-private/issues/37 -->
 
