@@ -8,7 +8,7 @@ In this module, you'll learn how to import a override the Tube Player app's visu
 
 Uno Platform offers two ways to import app themes.
 
-1. Import C# Markup from the Uno Platform plugin for Figma
+1. Import color overrides in C# Markup form - will be imported from the Uno Platform plugin for Figma in this workshop. It will also be provided as is in the [export from Figma section](#export-from-figma) - if you do not wish to use Figma).
 2. Create and import a custom DSP theme.
 
 ## Prepare the theme override

@@ -50,7 +50,7 @@ The workshop utilizes the latest Uno Platform features, including:
 - [Figma plugin](xref:Uno.Figma.Overview.GettingStarted)
     - C# Markup
     - Color overrides
-- Color overrides
+- [Color overrides](xref:uno.themes.material.getstarted)
 - [DSP import](xref:Uno.Material.DSP)
 - [Material design theme](xref:uno.themes.material.getstarted)
 - [Toolkit](xref:Toolkit.GettingStarted)
