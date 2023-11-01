@@ -38,7 +38,7 @@ If you are using Visual Studio, depending on the workloads that you have install
 
 ### Installing Uno Platform extensions and templates
 
-# [Visual Studio](#tab/installation-visual-studio)
+# [Visual Studio](#tab/vs)
 
 Make sure the latest version of the [Uno Platform extension for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=unoplatform.uno-platform-addin-2022) is installed, by following [these instructions](xref:Uno.GetStarted.vs2022#install-the-solution-templates).
 
@@ -46,7 +46,7 @@ This extension includes the Uno Platform project templates.
 
 ![Visual Studio extensions Manager](vs-2022-extension.jpg)
 
-# [Visual Studio Code / others](#tab/installation-visual-studio-code)
+# [Visual Studio Code or others](#tab/vscode)
 
 If you're using Visual Studio Code, make sure to install the latest version of the Uno Platform extension [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=unoplatform.vscode)
 
@@ -89,11 +89,11 @@ The other one is to use the dotnet new `unoapp` template, which enables customiz
 
 In the following sections, we will cover both methods for creating a new Uno app, providing step-by-step instructions for each.
 
-# [Using the Uno Platform solution template wizard for VS](#tab/template-wizard)
+# [Using the Uno Platform solution template wizard for VS](#tab/vs)
 
 [!INCLUDE [Template wizard](templates-wizard.md)]
 
-# [Visual Studio Code / other](#tab/template-cli)
+# [Visual Studio Code or other](#tab/vscode)
 
 [!INCLUDE [Template CLI](templates-cli.md)]
 
@@ -142,11 +142,11 @@ As explained [in the intro](xref:Workshop.TubePlayer.Overview#tube-player-worksh
 
 To learn more about debugging the app on different platforms read this:
 
-# [Visual Studio](#tab/debug-visual-studio)
+# [Visual Studio](#tab/vs)
 
 [Debug in Visual Studio](xref:Uno.GetStarted.vs2022#create-an-application)
 
-# [Visual Studio Code](#tab/debug-studio-code)
+# [Visual Studio Code or others](#tab/vscode)
 
 [Debug in Visual Studio Code](xref:Uno.GetStarted.vscode#run-and-debug-application)
 
