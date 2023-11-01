@@ -51,7 +51,7 @@ The workshop utilizes the latest Uno Platform features, including:
     - C# Markup
     - Color overrides
 - Color overrides
-- DSP import
+- [DSP import](xref:Uno.Material.DSP)
 - [Material design theme](xref:uno.themes.material.getstarted)
 - [Toolkit](xref:Toolkit.GettingStarted)
     - CardControl
