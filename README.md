@@ -8,6 +8,10 @@ Use the  tooling from Windows in [Visual Studio](https://www.visualstudio.com/),
 
 - [Uno Bootcamp](uno-bootcamp): In this single day workshop, you'll be introduced to the development philosophy of Uno Platform and build a new application from scratch that uses the philosophy. You’ll also learn from productivity tips and how Uno works under the hood.
 
+- [SimpleCalc](simple-calc): The SimpleCalc workshop will guide you in setting up your developer environment to begin building your first app. You'll also gain insights into the tools, libraries, and patterns crucial for Uno Platform app development.
+
+- [TubePlayer](tube-player): In the Tube Player workshop, we will create a simple Uno Platform app for searching and playing YouTube videos. The app will have a search page for finding videos and a player page for watching them.
+
 ## Contributing and debugging the workshops
 
 Refer to [this page](test-docs.md) to learn more about how to test the workshops.
