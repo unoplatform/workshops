@@ -44,11 +44,11 @@ In this module, you'll learn how to export C# Markup from a pre-existing Figma d
 
     ![Figma plugins menu](figma-menu-plugins.jpg)
 
-1. Search and install the *Uno Platform* plugin:
+1. Search and install the *Uno Platform (Figma to C# or XAML)* plugin:
 
 <!-- TODO: Add instructions to install export to C# Markup plugin https://github.com/unoplatform/workshops-private/issues/37 -->
 
-1. Launch the plugin by clicking the *Uno Platform* plugin.
+1. Launch the plugin by clicking the *Uno Platform (Figma to C# or XAML)* plugin.
 
 ## Enable navigation in the plugin
 
