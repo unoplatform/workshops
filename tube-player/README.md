@@ -10,7 +10,7 @@ The application will be made up of a starting search page, that will accept user
 
 This workshop will help guide you through setting up your developer environment for developing Uno Platform applications. By the end of the workshop, you'll have built a multi-platform Uno Platform application using C# Markup and MVUX. You'll have the option to import the UI from [Figma](https://aka.platform.uno/uno-figma) or follow along with the workshop material, to build the UI for the application. You'll also learn about the tools, libraries, and patterns available in the Uno Platform, that are there to help you rapidly build high-quality applications.
  
-On completion of the workshop you will have a working cross-platform TubePlayer app. Here's screen-recording of it (Android):
+On completion of the workshop, you will have a working cross-platform TubePlayer app. Here's a screen-recording of it (Android):
 
 ![Completed TubePlayer app](modules/11-App-Finalization/ui-output.gif)
 
