@@ -64,4 +64,4 @@ uid: Workshop.TubePlayer.GetStarted.ApiKey
 
     ![Google Console copy API key](google-console-11-credentials-page.jpg)
 
-</summary>
+</details>
