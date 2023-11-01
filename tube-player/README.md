@@ -33,31 +33,31 @@ This workshop has been set up to provide you with optional content to allow you 
 
 The workshop utilizes the latest Uno Platform features, including:
 
-- C# Markup
-- Extensions
-  - MVUX
-    - Pagination
-    - FeedView
+- [C# Markup](xref:Reference.Markup.GettingStarted)
+- [Extensions](xref:Overview.Features)
+  - [MVUX](xref:Overview.Mvux.Overview)
+    - [Pagination](xref:Overview.Mvux.Advanced.Pagination)
+    - [FeedView](xref:Overview.Mvux.FeedView)
         - NoneTemplate
         - ErrorTemplate
-    - Refit
-    - Region navigation
-    - Serialization
-- Material design theme
-- Figma plugin
+    - [Refit](xref:Overview.Http)
+    - [Region navigation](xref:Overview.Navigation)
+    - [Serialization](xref:Overview.Serialization)
+- [Figma plugin](xref:Uno.Figma.Overview.GettingStarted)
     - C# Markup
     - Color overrides
 - Color overrides
 - DSP import
-- Themes
-- Toolkit 
+- [Material design theme](xref:uno.themes.material.getstarted)
+- [Toolkit](xref:Toolkit.GettingStarted)
     - CardControl
     - ElevatedView 
     - Media player
     - Navigation bar
-- Resizetizer
+- [Resizetizer](xref:Uno.Resizetizer.GettingStarted)
     - Splash screen
     - App icon 
+- [Uno Check](xref:UnoCheck.UsingUnoCheck)
 <!-- TODO: Other notable controls or features? https://github.com/unoplatform/workshops-private/issues/9 -->          
 
 ## Modules
