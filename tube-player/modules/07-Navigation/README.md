@@ -35,7 +35,7 @@ You may delete the *Entity.cs* file (located under *Business* → *Models*), as 
 
 Run the app and observe the changes. When clicking one of the YouTube search results, the *VideoDetailsPage* will be navigated to and the *YoutubeVideo* will be passed on to it.
 
-![Navigation working in the TubePlayer app](ui-output-navigation.gif)
+![Navigation working in the TubePlayer app](ui-output.gif)
 
 ## Next module
 
