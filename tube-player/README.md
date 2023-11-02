@@ -54,10 +54,8 @@ The workshop utilizes the latest Uno Platform features, including:
 - [DSP import](xref:Uno.Material.DSP)
 - [Material design theme](xref:uno.themes.material.getstarted)
 - [Toolkit](xref:Toolkit.GettingStarted)
-    - CardControl
-    - ElevatedView 
-    - Media player
-    - Navigation bar
+    - [CardContentControl](xref:Toolkit.Controls.Card)
+    - [NavigationBar](xref:Toolkit.Controls.NavigationBar)
 - [Resizetizer](xref:Uno.Resizetizer.GettingStarted)
     - Splash screen
     - App icon 
