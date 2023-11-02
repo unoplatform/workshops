@@ -25,8 +25,13 @@ In the following sections, we will cover both methods for creating a new Uno app
 
 ## Prepare the Project
 
-Before we continue to the next section, add the Calculator class by adding a new file called Calculator.cs into the SimpleCalculator project. Replace the default `Calculator` class with the following [source code](../../../resources/Calculator.cs).
+Before we continue to the next section, add the Calculator class by adding a new file called Calculator.cs into the SimpleCalculator project. Replace the default `Calculator` class with the following source code.
 
+<details>
+    <summary><i>Calculator.cs</i> code contents (collapsed for brevity)</summary>
+
+[!code-csharp[Calculator.cs](../../../resources/Calculator.cs)]
+</details>
 
 ## Additional Resources
 

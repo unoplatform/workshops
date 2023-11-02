@@ -12,7 +12,11 @@ uid: Workshop.SimpleCalc.Figma.CSharp
 
 ![Figma Export](../../../../art/figma-export-csharp.png)
 
-You can access the page content by [clicking here.](MainPage.cs)
+<details>
+    <summary><i>MainPage.cs</i> code contents (collapsed for brevity)</summary>
+
+[!code-csharp[MainPage.cs](MainPage.cs)]
+</details>
 
 4. Copy the selected code to the clipboard (<kbd>Ctrl</kbd>+<kbd>C</kbd> on Windows).
 
@@ -22,7 +26,11 @@ You can access the page content by [clicking here.](MainPage.cs)
 
 ![Figma Export](../../../../art/figma-export-fonts-csharp.png)
 
-You can access the FontOverride file by [clicking here.](MaterialFontsOverride.cs)
+<details>
+    <summary><i>MaterialFontsOverride.cs</i> code contents (collapsed for brevity)</summary>
+
+[!code-csharp[MaterialFontsOverride.cs](MaterialFontsOverride.cs)]
+</details>
 
 7. Now we need to prepare our UI with the Binding expressions that we will need in the App Architecture module. First let's add the `DataContext` to the page. To do so add `.DataContext(new TempDataContext(), (page, vm) => page` before the `.Content` definition. Ensure to properly terminate the DataContext with a closing `)` preceding the semicolon at the end of the page's code.
 
