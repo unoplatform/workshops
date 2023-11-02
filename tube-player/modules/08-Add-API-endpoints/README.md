@@ -50,6 +50,7 @@ Add the following namespace to the *GlobalUsings.cs* file:
 ```csharp
 global using Refit;
 global using TubePlayer.Services;
+global using Uno.Extensions.Http;
 ```
 
 ### Create video search API endpoint
