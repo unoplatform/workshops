@@ -12,8 +12,11 @@ uid: Workshop.SimpleCalc.Figma.XAML
 
 ![figma-export-xaml](../../../../art/figma-export-xaml.png)
 
+<details>
+    <summary><i>MainPage.xaml</i> code contents (collapsed for brevity)</summary>
 
-You can access the page content by [clicking here.](MainPage.xaml)
+[!code-xml[MainPage.xaml](MainPage.xaml)]
+</details>
 
 4. Copy the selected code to the clipboard (<kbd>Ctrl</kbd>+<kbd>C</kbd> on Windows).
 
@@ -23,8 +26,11 @@ You can access the page content by [clicking here.](MainPage.xaml)
 
 ![figma-export-fonts-xaml](../../../../art/figma-export-fonts-xaml.png)
 
+<details>
+    <summary><i>MaterialFontsOverride.xaml</i> code contents (collapsed for brevity)</summary>
 
-You can access the FontOverride file by [clicking here.](MaterialFontsOverride.xaml)
+[!code-xml[MaterialFontsOverride.xaml](MaterialFontsOverride.xaml)]
+</details>
 
 7. Now we need to prepare our UI with the Binding expressions that we will need in the App Architecture module. For all buttons we need to add `Command="{Binding InputCommand}"` and `CommandParameter` that will receive the same content as the `Content` attribute. For example, the first button would then be:
 
