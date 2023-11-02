@@ -14,6 +14,12 @@ uid: Workshop.SimpleCalc.Figma.CSharp
 
 You can access the page content by [clicking here.](MainPage.cs)
 
+<details>
+    <summary><i>MainPage.cs</i> code contents (collapsed for brevity)</summary>
+
+[!code-csharp[MainPage.cs](MainPage.cs)]
+</details>
+
 4. Copy the selected code to the clipboard (<kbd>Ctrl</kbd>+<kbd>C</kbd> on Windows).
 
 5. Open MainPage.cs and replace all the Page contents with the copied code.
