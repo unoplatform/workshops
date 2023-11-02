@@ -2,7 +2,7 @@
 uid: Workshop.TubePlayer.Overview
 ---
 
-# Tube Player workshop
+# Tube Player Workshop
 
 The objective of the Tube Player workshop is to create a simple Uno Platform application that enables the user to search for, and stream, YouTube videos. 
 
@@ -10,7 +10,7 @@ The application will be made up of a starting search page, that will accept user
 
 This workshop will help guide you through setting up your developer environment for developing Uno Platform applications. By the end of the workshop, you'll have built a multi-platform Uno Platform application using C# Markup and MVUX. You'll have the option to import the UI from [Figma](https://aka.platform.uno/uno-figma) or follow along with the workshop material, to build the UI for the application. You'll also learn about the tools, libraries, and patterns available in the Uno Platform, that are there to help you rapidly build high-quality applications.
  
-On completion of the workshop, you will have a working cross-platform TubePlayer app. Here's a screen-recording of it (Android):
+On completion of the workshop, you will have a working cross-platform TubePlayer app. Here's a screen recording of it (Android):
 
 ![Completed TubePlayer app](modules/11-App-Finalization/ui-output.gif)
 
@@ -24,7 +24,7 @@ This app was developed using Uno Platform and draws inspiration from [Naweed Akr
 - How to build your app's presentation layer using C# Markup and Model-View-Update-eXtended (MVUX). 
 - How to customize your app theme and override its theme colors by using either C# code imported from Figma, or by importing a custom DSP ([Design System Package](https://github.com/AdobeXD/design-system-package-dsp)) color theme.
 - How to use remote APIs in your app using the Uno Platform Refit extension.
-- How to customize the app icon and its splash-screen.
+- How to customize the app icon and its splashscreen.
 
 This workshop has been set up to provide you with optional content to allow you to tailor the experience to your needs. You can choose to skip the Uno Figma Plugin module and obtain the UI code directly in the workshop.
  
@@ -68,7 +68,7 @@ The workshop utilizes the latest Uno Platform features, including:
 - [01 - Getting started](xref:Workshop.TubePlayer.GetStarted)  
     Get started with Uno Platform - set up the environment, and create a project using the template wizard or the dotnet new template.  
 - [02 - Creating basic UI layout with C# Markup](xref:Workshop.TubePlayer.BasicLayout)  
-    Use C# Markup to create the basic UI for the search page. This will comprise a `Grid` containing a `TextBox` which will be used to search for YouTube videos, as well as an `ListView` which will display results. 
+    Use C# Markup to create the basic UI for the search page. This will comprise a `Grid` containing a `TextBox` which will be used to search for YouTube videos, as well as a `ListView` which will display results. 
 - [03 - Connect UI with mock data](xref:Workshop.TubePlayer.MockData)  
     Create models and services that will be used by the presentation layer to retrieve data and display it in the appropriate UI controls. The presentation layer will include mock services that will simulate YouTube search results.
 - [04 - Importing UI from Figma (optional)](xref:Workshop.TubePlayer.Figma)  
@@ -87,3 +87,7 @@ The workshop utilizes the latest Uno Platform features, including:
     Stream and play video data from YouTube using a `MediaPlayerElement`.
 - [11 - App finalization](xref:Workshop.TubePlayer.Finalization)  
     Finalize the app by adding a splash screen, app icons, and a launch screen.
+
+## Next Step
+
+ - [01 - Getting started](xref:Workshop.TubePlayer.GetStarted)

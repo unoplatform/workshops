@@ -14,7 +14,8 @@ dotnet tool install --global Uno.Check
 uno-check
 ```
 
-> **NOTE:** You may need to take additional steps if trying to build the Linux or GTK heads on Windows. Be sure to follow the [Additional setup for Linux or WSL](https://platform.uno/docs/articles/get-started-with-linux.html) docs.
+> [!NOTE]
+> You may need to take additional steps if trying to build the Linux or GTK heads on Windows. Be sure to follow the [Additional setup for Linux or WSL](https://platform.uno/docs/articles/get-started-with-linux.html) docs.
 
 ## Getting the Project Templates
 
@@ -32,7 +33,7 @@ dotnet new unoapp -h
 
 ## Uno Platform Extensions
 
-The extensions for Visual Studio and Visual Studio Code provide some additional features for the IDEs that help enable code completion and Hot Reload. Before continuing to the next module be sure to take a moment to install the appropriate extension for your IDE. Additionally the extension for Visual Studio on Windows includes the Uno Platform Template Wizard that makes it easy to pick the template options for your application.
+The extensions for Visual Studio and Visual Studio Code provide some additional features for the IDEs that help enable code completion and Hot Reload. Before continuing to the next module be sure to take a moment to install the appropriate extension for your IDE. Additionally, the extension for Visual Studio on Windows includes the Uno Platform Template Wizard that makes it easy to pick the template options for your application.
 
 - [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=unoplatform.uno-platform-addin-2022)
 
@@ -54,7 +55,7 @@ The first option to consider is the choice of markup technology to use:
 
 XAML is an XML-based markup language that is used to define the structure of a user interface. First introduced by Microsoft for WPF applications, XAML has been a proven solution for building user interfaces. XAML is a declarative language, meaning that it describes the structure of the UI, but not how it should be rendered. This is done by the XAML processor, which is the XAML engine in the .NET framework.
 
-Due to its nature, XAML is often preferred by developers coming from a web background as it is similar to HTML. However, XAML is not a replacement for HTML, and is not intended to be used for web development. It is important to understand that individual nodes in XAML map to actual .NET objects and that the XAML processor is responsible for creating these objects and setting their properties.
+Due to its nature, XAML is often preferred by developers coming from a web background as it is similar to HTML. However, XAML is not a replacement for HTML and is not intended to be used for web development. It is important to understand that individual nodes in XAML map to actual .NET objects and that the XAML processor is responsible for creating these objects and setting their properties.
 
 ### C# Markup
 

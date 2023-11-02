@@ -14,7 +14,8 @@ public MainPage()
 }
 ```
 
-> **NOTE:** Binding expressions must be stateless and the model property in our lambda expression will *ALWAYS* have a null value. Attempting to access instance values from the model will result in a NullReferenceException.
+> [!NOTE]
+> Binding expressions must be stateless and the model property in our lambda expression will *ALWAYS* have a null value. Attempting to access instance values from the model will result in a NullReferenceException.
 
 [!include[Commands](../../Resources/MVVM/Commands.md)]
 

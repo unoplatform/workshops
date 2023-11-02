@@ -1,6 +1,6 @@
 # Workshops for the Uno Platform [![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors)
 
-The Uno Platform allows C# and XAML built applications to run on Web (WebAssembly), Linux, macOS, iOS, Android, and Windows.
+The Uno Platform is an open-source platform for building single codebase native mobile, web, desktop and embedded apps quickly
 
 Use the  tooling from Windows in [Visual Studio](https://www.visualstudio.com/), such as [Hot Reload](https://platform.uno/docs/articles/features/working-with-xaml-hot-reload.html#:~:text=The%20Uno%20Platform%20Hot%20Reload,the%20inner%20developer%20loop%20faster), [XAML Edit and Continue](https://blogs.msdn.microsoft.com/visualstudio/2016/04/06/ui-development-made-easier-with-xaml-edit-continue/) and [C# Edit and Continue](https://docs.microsoft.com/en-us/visualstudio/debugger/how-to-use-edit-and-continue-csharp). Build your application as much as possible on Windows, then validate that your application runs on [all supported platforms](https://platform.uno/docs/articles/getting-started/requirements.html). 
 

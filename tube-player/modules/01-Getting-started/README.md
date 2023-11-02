@@ -122,7 +122,7 @@ You might be asked to reload the IDE before the projects are fully loaded. Click
     new RouteMap("VideoDetails", View: views.FindByViewModel<VideoDetailsModel>()),
     ```
 
-As explained [in the intro](xref:Workshop.TubePlayer.Overview#tube-player-workshop), the app will consist of two pages, a search page and a video-player page. *MainPage.cs* and *MainModel.cs* will be used as the search page, whereas *VideoDetailsPage.cs* and *VideoDetailsModel.cs* to display additional video details and the media player.
+As explained [in the intro](xref:Workshop.TubePlayer.Overview#tube-player-workshop), the app will consist of two pages, a search page, and a video-player page. *MainPage.cs* and *MainModel.cs* will be used as the search page, whereas *VideoDetailsPage.cs* and *VideoDetailsModel.cs* to display additional video details and the media player.
 
 ## Running the application
 
@@ -138,7 +138,7 @@ As explained [in the intro](xref:Workshop.TubePlayer.Overview#tube-player-worksh
     ![Running app in operation](ui-output.gif)
 
 > [!NOTE]  
-> If you see an error message mentioning the old type names (*SecondPage*/*SecondModel*), try cleaning the solution. In Visual Studio, you'd right-click the solution and then *Clean*. Otherwise call `dotnet clean` from the `TubePlayer`'s solution folder.
+> If you see an error message mentioning the old type names (*SecondPage*/*SecondModel*), try cleaning the solution. In Visual Studio, you'd right-click the solution and then *Clean*. Otherwise, call `dotnet clean` from the `TubePlayer`'s solution folder.
 
 To learn more about debugging the app on different platforms read this:
 

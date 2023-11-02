@@ -5,10 +5,10 @@ uid: Workshop.SimpleCalc.Figma.Intro
 # Importing UI from Figma
 
 In this module, you will learn how to import the UI from Figma.  
-Figma is a collaborative app UI design tool that allows users to create, share, and comment on designs in real time. It then allows exporting the UI in selected markup language for developers to carry on with the pre-designed app.
+Figma is a collaborative app UI design tool that allows users to create, share, and comment on designs in real-time. It then allows exporting the UI in selected markup language for developers to carry on with the pre-designed app.
 
 Uno Platform offers a Figma plugin that enables exporting the UI designed in Figma as both XAML and C# Markup.
-In this module, you'll learn how to export the UI from a pre-existing Figma design for the SimpleCalculator app, how to import it into the app you've started to create in the previous modules.
+In this module, you'll learn how to export the UI from a pre-existing Figma design for the SimpleCalculator app, and how to import it into the app you've started to create in the previous modules.
 
 ## Open the Figma file and set up an account
 

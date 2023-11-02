@@ -78,7 +78,7 @@ You will now register the `YoutubeServiceMock` to be provided every time an `IYo
 
 ## Setup the presentation layer with the service
 
-### Use mock service in model
+### Use mock service in the model
 
 1. Open the file *MainModel.cs* and replace its content with the following:
 
@@ -143,7 +143,7 @@ You will now register the `YoutubeServiceMock` to be provided every time an `IYo
     }
     ```
 
-    These properties are currently defined as placeholders to enable bindings to work properly, but will be implemented to play YouTube videos in [module 10](xref:Workshop.TubePlayer.MediaPlayer).
+    These properties are currently defined as placeholders to enable bindings to work properly but will be implemented to play YouTube videos in [module 10](xref:Workshop.TubePlayer.MediaPlayer).
 
 1. In the *VideoDetailsPage.cs*, remove the `Text` extension method for now, as its binding depends on the `Entity` property we've just removed.
 
@@ -154,7 +154,7 @@ You will now register the `YoutubeServiceMock` to be provided every time an `IYo
         ...
     ```
 
-1. You can now close all open tabs. In Visual Studio this can be achieved by right-clicking any tab and click *Close All Tabs*.
+1. You can now close all open tabs. In Visual Studio, this can be achieved by right-clicking any tab and clicking on *Close All Tabs*.
 
     ![Visual Studio - Close All Tabs command](close-all-tabs.jpg)
 
