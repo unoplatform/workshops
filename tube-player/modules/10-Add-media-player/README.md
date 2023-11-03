@@ -128,6 +128,17 @@ protected async override void OnNavigatingFrom(NavigatingCancelEventArgs e)
 }
 ```
 
+## Install additional NuGet packages for WASM and Skia.GTK
+
+Open the NuGet package manager for the *TubePlayer.WASM* project and install the following packages:
+
+- [`Uno.WinUI.MediaPlayer.WebAssembly`](https://www.nuget.org/packages/Uno.WinUI.MediaPlayer.WebAssembly)
+
+Open the NuGet package manager for the *TubePlayer.Skia.GTK* project and install the following packages:
+
+- [`Uno.WinUI.MediaPlayer.Skia.Gtk`](https://www.nuget.org/packages/Uno.WinUI.MediaPlayer.Skia.Gtk)
+- [`VideoLAN.LibVLC.Windows`](https://www.nuget.org/packages/VideoLAN.LibVLC.Windows)
+
 ## Run the app
 
 Run the app to see the media player playing the video from YouTube. Seek, volume, pause, and other controls are built into the media player.
@@ -137,7 +148,9 @@ Run the app to see the media player playing the video from YouTube. Seek, volume
 You will notice how the video stops before navigating back to the search results (observe the play button right before the navigation happens), but at the same time, we still want to update the navigation bar image (currently a random picture), the app icon, as well as the splashscreen (which are currently set to the template defaults).
 
 > [!NOTE]
-> In order to be able to play the media in WASM, because of CORS issue, you will need to either create a server project (e.g. using [YARP](https://chat.openai.com/share/d633a7b6-1b3c-4730-a60b-96dfd97baa0a)) or by using a public proxy (e.g. using [CORS Anywhere](https://github.com/Rob--W/cors-anywhere)).
+> In order to be able to play the media in WASM, because of a CORS issue, you will need to either create a server project (e.g. using [YARP](https://chat.openai.com/share/d633a7b6-1b3c-4730-a60b-96dfd97baa0a)) or by using a public proxy (e.g. using [CORS Anywhere](https://github.com/Rob--W/cors-anywhere)).
+
+For more information on `MediaPlayerElement` support, refer to the [MediaPlayerElement documentation](https://platform.uno/docs/articles/controls/MediaPlayerElement.html).
 
 ## Next step
 
