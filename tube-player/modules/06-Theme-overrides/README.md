@@ -13,15 +13,14 @@ Uno Platform offers two ways to import app themes.
 
 ## Prepare the theme override
 
-# [Figma](#tab/export/figma)
+# [Figma](#tab/export-figma)
 
-## Export from Figma
+### Export from Figma
 
 1. Go back to the Figma window.  
     If the Uno Platform plugin has closed, press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>P</kbd> to reopen it, or right-click the *Video detail* screen and select the plugin from the *Plugins* submenu.
 
     ![Figma Resources menu](figma-menu-plugin.jpg)
-    -
 
     ![Figma context menu](figma-context-menu-plugin.jpg)
 
@@ -39,7 +38,7 @@ Uno Platform offers two ways to import app themes.
 
 1. Select and copy all code in the Figma code editor to the clipboard.
 
-## Import C#
+### Import C#
 
 1. Head over to the IDE and delete the *ColorPaletteOverride.zip* file. This won't be needed as you're importing the color overrides from Figma. It's used when importing a DSP theme from an external editor (switch to the <!--TODO make sure link works -->[DSP tab](#tab/export/dsp) for more).
 
@@ -56,9 +55,9 @@ Uno Platform offers two ways to import app themes.
     +.Add<Color>(Theme.Colors.Surface.Variant, light: "#F85977", dark: "#67E5AD")
     ```
 
-# [DSP](#tab/export/dsp)
+# [DSP](#tab/export-dsp)
 
-## Create a custom theme and import DSP
+### Create a custom theme and import DSP
 
 DSP stands for [Design System Package](https://github.com/AdobeXD/design-system-package-dsp) and is a conventional way to transport design themes between different systems.
 There are several theme builders out there, the [Material Theme Builder](https://m3.material.io/theme-builder#/custom) is one of them, once a theme is created, it can be exported as a DSP file (it's a compressed *.zip* archive that includes all the data needed).
@@ -95,6 +94,7 @@ Regular:
 ![App rendered regularly](ui-output-regular.jpg)
 
 With color overrides:
+
 ![App rendered with overrides](ui-output-overrides.jpg)
 
 Note that the colors will be different than you see in the screenshot if you've created your own DSP theme.
