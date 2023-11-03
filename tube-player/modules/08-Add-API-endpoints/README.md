@@ -21,8 +21,8 @@ To learn more about these extensions, refer to the [HTTP extension docs](xref:Ov
 
 Open the NuGet package manager for the *TubePlayer* project and install the following packages:
 
- - [`Uno.Extensions.Http.Refit`](https://www.nuget.org/packages?q=Uno.Extensions.Http.Refit)
- - [`Uno.Extensions.Http.WinUI`](https://www.nuget.org/packages?q=Uno.Extensions.Http.WinUI)
+- [`Uno.Extensions.Http.Refit`](https://www.nuget.org/packages?q=Uno.Extensions.Http.Refit)
+- [`Uno.Extensions.Http.WinUI`](https://www.nuget.org/packages?q=Uno.Extensions.Http.WinUI)
 
 > [!NOTE]  
 > HTTP can be included when generating the project by checking the *HTTP* option in the template wizard or CLI.  
@@ -32,16 +32,16 @@ Open the NuGet package manager for the *TubePlayer* project and install the foll
 
 Open the file *Services* → *Models* → *Models.cs* you've previously edited and appended the following content to it:
 
-    ```csharp
+```csharp
 
-    public partial record IdData(string? VideoId);
-    
-    public partial record YoutubeVideoData(IdData? Id, SnippetData? Snippet);
-    
-    public record PageInfoData(int? TotalResults, int? ResultsPerPage);
-    
-    public record VideoSearchResultData(IImmutableList<YoutubeVideoData>? Items, string? NextPageToken, PageInfoData? PageInfo);
-    ```
+public partial record IdData(string? VideoId);
+
+public partial record YoutubeVideoData(IdData? Id, SnippetData? Snippet);
+
+public record PageInfoData(int? TotalResults, int? ResultsPerPage);
+
+public record VideoSearchResultData(IImmutableList<YoutubeVideoData>? Items, string? NextPageToken, PageInfoData? PageInfo);
+```
 
 ### Add Refit namespace
 
@@ -78,6 +78,7 @@ public interface IYoutubeEndpoint
     Task<VideoDetailsResultData?> GetVideoDetails([Query(CollectionFormat.Multi)] string[] id, CancellationToken ct );
 }
 ```
+
 </details>
 
 The attributes in this interface are the Refit instructions on how to interact with the API. In the following step, you will set up Refit with the DI container.
@@ -125,7 +126,7 @@ In the *Business* folder add a file named *YoutubeService.cs* with the following
         }
     }
     ```
-    
+
     These settings are loaded as part of the app configuration. Read more at the Uno Platform [Configuration overview](xref:Overview.Configuration).
 
 1. You can spot the `ApiKey` setting above, and replace its value (`your_development_api_key`) with the API key you obtained from Google API in [Module 1](xref:Workshop.TubePlayer.GetStarted#optional-obtaining-a-youtube-data-api-v3-key).
@@ -149,7 +150,7 @@ In the *Business* folder add a file named *YoutubeService.cs* with the following
     ```
 
 1. As you can see, there is no actual implementation of `IYoutubeEndpoint`, Refit takes care of that and provides a proxy class with all functionality needed, based on the attributes provided on the interface.
- 
+
     The `YoutubeEndpointOptions` are automatically materialized with the values under the `YoutubeEndpoint` key in the *appsettings.json* file.  
     Read [this](https://cloud.google.com/docs/authentication/api-keys#using-with-client-libs) if you want to learn more about using Google API keys in web requests from client libraries.
 
@@ -178,15 +179,15 @@ In the *Business* folder add a file named *YoutubeService.cs* with the following
 
     ```csharp
     public IListFeed<YoutubeVideo> VideoSearchResults => SearchTerm
-    	.Where(searchTerm => searchTerm is { Length: > 0 })
-    	.SelectPaginatedByCursorAsync(
-    		firstPage: string.Empty,
-    		getPage: async (searchTerm, nextPageToken, desiredPageSize, ct) =>
-    		{
-    			var videoSet = await YoutubeService.SearchVideos(searchTerm, nextPageToken, desiredPageSize ?? 10, ct);
+        .Where(searchTerm => searchTerm is { Length: > 0 })
+        .SelectPaginatedByCursorAsync(
+            firstPage: string.Empty,
+            getPage: async (searchTerm, nextPageToken, desiredPageSize, ct) =>
+            {
+                var videoSet = await YoutubeService.SearchVideos(searchTerm, nextPageToken, desiredPageSize ?? 10, ct);
     
-    			return new PageResult<string, YoutubeVideo>(videoSet.Videos, videoSet.NextPageToken);
-    		});
+                return new PageResult<string, YoutubeVideo>(videoSet.Videos, videoSet.NextPageToken);
+            });
     ```
 
     Read more about MVUX pagination [here](xref:Overview.Mvux.Advanced.Pagination).

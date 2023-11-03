@@ -19,7 +19,7 @@ You'll also learn how to interact with the media player and stop the video when 
     public partial record YoutubeData(StreamingData? StreamingData);
     ```
 
-1. Add a file named *IYoutubePlayerEndpoint.cs* to the *Services* folder with the following content:    
+1. Add a file named *IYoutubePlayerEndpoint.cs* to the *Services* folder with the following content:
 
     ```csharp
     [Headers(
@@ -36,7 +36,7 @@ You'll also learn how to interact with the media player and stop the video when 
 
 The previous interface is a Refit service. You will now register it with Refit. Open *App.cs*, and add the following Refit client registration right after the previous one you added earlier:
 
-```csharp
+```diff
  services
      .AddRefitClientWithEndpoint<IYoutubeEndpoint, YoutubeEndpointOptions>(
          context,
@@ -106,7 +106,7 @@ The previous interface is a Refit service. You will now register it with Refit. 
 
 1. Add the `Assign` extension method to the `MediaPlayerElement`, so that it can be accessed outside this scope, as well as the `AutoPlay` and `Source` extension methods:
 
-    ```csharp
+    ```diff
      new MediaPlayerElement()
     +    .Assign(mediaPlayerElement => youtubePlayer = mediaPlayerElement)
     +    .AutoPlay(true)

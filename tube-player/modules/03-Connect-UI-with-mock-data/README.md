@@ -40,7 +40,7 @@ This class contains two constant variables that are assigned to partial JSON out
 
     <details>
         <summary><i>YoutubeServiceMock.cs</i> code contents (collapsed for brevity)</summary>
-    
+
     [!code-csharp[YoutubeServiceMock.cs](YoutubeServiceMock.cs)]
     </details>
 
@@ -57,7 +57,7 @@ You will now register the `YoutubeServiceMock` to be provided every time an `IYo
     global using TubePlayer.Business;
     global using TubePlayer.Services.Models;
     global using Microsoft.UI.Text;
-    ```    
+    ```
 
 1. Open the *App.cs* file (in the project folder), head to the `ConfigureServices` section, remove the comments in it, and add the following registrations instead:
 
@@ -90,7 +90,7 @@ You will now register the `YoutubeServiceMock` to be provided every time an `IYo
         public IState<string> SearchTerm => State<string>.Value(this, () => "Uno Platform");
     }
     ```
-    
+
     The `SearchTerm` is an MVUX state, with "Uno Platform" set as its default value. Feeds and states are part of the MVUX framework developed by Uno Platform.  
     Both feeds and states are used as an async data connection point between the model and its underlying services. The MVUX also offers controls that can interact with feeds and states.  
     The difference between states and feeds is that a state holds the state of the data and can be updated manually, whereas feeds only act as a bridge to the data coming from the service.
@@ -123,7 +123,7 @@ You will now register the `YoutubeServiceMock` to be provided every time an `IYo
 1. Bind the `TextBox` to the `SearchTerm` state property, and expand the `ListView`'s template like the following:
 
     <!-- TODO: Ensure indented code-csharp renders properly -->
-    [!code-csharp[MainPage.cs](MainPage.cs)]    
+    [!code-csharp[MainPage.cs](MainPage.cs)]
 
     The `DataTemplate` is set for a `YoutubeVideo` object. It consists of a `StackPanel` containing two text fields for the video title (styled in bold text), and the title of the YouTube channel that published the video.
 

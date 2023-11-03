@@ -83,7 +83,7 @@ The plugin comes with various features and settings. As you will be using the Un
 
     <details>
         <summary><i>MainPage</i> code contents (collapsed for brevity)</summary>
-    
+
     [!code-csharp[MainPage.cs](MainPage.cs)]
     </details>
 
@@ -129,7 +129,7 @@ The plugin comes with various features and settings. As you will be using the Un
 1. Set the `ItemTemplate` extension method to a strongly typed one by providing the `YoutubeVideo` type argument:
 
     Update this:
-    
+
     ```csharp
     -.ItemTemplate
     -(
@@ -137,9 +137,9 @@ The plugin comes with various features and settings. As you will be using the Un
              new CardContentControl()
              ...
     ```
-    
+
     With the following:
-    
+
     ```csharp
     +.ItemTemplate<YoutubeVideo>
     +(
@@ -176,7 +176,7 @@ The plugin comes with various features and settings. As you will be using the Un
     ```csharp
     #nullable disable
     ```
-    
+
 ## Video detail
 
 ### Export from Figma
@@ -191,7 +191,7 @@ The plugin comes with various features and settings. As you will be using the Un
 
     <details>
         <summary><i>Video detail</i> code contents (collapsed for brevity)</summary>
-    
+
     [!code-csharp[VideoDetailsPage.cs](VideoDetailsPage.cs)]
     </details>
 
@@ -211,7 +211,7 @@ The plugin comes with various features and settings. As you will be using the Un
 
 1. Update the bindings with strongly typed bindings as before.
     To utilize *Find and replace*, use the following regular-expressions. Search for this pattern:
-        
+
     ```
     b\s+\=\>\s+b\.Bind\(\"([\w\.]+)\"\)
     ```

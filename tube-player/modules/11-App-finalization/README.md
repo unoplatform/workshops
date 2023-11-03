@@ -14,7 +14,7 @@ In this, you will finalize the app but adding extra bits and cleaning up the cod
 
 1. In *MainPage.cs* replace the sample image with as follows:
 
-    ```csharp
+    ```diff
     -.Source(new BitmapImage(new Uri("https://picsum.photos/384/40")))
     +.Source(new BitmapImage(new Uri("ms-appx:///TubePlayer/Assets/navigation_bar.png")))
     ```
