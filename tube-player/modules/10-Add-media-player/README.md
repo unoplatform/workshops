@@ -150,7 +150,7 @@ You will notice how the video stops before navigating back to the search results
 > [!NOTE]
 > In order to be able to play the media in WASM, because of a CORS issue, you will need to either create a server project (e.g. using [YARP](https://chat.openai.com/share/d633a7b6-1b3c-4730-a60b-96dfd97baa0a)) or by using a public proxy (e.g. using [CORS Anywhere](https://github.com/Rob--W/cors-anywhere)).
 
-For more information on `MediaPlayerElement` support, refer to the [MediaPlayerElement documentation](https://platform.uno/docs/articles/controls/MediaPlayerElement.html).
+For more information on `MediaPlayerElement` support, refer to the [MediaPlayerElement documentation](https://aka.platform.uno/mediaplayerelement).
 
 ## Next step
 
