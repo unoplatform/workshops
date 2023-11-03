@@ -32,7 +32,7 @@ You will also learn in this module how to set up basic data-binding to a feed/st
                     .ItemTemplate<string>(videoTitle =>
                         new TextBlock()
                             .Text(() => videoTitle))));
-    ```    
+    ```
 
     The `ItemTemplate` extension method takes a generic argument of the expected item type. In this example, we'll be using a `string`. In the upcoming modules, you'll incorporate service data in the app, and this data type (`string`) will change.
 

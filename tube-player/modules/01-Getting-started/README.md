@@ -21,9 +21,9 @@ If you are using Visual Studio, depending on the workloads that you have install
     ```bash
     dotnet tool install --global Uno.Check
     ```
-    
+
     If the tool is already installed, replace `install` with `update`.
-    
+
     [Click here](xref:UnoCheck.UsingUnoCheck) to view the Uno Check tool docs.
 
 1. Once installed, run the tool by executing the following command:
@@ -61,7 +61,7 @@ dotnet new install Uno.Templates
 > [!NOTE]  
 > Make sure the latest version of the Uno.Templates version is installed.
 > If you have already installed this in the past, you can update the current templates by running the following:
-> 
+>
 > ```bash
 > dotnet new update
 > ```
@@ -155,6 +155,5 @@ To learn more about debugging the app on different platforms read this:
 ## Additional Resources
 
 - [Uno Docs - Getting Started](xref:Uno.GetStarted)
-
 
 **[Next](xref:Workshop.TubePlayer.BasicLayout "Creating basic UI layout with C# Markup")**

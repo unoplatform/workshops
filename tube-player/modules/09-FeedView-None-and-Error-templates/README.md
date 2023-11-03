@@ -26,7 +26,7 @@ In this module, you'll learn about the power of the `FeedView` control, and how 
 
     <details>
         <summary><code>VideoItemTemplate</code> method (collapsed for brevity).</summary>
-    
+
     [!code-csharp[VideoItemTemplate.cs](VideoItemTemplate.cs)]
     </details>
 
@@ -72,7 +72,7 @@ Let's add a `FeedView` to our UI. We'll start with the `ValueTemplate` first.
 
 1. Change the `ItemsSource` property of the `ListView` to the `Data` property of the `FeedViewState` as follows:
 
-    ```csharp
+    ```diff
      ...
      new ListView()
     -    .ItemsSource(b => b.Bind("VideoSearchResults"))
@@ -83,21 +83,21 @@ Let's add a `FeedView` to our UI. We'll start with the `ValueTemplate` first.
     ```
 
     The `FeedView` serves the data via the `FeedViewState` wrapper class to the template, the actual data is accessed via the wrapper's `Data` property.
- 
+
 ### Run the app [optional]
 
 The `FeedView`'s error template defaults to *An error occurred' text message. If you run the app, switch flight mode on, and search YouTube, that message will display:
 
-![Default error message shown in FeedView](ui-output-error-text.gif)    
+![Default error message shown in FeedView](ui-output-error-text.gif)
 
 ### Customize the `NoneTemplate`
 
 Add the following `Shapes` namespace, as well as the `Path` alias to the header of *MainPage.cs*, so that there are no ambiguations with `System.IO.Path`, as there are `Path` elements contained in the templates you are about to introduce to the project.
 
-    ```csharp
-    using Microsoft.UI.Xaml.Shapes;
-    using Path = Microsoft.UI.Xaml.Shapes.Path;
-    ```
+```csharp
+using Microsoft.UI.Xaml.Shapes;
+using Path = Microsoft.UI.Xaml.Shapes.Path;
+```
 
 # [Import from Figma](#tab/figma)
 
@@ -136,7 +136,7 @@ Copy the following code to the clipboard:
 
 Add the following setting to the `FeedView`:
 
-```csharp
+```diff
  new FeedView()
      ...
 +    .NoneTemplate(VideoNoneTemplate)
@@ -207,7 +207,7 @@ new FeedView()
 1. Observe how the error template is displayed.
 1. Restore the internet connection and return to the result.
 1. Click one of the search results, and you'll notice that the video on the video page doesn't play. In the upcoming module, you'll add a media player control to the app, which will play the videos.
-    
+
     ![UI showing error template](ui-output-error-template.gif)
 
 ## Next Step
