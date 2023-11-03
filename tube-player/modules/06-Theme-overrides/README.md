@@ -51,7 +51,7 @@ Uno Platform offers two ways to import app themes.
 1. The theme from Figma looks similar to what the app already looks like as you've used the Material template, let's then make a noticeable color override, so that you can see how the app changes accordingly.  
     Change the line that overrides `Theme.Colors.Surface.Variant` to the following colors:
 
-    ```csharp
+    ```diff
     -.Add<Color>(Theme.Colors.Surface.Variant, light: "#F2EFF5", dark: "#47464F")
     +.Add<Color>(Theme.Colors.Surface.Variant, light: "#F85977", dark: "#67E5AD")
     ```

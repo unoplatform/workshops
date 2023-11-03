@@ -95,7 +95,7 @@ The plugin comes with various features and settings. As you will be using the Un
 
 1. Wrap the code with the `DataContext` extension method yet again (remember to add a closing parenthesis to the end):
 
-    ```csharp
+    ```diff
      public sealed partial class MainPage : Page
      {
          public MainPage()
@@ -114,14 +114,14 @@ The plugin comes with various features and settings. As you will be using the Un
 
 1. Replace the binding of the search-term *TextBlock*, in the following manner:
 
-    ```csharp
+    ```diff
     -.Text(b => b.Bind("SearchTerm").TwoWay())
     +.Text(b => b.Bind(() => vm.SearchTerm).TwoWay().UpdateSourceTrigger(UpdateSourceTrigger.PropertyChanged))
     ```
 
 1. Replace the binding of the *ListView* in the following manner:
 
-    ```csharp
+    ```diff
     -.ItemsSource(b => b.Bind("VideoSearchResults"))
     +.ItemsSource(() => vm.VideoSearchResults)
     ```
@@ -130,7 +130,7 @@ The plugin comes with various features and settings. As you will be using the Un
 
     Update this:
 
-    ```csharp
+    ```diff
     -.ItemTemplate
     -(
     -    () =>
@@ -140,7 +140,7 @@ The plugin comes with various features and settings. As you will be using the Un
 
     With the following:
 
-    ```csharp
+    ```diff
     +.ItemTemplate<YoutubeVideo>
     +(
     +    youtubeVideo =>
@@ -166,7 +166,7 @@ The plugin comes with various features and settings. As you will be using the Un
 
 1. To avoid the nullability errors, either add [null-conditional operators](https://learn.microsoft.com/dotnet/csharp/language-reference/operators/member-access-operators#null-conditional-operators--and-) or [null-forgiving operators](https://learn.microsoft.com/dotnet/csharp/language-reference/operators/null-forgiving) after each nullable property access, or add the following to the beginning of the file (see [nullable references](https://learn.microsoft.com/dotnet/csharp/nullable-references#nullable-contexts)), for example:
 
-    ```csharp
+    ```diff
     -.Source(() => youtubeVideo.Details.Snippet.Thumbnails.Medium.Url)
     +.Source(() => youtubeVideo.Details.Snippet?.Thumbnails?.Medium?.Url!)
     ```
@@ -224,7 +224,7 @@ The plugin comes with various features and settings. As you will be using the Un
 
 1. Update the bindings here as well to avoid the nullability errors, either add nullability operators or disable nullable reference types, for example:
 
-    ```csharp
+    ```diff
     -.Source(() => vm.Video.Channel.Snippet.Thumbnails.High.Url)
     +.Source(() => vm.Video.Channel.Snippet?.Thumbnails?.High?.Url!)
     ```
