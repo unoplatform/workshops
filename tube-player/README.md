@@ -86,6 +86,10 @@ The workshop utilizes the latest Uno Platform features, including:
 - [11 - App finalization](xref:Workshop.TubePlayer.Finalization)  
     Finalize the app by adding a splash screen, app icons, and a launch screen.
 
+## Sample Application
+
+You can refer to the fully implemented sample available as a reference application in the [Uno.Samples repository](https://aka.platform.uno/tubeplayer-sampleapp)
+
 ## Next Step
 
  - [01 - Getting started](xref:Workshop.TubePlayer.GetStarted)

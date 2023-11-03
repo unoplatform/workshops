@@ -18,6 +18,6 @@ With the color palette updated, we can now run the app again to see the updated 
 
 ## Next Steps
 
-Congratulations you have now created your first Uno app! The four permutations of the SimpleCalculator can be found within our [Uno.Samples GitHub Repository](https://github.com/unoplatform/Uno.Samples/tree/master/reference/simple-calc).
+Congratulations you have now created your first Uno app! The four permutations of the SimpleCalculator can be found within our [Uno.Samples GitHub Repository](https://aka.platform.uno/simplecalc-sampleapp).
 
 To continue to learn more about Uno Platform be sure to check out the [Uno Platform documentation](https://platform.uno/docs/articles/get-started.html) and the [Uno Platform samples](https://github.com/unoplatform/Uno.Samples).
