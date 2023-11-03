@@ -41,6 +41,10 @@ When you run the app, the app icon and the splash screen, as well as the navigat
 
 ![App icon, splash screen, and navigation bar are rendered](ui-output.gif)
 
+## Final Sample Application
+
+You can refer to the fully implemented sample available as a reference application in the [Uno.Samples repository](https://aka.platform.uno/tubeplayer-sampleapp)
+
 ---
 
 **[Previous](xref:Workshop.TubePlayer.MediaPlayer "Add a media player")**

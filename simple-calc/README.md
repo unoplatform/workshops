@@ -38,6 +38,10 @@ This workshop has been set up to provide you with optional content to allow you 
 - A working understanding of XAML
 - A working understanding of MVVM
 
+## Final Application
+
+You can refer to the fully implemented sample available as a reference application in the [Uno.Samples repository](https://aka.platform.uno/simplecalc-sampleapp)
+
 ## Next Step
 
  - [Getting Started](xref:Workshop.SimpleCalc.GettingStarted)
