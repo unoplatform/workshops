@@ -20,7 +20,7 @@ Uno Platform offers two ways to import app themes.
 1. Go back to the Figma window.  
     If the Uno Platform plugin has closed, press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>P</kbd> to reopen it, or right-click the *Video detail* screen and select the plugin from the *Plugins* submenu.
 
-![Figma Resources menu](figma-menu-plugin.jpg)
+    ![Figma Resources menu](figma-menu-plugin.jpg)
     -
 
     ![Figma context menu](figma-context-menu-plugin.jpg)
@@ -39,7 +39,7 @@ Uno Platform offers two ways to import app themes.
 
 1. Select and copy all code in the Figma code editor to the clipboard.
 
-## Import C #
+## Import C#
 
 1. Head over to the IDE and delete the *ColorPaletteOverride.zip* file. This won't be needed as you're importing the color overrides from Figma. It's used when importing a DSP theme from an external editor (switch to the <!--TODO make sure link works -->[DSP tab](#tab/export/dsp) for more).
 
