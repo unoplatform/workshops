@@ -1,4 +1,4 @@
-public static UIElement VideoItemTemplate(YoutubeVideo youtubeVideo) =>
+private static UIElement VideoItemTemplate(YoutubeVideo youtubeVideo) =>
     new CardContentControl()
         .Margin(0, 0, 0, 8)
         .Style(StaticResource.Get<Style>("ElevatedCardContentControlStyle"))
