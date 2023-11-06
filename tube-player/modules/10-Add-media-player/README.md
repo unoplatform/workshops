@@ -128,7 +128,7 @@ protected async override void OnNavigatingFrom(NavigatingCancelEventArgs e)
 {
     base.OnNavigatingFrom(e);
 
-    YoutubePlayer.MediaPlayer.Pause();
+    youtubePlayer?.MediaPlayer.Pause();
 }
 ```
 
