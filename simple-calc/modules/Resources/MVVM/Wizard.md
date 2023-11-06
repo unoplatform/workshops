@@ -9,4 +9,4 @@ Then, select "3. Presentation" and choose the **MVVM** pattern.
   <img alt="Uno Platform App template" src="../../../art/Light/Wizard/4.Presentation-MVVM.png">
 </picture>
 
-> To know more about MVUX follow the [MVUX Overview](https://platform.uno/docs/articles/external/uno.extensions/doc/Overview/Reactive/overview.html) docs.
+> To know more about MVUX follow the [MVUX Overview](https://aka.platform.uno/mvux) docs.

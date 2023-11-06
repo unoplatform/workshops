@@ -6,7 +6,7 @@ uid: Workshop.SimpleCalc.MVUX.Architecture.Intro
 
 Model-View-Update has become an increasingly popular choice for developers looking to have a more functional approach to building user interfaces. In this module, we will be looking at how to use the MVUX pattern to build our UI. MVUX is a pattern that is similar to the MVU pattern but has been specifically designed to work with data binding.
 
-To learn more about MVUX, refer to the [MVUX Overview](https://platform.uno/docs/articles/external/uno.extensions/doc/Overview/Reactive/overview.html).
+To learn more about MVUX, refer to the [MVUX Overview](https://aka.platform.uno/mvux).
 
 ## Getting Started
 
