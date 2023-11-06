@@ -93,7 +93,7 @@ You will now register the `YoutubeServiceMock` to be provided every time an `IYo
     }
     ```
 
-    The `SearchTerm` is an MVUX state, with "Uno Platform" set as its default value. Feeds and states are part of the MVUX framework developed by Uno Platform.  
+    The `SearchTerm` is an MVUX state, with "Uno Platform" set as its default value. Feeds and states are part of the [MVUX framework](https://aka.platform.uno/mvux) developed by Uno Platform.  
     Both feeds and states are used as an async data connection point between the model and its underlying services. The MVUX also offers controls that can interact with feeds and states.  
     The difference between states and feeds is that a state holds the state of the data and can be updated manually, whereas feeds only act as a bridge to the data coming from the service.
 
@@ -174,7 +174,7 @@ You will now register the `YoutubeServiceMock` to be provided every time an `IYo
 ## Next Step
 
 In the next step, you're going to build the UI.  
-The UI for the Tube Player app has been designed using Figma - an app design tool.
+The UI for the Tube Player app has been designed using Figma - an app design tool, along with its [Uno Platform plugin for Figma](https://aka.platform.uno/uno-figma).
 
 **[Previous](xref:Workshop.TubePlayer.BasicLayout "Creating basic UI layout with C# Markup")** | **[Next](xref:Workshop.TubePlayer.Figma "Importing UI from Figma (optional)")**
 
