@@ -42,7 +42,7 @@ In this module, you'll learn how to export C# Markup from a pre-existing Figma d
 
     ![Figma top menu open](figma-menu-duplicate.jpg) -->
 
-1. Open the *Resources* menu (<kbd>Shift</kbd>+</kbd>I</kbd>) and navigate to the *Plugins* tab:
+1. Open the *Resources* menu (<kbd>Shift</kbd>+<kbd>I</kbd>) and navigate to the *Plugins* tab:
 
     ![Figma plugins menu](figma-menu-plugins.jpg)
 

@@ -54,10 +54,12 @@ You will now register the `YoutubeServiceMock` to be provided every time an `IYo
 1. Open *GlobalUsings.cs* and append the following lines to it:
 
     ```csharp
+    global using System.Text.Json;
     global using TubePlayer.Business;
     global using TubePlayer.Services.Models;
-    global using Microsoft.UI.Text;
-    ```
+    ```    
+
+    In Visual Studio, you can sort the usings, go to the menu and click *Edit* → *IntelliSense* → *Sort Usings* (<kbd>Alt</kbd>+<kbd>E</kbd>,<kbd>I</kbd>,<kbd>S</kbd>).
 
 1. Open the *App.cs* file (in the project folder), head to the `ConfigureServices` section, remove the comments in it, and add the following registrations instead:
 
