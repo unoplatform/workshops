@@ -36,10 +36,11 @@ In this module, you'll learn how to export C# Markup from a pre-existing Figma d
 
 ## Install the Uno Platform plugin for Figma
 
+<!--
 1. To export XAML or C# Markup from Figma, you'll need to install the Uno Platform plugin. To enable that you will need to create your own copy of the Uno Tube Player design.  
     In the top menu in the center of the screen click the little down arrow and select *Duplicate* or *Duplicate to your drafts* from the menu.
 
-    ![Figma top menu open](figma-menu-duplicate.jpg)
+    ![Figma top menu open](figma-menu-duplicate.jpg) -->
 
 1. Open the *Resources* menu (<kbd>Shift</kbd>+<kbd>I</kbd>) and navigate to the *Plugins* tab:
 
