@@ -16,6 +16,7 @@ public static UIElement VideoItemTemplate(YoutubeVideo youtubeVideo) =>
                         .Padding(8, 8, 8, 0)
                         .MaxHeight(288)
                         .MaxWidth(456)
+                        .AutoLayout(counterAlignment: AutoLayoutAlignment.Center)
                         .Children
                         (
                             new Border()
@@ -33,24 +34,16 @@ public static UIElement VideoItemTemplate(YoutubeVideo youtubeVideo) =>
                                 .Padding(0, 8)
                                 .Children
                                 (
-                                    new AutoLayout()
-                                        .CornerRadius(30)
-                                        .Orientation(Orientation.Horizontal)
+                                    new Border()
+                                        .Width(60)
                                         .Height(60)
+                                        .CornerRadius(6)
                                         .AutoLayout(counterAlignment: AutoLayoutAlignment.Center)
-                                        .Children
+                                        .Child
                                         (
-                                            new Border()
-                                                .Width(60)
-                                                .Height(60)
-                                                .CornerRadius(30)
-                                                .AutoLayout(counterAlignment: AutoLayoutAlignment.Start)
-                                                .Child
-                                                (
-                                                    new Image()
-                                                        .Source(() => youtubeVideo.Channel.Snippet?.Thumbnails?.Medium?.Url!)
-                                                        .Stretch(Stretch.UniformToFill)
-                                                )
+                                            new Image()
+                                                .Source(() => youtubeVideo.Channel.Snippet?.Thumbnails?.Medium?.Url!)
+                                                .Stretch(Stretch.UniformToFill)
                                         ),
                                     new AutoLayout()
                                         .PrimaryAxisAlignment(AutoLayoutAlignment.Center)
@@ -68,14 +61,14 @@ public static UIElement VideoItemTemplate(YoutubeVideo youtubeVideo) =>
                                                 .Foreground(Theme.Brushes.OnSurface.Medium)
                                         ),
                                     new Button()
-                                        .Foreground(Theme.Brushes.OnSurface.Medium)
+                                        .Foreground(Theme.Brushes.OnSurface.Variant.Default)
                                         .Style(Theme.Button.Styles.Icon)
                                         .AutoLayout(counterAlignment: AutoLayoutAlignment.Center)
                                         .Content
                                         (
                                             new PathIcon()
                                                 .Data(StaticResource.Get<Geometry>("Icon_Chevron_Right"))
-                                                .Foreground(Theme.Brushes.OnSurface.Medium)
+                                                .Foreground(Theme.Brushes.OnSurface.Variant.Default)
                                         )
                                 )
                         )
