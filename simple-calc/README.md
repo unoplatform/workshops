@@ -12,7 +12,7 @@ This app was developed using Uno Platform and draws inspiration from [@adolfomar
 - How to prepare your environment to build multi-platform apps with Uno Platform, whether you're using Visual Studio (Windows) or Visual Studio Code (Windows or Mac).
 - How to create a new solution using the Uno Platform [dotnet new template](https://www.nuget.org/packages/Uno.Templates) or the [Uno Platform Template Wizard](https://marketplace.visualstudio.com/items?itemName=unoplatform.uno-platform-addin-2022).
 - How to build your app using XAML or C# Markup.
-- How to build your app using Model-View-ViewModel (MVVM) or [Model-View-Update-eXtended](https://platform.uno/docs/articles/external/uno.extensions/doc/Overview/Reactive/overview.html) (MVUX).
+- How to build your app using Model-View-ViewModel (MVVM) or [Model-View-Update-eXtended](https://aka.platform.uno/mvux) (MVUX).
 - How to customize your app theme and dynamically trigger theme changes at runtime.
 
 This workshop has been set up to provide you with optional content to allow you to tailor the experience to your needs. You can choose to follow the path to create the SimpleCalculator project in one of 4 ways. If you don't know which to pick, start with XAML with MVUX and then if you have time, try one of the other paths.

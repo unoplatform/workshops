@@ -59,7 +59,7 @@ Due to its nature, XAML is often preferred by developers coming from a web backg
 
 ### C# Markup
 
-C# Markup is based on the desire of many developers to leverage better intellisense and strong typing that exists in C# code. With C# Markup we can build our UI entirely in C# using a generated set of fluent extensions that make it easier to build our UI. Additionally, when using [Uno Themes](https://platform.uno/docs/articles/external/uno.themes/doc/themes-overview.html) it becomes easier to discover available styles, colors, and brushes.
+C# Markup is based on the desire of many developers to leverage better intellisense and strong typing that exists in C# code. With C# Markup we can build our UI entirely in C# using a generated set of fluent extensions that make it easier to build our UI. Additionally, when using [Uno Themes](https://aka.platform.uno/uno-themes) it becomes easier to discover available styles, colors, and brushes.
 
 ## Presentation
 
