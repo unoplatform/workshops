@@ -111,7 +111,7 @@ using Path = Microsoft.UI.Xaml.Shapes.Path;
 
 1. In the generated C# code, skip the navigation bar and the search box parts, then select and copy the `AutoLayout` that follows, with all its descendants.
 
-1. Add a private static method named `VideoErrorTemplate` returning `UIElement` into the `MainPage` class.
+1. Add a private static method named `VideoNoneTemplate` returning `UIElement` into the `MainPage` class.
 
 1. Paste the content copied from Figma as the return value of the method.
 

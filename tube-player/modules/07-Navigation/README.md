@@ -13,9 +13,9 @@ The user can then navigate back to the previous search results page.
 
 Open the *App.cs* file, look for the `RegisterRoutes` method, and adjust the `DataViewMap` so that it uses `YoutubeVideo` instead of `Entity`. This is the data that will be passed on from `MainPage`.
 
-    ```csharp
-    new DataViewMap<VideoDetailsPage, VideoDetailsModel, YoutubeVideo>()
-    ```
+```csharp
+new DataViewMap<VideoDetailsPage, VideoDetailsModel, YoutubeVideo>()
+```
 
 ## Set up `MainPage` to navigate when a search result is clicked
 

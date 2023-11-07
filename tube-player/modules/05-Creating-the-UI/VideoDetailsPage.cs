@@ -62,7 +62,7 @@ public partial class VideoDetailsPage : Page
                                     .TransportControls
                                     (
                                         new MediaTransportControls()
-
+                                            .IsCompact(true)
                                     ),
                                 new ScrollViewer()
                                     .AutoLayout(primaryAlignment: AutoLayoutPrimaryAlignment.Stretch)
@@ -143,15 +143,13 @@ public partial class VideoDetailsPage : Page
                                                     .TextWrapping(TextWrapping.Wrap)
                                                     .Text(() => vm.Video.Channel.Snippet?.Description)
                                                     .Margin(16)
-                                                    .Width(400)
-                                                    .Foreground(Theme.Brushes.OnSurface.Medium)
+                                                    .Foreground(Theme.Brushes.OnSurface.Variant.Default)
                                                     .Style(Theme.TextBlock.Styles.BodySmall)
                                                     .AutoLayout(counterAlignment: AutoLayoutAlignment.Start)
-                                            )
                                     )
                             )
                     )
-            ))
+            )
             ;
     }
 }

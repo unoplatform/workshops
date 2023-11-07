@@ -9,7 +9,7 @@ In the previous modules, you've learned how to create a UI using C# Markup and s
 In this module, you will learn how to import a C# Markup UI from Figma.  
 Figma is a collaborative app UI design tool that allows users to create, share, and comment on designs in real-time. It then allows exporting the UI in selected markup language for developers to carry on with the pre-designed app.
 
-Uno Platform offers a Figma plugin that enables exporting the UI designed in Figma as both XAML and C# Markup.  
+Uno Platform offers a [Figma](https://aka.platform.uno/uno-figma) plugin that enables exporting the UI designed in Figma as both XAML and C# Markup.  
 In this module, you'll learn how to export C# Markup from a pre-existing Figma design for the Tube Player app, how to import it into the app you've started to create in the previous modules, and how to wire it up with the existing presentation model and the services it's interacting with.
 
 ## Open the Figma file and set up an account
@@ -42,7 +42,7 @@ In this module, you'll learn how to export C# Markup from a pre-existing Figma d
 
     ![Figma top menu open](figma-menu-duplicate.jpg) -->
 
-1. Open the *Resources* menu (<kbd>Shift</kbd>+</kbd>I</kbd>) and navigate to the *Plugins* tab:
+1. Open the *Resources* menu (<kbd>Shift</kbd>+<kbd>I</kbd>) and navigate to the *Plugins* tab:
 
     ![Figma plugins menu](figma-menu-plugins.jpg)
 

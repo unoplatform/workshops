@@ -1,4 +1,4 @@
-public static UIElement VideoNoneTemplate() =>
+private static UIElement VideoNoneTemplate() =>
     new AutoLayout()
         .Spacing(24)
         .PrimaryAxisAlignment(AutoLayoutAlignment.Center)

@@ -120,24 +120,16 @@ public partial class MainPage : Page
                                                                 .Padding(0, 8)
                                                                 .Children
                                                                 (
-                                                                    new AutoLayout()
-                                                                        .CornerRadius(30)
-                                                                        .Orientation(Orientation.Horizontal)
+                                                                    new Border()
+                                                                        .Width(60)
                                                                         .Height(60)
+                                                                        .CornerRadius(6)
                                                                         .AutoLayout(counterAlignment: AutoLayoutAlignment.Center)
-                                                                        .Children
+                                                                        .Child
                                                                         (
-                                                                            new Border()
-                                                                                .Width(60)
-                                                                                .Height(60)
-                                                                                .CornerRadius(30)
-                                                                                .AutoLayout(counterAlignment: AutoLayoutAlignment.Start)
-                                                                                .Child
-                                                                                (
-                                                                                    new Image()
+                                                                            new Image()
                                                                                         .Source(() => youtubeVideo.Channel.Snippet?.Thumbnails?.Medium?.Url!)
-                                                                                        .Stretch(Stretch.UniformToFill)
-                                                                                )
+                                                                                .Stretch(Stretch.UniformToFill)
                                                                         ),
                                                                     new AutoLayout()
                                                                         .PrimaryAxisAlignment(AutoLayoutAlignment.Center)
@@ -155,14 +147,14 @@ public partial class MainPage : Page
                                                                                 .Foreground(Theme.Brushes.OnSurface.Medium)
                                                                         ),
                                                                     new Button()
-                                                                        .Foreground(Theme.Brushes.OnSurface.Medium)
+                                                                        .Foreground(Theme.Brushes.OnSurface.Variant.Default)
                                                                         .Style(Theme.Button.Styles.Icon)
                                                                         .AutoLayout(counterAlignment: AutoLayoutAlignment.Center)
                                                                         .Content
                                                                         (
                                                                             new PathIcon()
                                                                                 .Data(StaticResource.Get<Geometry>("Icon_Chevron_Right"))
-                                                                                .Foreground(Theme.Brushes.OnSurface.Medium)
+                                                                                .Foreground(Theme.Brushes.OnSurface.Variant.Default)
                                                                         )
                                                                 )
                                                         )

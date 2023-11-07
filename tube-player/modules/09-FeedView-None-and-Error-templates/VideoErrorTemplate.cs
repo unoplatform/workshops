@@ -1,4 +1,4 @@
-public static UIElement VideoErrorTemplate() =>
+private static UIElement VideoErrorTemplate() =>
     new AutoLayout()
         .Spacing(8)
         .PrimaryAxisAlignment(AutoLayoutAlignment.Center)

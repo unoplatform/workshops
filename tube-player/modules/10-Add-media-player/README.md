@@ -51,7 +51,11 @@ The previous interface is a Refit service. You will now register it with Refit. 
 
 ## Utilize `IYoutubePlayerEndpoint` in `VideoDetailsModel`
 
-1. Open the file *VideoDetailsModel.cs* and add a property of type `IYoutubePlayerEndpoint` named `YoutubeClient` to it (via the record constructor, like the `Video` property).
+1. Open the file *VideoDetailsModel.cs* and add a property of type `IYoutubePlayerEndpoint` named `YoutubeClient` to it (via the record constructor, like the `Video` property):
+
+    ```csharp
+    public partial record VideoDetailsModel(YoutubeVideo Video, IYoutubePlayerEndpoint YoutubeClient)
+    ```
 
 1. Add the following method to the record:
 
@@ -90,7 +94,7 @@ The previous interface is a Refit service. You will now register it with Refit. 
     }
     ```
 
-1. Replace the `VideoSource` property declaration line with the following one:
+1. Replace the `VideoSource` property declaration line with the following:
 
     ```csharp
     public IFeed<MediaSource> VideoSource => Feed.Async(GetVideoSource);
@@ -124,7 +128,7 @@ protected async override void OnNavigatingFrom(NavigatingCancelEventArgs e)
 {
     base.OnNavigatingFrom(e);
 
-    YoutubePlayer.MediaPlayer.Pause();
+    youtubePlayer?.MediaPlayer.Pause();
 }
 ```
 

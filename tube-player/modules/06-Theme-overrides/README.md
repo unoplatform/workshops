@@ -118,6 +118,6 @@ You can achieve this in the following two ways:
 
 ## Next steps
 
-Keep Figma open, as we will be importing additional templates from it in [Module 10 - FeedView templates](xref:Workshop.TubePlayer.FeedView)
+Keep Figma open, as we will be importing additional templates from it in [Module 9 - FeedView templates](xref:Workshop.TubePlayer.FeedView)
 
 **[Previous](xref:Workshop.TubePlayer.UI "Creating the UI")** | **[Next](xref:Workshop.TubePlayer.Navigation "Navigation")**
