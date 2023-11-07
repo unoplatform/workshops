@@ -1,6 +1,9 @@
 items:
 - name: 01 - Getting Started
   href: modules/01-Getting-started/README.md
+  items:
+  - name: YouTube API Key Instructions
+    href: modules/01-Getting-started/google-api-key.md
 - name: 02 - Creating basic UI layout with C# markup
   href: modules/02-Creating-basic-layout-with-C-markup/README.md
 - name: 03 - Connect UI with mock data
