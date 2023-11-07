@@ -149,7 +149,6 @@ public partial class VideoDetailsPage : Page
                                     )
                             )
                     )
-            )
-            ;
+            )));
     }
 }
