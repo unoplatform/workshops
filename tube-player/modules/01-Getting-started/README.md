@@ -86,7 +86,7 @@ This template will be used in the next section to create the starting point for 
 
 The purpose of the application to be built in this workshop is to search for, and play, YouTube videos. To query this data from YouTube, a YouTube API v3 needs to be obtained. This is optional, and the workshop can be completed without a key, but you will not be able to search for or play videos.
 
-Follow the [Google API Key Instructions](xref:Workshop.TubePlayer.GetStarted.ApiKey target=_blank) to obtain a YouTube Data API v3 key.
+Follow the [Google API Key Instructions](xref:Workshop.TubePlayer.GetStarted.ApiKey) to obtain a YouTube Data API v3 key.
 
 ## Creating the project
 
@@ -99,7 +99,7 @@ In the following sections, we will cover both methods for creating a new Uno app
 
 [!INCLUDE [Template wizard](templates-wizard.md)]
 
-# [Visual Studio Code or other](#tab/vscode)
+# [Visual Studio Code](#tab/vscode)
 
 [!INCLUDE [Template CLI](templates-cli.md)]
 
