@@ -2,7 +2,7 @@
 uid: Workshop.TubePlayer.Figma
 ---
 
-# Module 5 - Importing UI from Figma
+# Module 4 - Importing UI from Figma
 
 In the previous modules, you've learned how to create a UI using C# Markup and set up bindings to the underlying models that request data from data services.
 
