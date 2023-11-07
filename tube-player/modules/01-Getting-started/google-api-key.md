@@ -2,10 +2,9 @@
 uid: Workshop.TubePlayer.GetStarted.ApiKey
 ---
 
-<details>
-    <summary>Detailed instructions on obtaining a YouTube API key</summary>
+# YouTube API Key Instructions.
 
-### Create a new project in Google Console
+## Create a new project in Google Console
 
 1. Open the [Enabled APIs and services](https://console.cloud.google.com/apis/dashboard) page in the Google Console Dashboard.
 
@@ -30,7 +29,7 @@ uid: Workshop.TubePlayer.GetStarted.ApiKey
 
     If you can't see the project, try refreshing the page.
 
-### Enable YouTube APIs for this project
+## Enable YouTube APIs for this project
 
 1. If you are not already, navigate back to the *Enabled APIs and services page*, and click *Enable APIs and services*
 
@@ -44,7 +43,7 @@ uid: Workshop.TubePlayer.GetStarted.ApiKey
 
     ![Google Console Enable API button](google-console-07-enable-api.jpg)
 
-### Obtain an API key
+## Obtain an API key
 
 1. Once YouTube Data API v3 has been enabled, [its page](https://console.cloud.google.com/apis/api/youtube.googleapis.com) will open.
 
@@ -63,5 +62,3 @@ uid: Workshop.TubePlayer.GetStarted.ApiKey
 1. You can always access the API key via the credentials menu on the left side.
 
     ![Google Console copy API key](google-console-11-credentials-page.jpg)
-
-</details>
