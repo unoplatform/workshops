@@ -4,6 +4,8 @@ uid: Workshop.TubePlayer.GetStarted.ApiKey
 
 # YouTube API Key Instructions.
 
+In the following steps, we will walk you through [this tutorial](https://developers.google.com/youtube/v3/getting-started), and provide you with detailed screenshots on how to obtain a YouTube Data API v3 key, required for this workshop.
+
 ## Create a new project in Google Console
 
 1. Open the [Enabled APIs and services](https://console.cloud.google.com/apis/dashboard) page in the Google Console Dashboard.

@@ -86,10 +86,7 @@ This template will be used in the next section to create the starting point for 
 
 The purpose of the application to be built in this workshop is to search for, and play, YouTube videos. To query this data from YouTube, a YouTube API v3 needs to be obtained. This is optional, and the workshop can be completed without a key, but you will not be able to search for or play videos.
 
-In the following steps, we will walk you through [this tutorial](https://developers.google.com/youtube/v3/getting-started), and provide you with detailed screenshots on how to obtain a YouTube Data API v3 key.
-
-<!-- [!INCLUDE [Google API key instructions](google-api-key.md)] -->
-[Google API Key Instructions](xref:Workshop.TubePlayer.GetStarted.ApiKey)
+Follow the [Google API Key Instructions](xref:Workshop.TubePlayer.GetStarted.ApiKey target=_blank) to obtain a YouTube Data API v3 key.
 
 ## Creating the project
 
