@@ -149,7 +149,7 @@ You will now register the `YoutubeServiceMock` to be provided every time an `IYo
 
 1. In the *VideoDetailsPage.cs*, remove the `Text` extension method for now, as its binding depends on the `Entity` property we've just removed.
 
-    ```csharp
+    ```diff
      new TextBlock()
     -    .Text(() => vm.Entity.Name)
          .HorizontalAlignment(HorizontalAlignment.Center)
