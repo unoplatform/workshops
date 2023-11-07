@@ -88,7 +88,8 @@ The purpose of the application to be built in this workshop is to search for, an
 
 In the following steps, we will walk you through [this tutorial](https://developers.google.com/youtube/v3/getting-started), and provide you with detailed screenshots on how to obtain a YouTube Data API v3 key.
 
-[!INCLUDE [Google API key instructions](google-api-key.md)]
+<!-- [!INCLUDE [Google API key instructions](google-api-key.md)] -->
+[Google API Key Instructions](xref:Workshop.TubePlayer.GetStarted.ApiKey){:target="_blank"}
 
 ## Creating the project
 
