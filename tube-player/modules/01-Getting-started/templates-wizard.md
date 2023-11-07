@@ -3,17 +3,18 @@ uid: Workshop.TubePlayer.GetStarted.TemplatesWizard
 ---
 
 
-The Uno Platform solution template wizard guides you through generating a new project and enables you to customize it and select the options suitable for your project.  
+The Uno Platform Template Wizard guides you through generating a new project and enables you to customize it and select the options suitable for your project, without having to remember the command line parameters.
+
+
 In this project we'll create a customized blank template that includes the following features and extensions:
 
+- Net8.0
 - C# markup
 - MVUX framework
 - Material theme
 - DSP import for theme color overrides
 - Dependency Injection, Configuration and Navigation extensions
 - Uno Toolkit
-
-The HTTP and Refit extension will be added manually at [a later stage](xref:Workshop.TubePlayer.ApiEndpoints).
 
 To generate your project, hit <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> (File → New → Project) and select 'Uno Platform App' from the options window. You can search for 'Uno' if it's not instantly visible.
 
@@ -29,6 +30,7 @@ The upcoming page will enable you to select additional features.
 
 ![Uno Platform template wizard customize page](template-wizard-customize.jpg)
 
+- In ***Framework*** tab select *Net8.0*.
 - In ***Presentation*** tab select *MVUX*.
 - In ***Markup*** tab select *C# Markup*.
 - In ***Theme*** tab select *Material* and check *Import DSP*.

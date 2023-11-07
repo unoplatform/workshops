@@ -46,7 +46,7 @@ This extension includes the Uno Platform solution and item templates.
 
 ![Visual Studio extensions Manager](vs-2022-extension.jpg)
 
-# [Visual Studio Code or others](#tab/vscode)
+# [Visual Studio Code](#tab/vscode)
 
 If you're using Visual Studio Code, make sure to install the latest version of the Uno Platform extension [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=unoplatform.vscode)
 
@@ -107,9 +107,13 @@ In the following sections, we will cover both methods for creating a new Uno app
 
 ---
 
-You might be asked to reload the IDE before the projects are fully loaded. Click reload if you see this message.
+If you open the newly created application in Visual Studio, you might be asked to reload projects before the solution is fully loaded. Click `Reload projects` if you see this message.
 
 ![Visual Studio Reload message](vs-reload-message.jpg)  
+
+## Preparing the Solution
+
+Before we jump into building out the functionality of the TubePlayer application, we'll do a few house-keeping steps to prepare the solution for the rest of the workshop.
 
 ## Rename files
 
@@ -130,7 +134,7 @@ You might be asked to reload the IDE before the projects are fully loaded. Click
     new RouteMap("VideoDetails", View: views.FindByViewModel<VideoDetailsModel>()),
     ```
 
-As explained [in the intro](xref:Workshop.TubePlayer.Overview#tube-player-workshop), the app will consist of two pages, a search page, and a video-player page. *MainPage.cs* and *MainModel.cs* will be used as the search page, whereas *VideoDetailsPage.cs* and *VideoDetailsModel.cs* to display additional video details and the media player.
+The TubePlayer app will consist of two pages, a search page, and a video-player page. *MainPage.cs* and *MainModel.cs* will be used as the search page. *VideoDetailsPage.cs* and *VideoDetailsModel.cs* will be used to display additional video details and play the video using a media player element.
 
 ## Running the application
 
@@ -154,7 +158,7 @@ To learn more about debugging the app on different platforms read this:
 
 [Debug in Visual Studio](xref:Uno.GetStarted.vs2022#create-an-application)
 
-# [Visual Studio Code or others](#tab/vscode)
+# [Visual Studio Code](#tab/vscode)
 
 [Debug in Visual Studio Code](xref:Uno.GetStarted.vscode#run-and-debug-application)
 
