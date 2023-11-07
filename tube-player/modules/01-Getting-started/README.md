@@ -4,45 +4,45 @@ uid: Workshop.TubePlayer.GetStarted
 
 # Module 1 - Getting Started
 
-Uno Platform provides a multi-platform solution for building native apps for iOS, Android, Windows, macOS, Web, as well as Linux.
+The Uno Platform is a multi-platform solution for building native apps for iOS, Android, Windows, macOS, Web, and Linux.
 
-This module will walk you through the process of getting started with Uno Platform and creating a project using either the template wizard or the dotnet new template, that includes features to serve the requirements of this workshop.
-
-If you are new to the Uno Platform, you may also want to check out [Uno Docs - Get Started](xref:Uno.GetStarted).
+This module will walk you through the process of getting started with Uno Platform and creating a project, using either the template wizard or the dotnet new template, that will be used for the rest of this workshop.
 
 ## Setting up the Environment
 
-### Use Uno Check to verify your system is Uno Platform ready
+Building native applications requires a few tools to be installed on your machine. The following sections will walk you through the process of installing these tools and verifying that your environment is ready to go.
 
-If you are using Visual Studio, depending on the workloads that you have installed, your environment may already be ready to go. As a best practice or to help solve issues following Visual Studio updates, we recommend that you run the Uno Check tool to ensure that your environment is fully set up for Uno Platform app development.
+### Uno Check
+
+Before getting started with development, we recommend that you run the Uno Check tool to ensure that your environment is set up correctly for Uno Platform app development. This tool will check for the required workloads and SDKs, and will also check for any known issues with your environment.
 
 1. Execute the following command in the command line terminal (the current folder of the terminal doesn't matter):
 
-    ```bash
+    ```
     dotnet tool install --global Uno.Check
     ```
 
     If the tool is already installed, replace `install` with `update`.
 
-    [Click here](xref:UnoCheck.UsingUnoCheck) to view the Uno Check tool docs.
 
 1. Once installed, run the tool by executing the following command:
 
-    ```bash
+    ```
     uno-check
     ```
 
 > [!NOTE]  
 > You may need to take additional steps if trying to build the Linux or GTK heads on Windows.
-> Be sure to follow the [Additional setup for Linux or WSL](xref:Uno.GetStarted.Linux) docs.
+> Be sure to follow the [Additional setup for Linux or WSL](xref:Uno.GetStarted.Linux) docs.  
 
-### Installing Uno Platform extensions and templates
+
+### Uno Platform Extensions and Templates
 
 # [Visual Studio](#tab/vs)
 
-Make sure the latest version of the [Uno Platform extension for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=unoplatform.uno-platform-addin-2022) is installed, by following [these instructions](xref:Uno.GetStarted.vs2022#install-the-solution-templates).
+For the best developer experience inside Visual Studio when creating an Uno Platform application, install the [Uno Platform extension for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=unoplatform.uno-platform-addin-2022) by following [these instructions](xref:Uno.GetStarted.vs2022#install-the-solution-templates).
 
-This extension includes the Uno Platform project templates.
+This extension includes the Uno Platform solution and item templates.
 
 ![Visual Studio extensions Manager](vs-2022-extension.jpg)
 
@@ -58,6 +58,7 @@ We will also install Uno Platform project templates using the command line inter
 dotnet new install Uno.Templates
 ```
 
+
 > [!NOTE]  
 > Make sure the latest version of the Uno.Templates version is installed.
 > If you have already installed this in the past, you can update the current templates by running the following:
@@ -66,17 +67,24 @@ dotnet new install Uno.Templates
 > dotnet new update
 > ```
 
+Alternatively, from within Visual Studio Code, you can also install the templates by selecting the `Install  the dotnet new templates` option in the Command Palette.
+
+![Command Palette](vs-code-templates.jpg)
+
+
 Now that the templates are installed we can list the options for the `unoapp` template with the following command:
 
 ```bash
 dotnet new unoapp -?
 ```
 
+This template will be used in the next section to create the starting point for the application to be used in the rest of this workshop.
+
 ---
 
-## Obtaining a YouTube Data API v3 Key [optional]
+### Obtaining a YouTube Data API v3 Key [optional]
 
-This app will eventually search and play YouTube videos. To query this data from YouTube, a YouTube API v3 needs to be obtained. You can skip this part if you prefer running the app with local sample search data instead.
+The purpose of the application to be built in this workshop is to search for, and play, YouTube videos. To query this data from YouTube, a YouTube API v3 needs to be obtained. This is optional, and the workshop can be completed without a key, but you will not be able to search for or play videos.
 
 In the following steps, we will walk you through [this tutorial](https://developers.google.com/youtube/v3/getting-started), and provide you with detailed screenshots on how to obtain a YouTube Data API v3 key.
 
@@ -89,7 +97,7 @@ The other one is to use the dotnet new `unoapp` template, which enables customiz
 
 In the following sections, we will cover both methods for creating a new Uno app, providing step-by-step instructions for each.
 
-# [Using the Uno Platform solution template wizard for VS](#tab/vs)
+# [Visual Studio](#tab/vs)
 
 [!INCLUDE [Template wizard](templates-wizard.md)]
 
@@ -154,6 +162,8 @@ To learn more about debugging the app on different platforms read this:
 
 ## Additional Resources
 
-- [Uno Docs - Getting Started](xref:Uno.GetStarted)
+- [Uno Documentation - Getting Started](xref:Uno.GetStarted)
+- [Uno Documentation - Uno Check](xref:UnoCheck.UsingUnoCheck)
+this tutorial,
 
 **[Next](xref:Workshop.TubePlayer.BasicLayout "Creating basic UI layout with C# Markup")**
