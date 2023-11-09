@@ -10,35 +10,30 @@ Figma is a collaborative app UI design tool that allows users to create, share, 
 Uno Platform offers a Figma plugin that enables exporting the UI designed in Figma as both XAML and C# Markup.
 In this module, you'll learn how to export the UI from a pre-existing Figma design for the SimpleCalculator app, and how to import it into the app you've started to create in the previous modules.
 
-## Open the Figma file and set up an account
+## Opening the Figma file and setting up an account
 
-1. Open the SimpleCalculator Figma file via [this link](https://aka.platform.uno/uno-figma-simplecalc-workshop).
+1. Use [this link](https://aka.platform.uno/uno-figma-simplecalc-workshop) to access the Figma file for the Simple Calculator project. When you click on the link, it will take you to the Simple Calculator community file, where you can proceed to open it in Figma.
 
-1. If you are not signed in with Figma, you will be asked to do so. Create an account if you don't have one. Follow the instructions to sign up with your Google account or use a username and password.
+Note: If you are not currently signed in to Figma, you will be prompted to do so. If you don't have an account, you can create one by following the instructions to sign up with your Google account or using a username and password.
 
     ![Figma sign-in page](../../art/figma-sign-in.jpg)
 
-## Install the Uno Platform plugin for Figma
+## Installing the Uno Platform plugin for Figma
 
-1. The SimpleCalculator design will open in Figma, displaying the Cover page:
+2.	The SimpleCalculator file will open in Figma, displaying the Cover page. To export the generated code from the Simple Calculator UI, you'll need to install the Uno Platform plugin. 
 
    ![Figma menu plugin](../../art/figma-cover.png)
 
-1. To export the UI from Figma, you'll need to install the Uno Platform plugin. To enable that you will need to create your own copy of the SimpleCalculator design.  
-    In the top menu in the center of the screen click the little down arrow and select *Duplicate to your drafts* from the menu.
-
-   ![Figma menu plugin](../../art/figma-duplicate-drafts.png)
-
-1. The duplicated file will open in a new tab and additional menu items and controls will appear on the Figma ribbon.
-
-    ![Figma menu plugin](../../art/figma-menu-plugin.png)
-
-1. In the search box enter "Uno Platform (Figma-To-XAML)". Launch the plugin by clicking the Uno Platform plugin.
+3.	From within the Simple Calculator Figma file, navigate to the "Resources" tab, and under plugins, search for "Uno Platform (Figma to C# and XAML).
 
     ![Figma Plugin Launch](../../art/figma-plugin-launch.png)
 
-## Export the UI
+4.	Install the plugin by clicking "Run" or "Try it out” from the community page.
 
-1. The page designed in the SimpleCalculator design in Figma is listed in the left-side navigation bar. Select **Simple Calculator design**, then select **Simple Calc** (either Dark or Light version) option that appears at the bottom of the sidebar.
+    ![Figma Plugin Launch](../../art/figma-run-plugin.png)
+
+## Exporting the UI
+
+1.	In the left-side navigation bar, locate the Simple Calculator UI design by selecting the "Calculator" page, and within the layers, choose either the "Dark" or "Light" version.
 
 ![Select Figma Design](../../art/figma-select-design.png)

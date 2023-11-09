@@ -4,7 +4,7 @@ uid: Workshop.SimpleCalc.Figma.Conclusion
 
 ## Run the app
 
-Run the app (<kbd>F5</kbd> on Visual Studio) and observe the UI, it should look similar to the following:
+Run the app (<kbd>F5</kbd> on Visual Studio) and observe the UI. It should resemble the example below:
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../../../art/Dark/app-looks.png">
@@ -14,4 +14,4 @@ Run the app (<kbd>F5</kbd> on Visual Studio) and observe the UI, it should look 
 
 ## Next Step
 
-The next module offers an alternative way to import the UI code without Figma. Since you've already imported the UI, you may skip to Module 4, where you will add the app architecture.
+The next module offers an alternative way to import the UI code without using Figma. Since you've already imported the UI, you can skip to Module 4, where you will add the app architecture.

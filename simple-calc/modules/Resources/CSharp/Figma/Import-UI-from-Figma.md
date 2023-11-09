@@ -4,13 +4,17 @@ uid: Workshop.SimpleCalc.Figma.CSharp
 
 [!include[Setting up Figma Plugin](../../../Import-UI-from-Figma/Intro.md)]
 
-2. Open the Export tab, select C#, then click Refresh (the circled arrow button on the bottom).
+2.	Run the plugin by right-clicking on the design and selecting "Plugins" > Uno Platform (Figma to C# or XAML).
+
+7.	Once the plugin is running, select the "Export" tab, and choose "C#" as your export language, then click "Refresh" (the circular arrow button at the bottom).
 
 ![Figma menu plugin](../../../../art/figma-plugin-export-csharp.png)
 
-3. Select all contents starting from the line following `this` and ending at the semicolon (;).
+8.	Select all the code starting from the line following `this` and ending at the semicolon (;).
 
 ![Figma Export](../../../../art/figma-export-csharp.png)
+
+9.	Copy the selected code to your clipboard (CTRL+C on Windows).
 
 <details>
     <summary><i>MainPage.cs</i> code contents (collapsed for brevity)</summary>
@@ -20,9 +24,12 @@ uid: Workshop.SimpleCalc.Figma.CSharp
 
 4. Copy the selected code to the clipboard (<kbd>Ctrl</kbd>+<kbd>C</kbd> on Windows).
 
-5. Open MainPage.cs and replace all the Page contents with the copied code.
+5. Open MainPage.cs and replace all the existing code following `this` and ending at the semicolon (;) with the copied code.
 
-6. To set the appropriate font size for all buttons, access the MaterialFontsOverride.cs file in the Style folder. Go to the Figma Plugin, in the Export tab, and select Fonts Override File from the dropdown menu. Copy the content in the ResourceDictionary and replace it in your MaterialFontsOverride.cs.
+6.	To set the appropriate font size for all buttons, go to the Figma Plugin in the "Export" tab, select "Fonts Override File" from the dropdown menu, and copy the content in the ResourceDictionary.
+
+7. Access the "MaterialFontsOverride.cs" file in the "Style" folder and replace it with your "MaterialFontsOverride.cs."
+
 
 ![Figma Export](../../../../art/figma-export-fonts-csharp.png)
 
@@ -32,7 +39,7 @@ uid: Workshop.SimpleCalc.Figma.CSharp
 [!code-csharp[MaterialFontsOverride.cs](MaterialFontsOverride.cs)]
 </details>
 
-7. Now we need to prepare our UI with the Binding expressions that we will need in the App Architecture module. First let's add the `DataContext` to the page. To do so add `.DataContext(new TempDataContext(), (page, vm) => page` before the `.Content` definition. Ensure to properly terminate the DataContext with a closing `)` preceding the semicolon at the end of the page's code.
+8. Now we need to prepare our UI with the Binding expressions that we will need in the App Architecture module. First let's add the `DataContext` to the page. To do so add `.DataContext(new TempDataContext(), (page, vm) => page` before the `.Content` definition. Ensure to properly terminate the DataContext with a closing `)` preceding the semicolon at the end of the page's code.
 
 ```csharp
 this
