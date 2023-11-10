@@ -21,7 +21,7 @@ In this module, you'll learn how to export the UI from a pre-existing Figma desi
 
 ## Installing the Uno Platform plugin for Figma
 
-2.	The SimpleCalculator file will open in Figma, displaying the Cover page. To export the generated code from the Simple Calculator UI, you'll need to install the Uno Platform plugin. 
+1. The SimpleCalculator file will open in Figma, displaying the Cover page. To export the generated code from the Simple Calculator UI, you'll need to install the Uno Platform plugin. 
 
    ![Figma menu plugin](../../art/figma-cover.png)
 
