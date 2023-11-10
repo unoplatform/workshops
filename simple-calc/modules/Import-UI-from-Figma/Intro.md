@@ -12,7 +12,7 @@ In this module, you'll learn how to export the UI from a pre-existing Figma desi
 
 ## Opening the Figma file and setting up an account
 
-1. Use [this link](https://aka.platform.uno/uno-figma-simplecalc-workshop) to access the Figma file for the Simple Calculator project. When you click on the link, it will take you to the Simple Calculator community file, where you can proceed to open it in Figma.
+1. Use [this link](https://aka.platform.uno/uno-figma-simplecalc-workshop) to access the Figma file for the Simple Calculator project. The link will take you to the Simple Calculator community file, where you can proceed to open it in Figma.
 
 Note: If you are not currently signed in to Figma, you will be prompted to do so. If you don't have an account, you can create one by following the instructions to sign up with your Google account or using a username and password.
 
