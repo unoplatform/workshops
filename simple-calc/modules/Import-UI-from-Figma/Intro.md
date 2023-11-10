@@ -35,6 +35,6 @@ In this module, you'll learn how to export the UI from a pre-existing Figma desi
 
 ## Exporting the UI
 
-1.	In the left-side navigation bar, locate the Simple Calculator UI design by selecting the "Calculator" page, and within the layers, choose either the "Dark" or "Light" version.
+1. In the left-side navigation bar, locate the Simple Calculator UI design by selecting the *Calculator* page, and within the layers, choose either the *Dark* or *Light* version.
 
 ![Select Figma Design](../../art/figma-select-design.png)
