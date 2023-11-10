@@ -25,7 +25,7 @@ In this module, you'll learn how to export the UI from a pre-existing Figma desi
 
    ![Figma menu plugin](../../art/figma-cover.png)
 
-3.	From within the Simple Calculator Figma file, navigate to the "Resources" tab, and under plugins, search for "Uno Platform (Figma to C# and XAML).
+1. From within the Simple Calculator Figma file, navigate to the "Resources" tab, and under plugins, search for "Uno Platform (Figma to C# and XAML).
 
     ![Figma Plugin Launch](../../art/figma-plugin-launch.png)
 
