@@ -29,7 +29,7 @@ In this module, you'll learn how to export the UI from a pre-existing Figma desi
 
     ![Figma Plugin Launch](../../art/figma-plugin-launch.png)
 
-4.	Install the plugin by clicking "Run" or "Try it out” from the community page.
+1. Install the plugin by clicking "Run" or "Try it out” from the community page.
 
     ![Figma Plugin Launch](../../art/figma-run-plugin.png)
 
