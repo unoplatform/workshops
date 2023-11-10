@@ -31,7 +31,7 @@ uid: Workshop.SimpleCalc.Figma.CSharp
 7. Access the "MaterialFontsOverride.cs" file in the "Style" folder and replace it with your "MaterialFontsOverride.cs."
 
 
-![Figma Export](../../../../art/figma-export-fonts-csharp.png)
+    ![Figma Export](../../../../art/figma-export-fonts-csharp.png)
 
 <details>
     <summary><i>MaterialFontsOverride.cs</i> code contents (collapsed for brevity)</summary>
