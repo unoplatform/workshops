@@ -8,7 +8,7 @@ uid: Workshop.SimpleCalc.Figma.CSharp
 
 7.	Once the plugin is running, select the "Export" tab, and choose "C#" as your export language, then click "Refresh" (the circular arrow button at the bottom).
 
-![Figma menu plugin](../../../../art/figma-plugin-export-csharp.png)
+    ![Figma menu plugin](../../../../art/figma-plugin-export-csharp.png)
 
 8.	Select all the code starting from the line following `this` and ending at the semicolon (;).
 
