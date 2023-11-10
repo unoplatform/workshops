@@ -24,7 +24,7 @@ uid: Workshop.SimpleCalc.Figma.CSharp
 
 4. Copy the selected code to the clipboard (<kbd>Ctrl</kbd>+<kbd>C</kbd> on Windows).
 
-5. Open MainPage.cs and replace all the existing code following `this` and ending at the semicolon (;) with the copied code.
+5. Open *MainPage.cs* and replace all the existing code following `this` and ending at the semicolon (`;`) with the copied code.
 
 6.	To set the appropriate font size for all buttons, go to the Figma Plugin in the "Export" tab, select "Fonts Override File" from the dropdown menu, and copy the content in the ResourceDictionary.
 
