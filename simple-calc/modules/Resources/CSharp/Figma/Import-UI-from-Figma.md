@@ -12,7 +12,7 @@ uid: Workshop.SimpleCalc.Figma.CSharp
 
 8.	Select all the code starting from the line following `this` and ending at the semicolon (;).
 
-![Figma Export](../../../../art/figma-export-csharp.png)
+    ![Figma Export](../../../../art/figma-export-csharp.png)
 
 9.	Copy the selected code to your clipboard (CTRL+C on Windows).
 
