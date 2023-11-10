@@ -4,7 +4,7 @@ uid: Workshop.SimpleCalc.Figma.CSharp
 
 [!include[Setting up Figma Plugin](../../../Import-UI-from-Figma/Intro.md)]
 
-2.	Run the plugin by right-clicking on the design and selecting "Plugins" > Uno Platform (Figma to C# or XAML).
+2. Run the plugin by right-clicking on the design and selecting *Plugins* > *Uno Platform (Figma to C# or XAML)*.
 
 7.	Once the plugin is running, select the "Export" tab, and choose "C#" as your export language, then click "Refresh" (the circular arrow button at the bottom).
 
