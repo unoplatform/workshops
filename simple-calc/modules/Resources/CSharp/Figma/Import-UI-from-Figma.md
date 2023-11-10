@@ -28,7 +28,7 @@ uid: Workshop.SimpleCalc.Figma.CSharp
 
 6.	To set the appropriate font size for all buttons, go to the Figma Plugin in the "Export" tab, select "Fonts Override File" from the dropdown menu, and copy the content in the ResourceDictionary.
 
-7. Access the "MaterialFontsOverride.cs" file in the "Style" folder and replace it with your "MaterialFontsOverride.cs."
+7. Access the *MaterialFontsOverride.cs* file in the *Style* folder and replace it with your *MaterialFontsOverride.cs* file.
 
 
     ![Figma Export](../../../../art/figma-export-fonts-csharp.png)
