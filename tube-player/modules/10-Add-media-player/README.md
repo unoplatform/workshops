@@ -49,12 +49,74 @@ The previous interface is a Refit service. You will now register it with Refit. 
 +    .AddRefitClient<IYoutubePlayerEndpoint>(context);
 ```
 
-## Utilize `IYoutubePlayerEndpoint` in `VideoDetailsModel`
+## Update `IYoutubeService` interface
 
-1. Open the file *VideoDetailsModel.cs* and add a property of type `IYoutubePlayerEndpoint` named `YoutubeClient` to it (via the record constructor, like the `Video` property):
+1. Open the *IYoutubeService.cs* file and add the following method to the interface:
 
     ```csharp
-    public partial record VideoDetailsModel(YoutubeVideo Video, IYoutubePlayerEndpoint YoutubeClient)
+    Task<string?> GetVideoSourceUrl(string userId, CancellationToken ct);
+    ```
+
+## Update `YoutubeService` to use `IYoutubePlayerEndpoint`
+
+1. Open the *YoutubeService.cs* file
+
+1. Create a new private field of type `IYoutubePlayerEndpoint` and assign it to the parameter in the constructor:
+
+    ```csharp
+    private readonly IYoutubePlayerEndpoint _playerClient;
+
+    public YoutubeService(IYoutubeEndpoint client, IYoutubePlayerEndpoint playerClient)
+    {
+        _client = client;
+        _playerClient = playerClient;
+    }
+    ```
+
+1. Implement the method added to the interface using the following code:
+
+    ```csharp
+    public async Task<string?> GetVideoSourceUrl(string videoId, CancellationToken ct)
+    {
+        var streamVideo = $$"""
+                {
+                    "videoId": "{{videoId}}",
+                    "context": {
+                        "client": {
+                            "clientName": "ANDROID_TESTSUITE",
+                            "clientVersion": "1.9",
+                            "androidSdkVersion": 30,
+                            "hl": "en",
+                            "gl": "US",
+                            "utcOffsetMinutes": 0
+                        }
+                    }
+                }
+                """;
+
+        // Get the available stream data
+        var streamData = await _playerClient.GetStreamData(streamVideo, ct);
+
+        // Get the video stream with the highest video quality
+        var streamWithHighestVideoQuality = streamData.Content?.
+                                                        StreamingData?
+                                                        .Formats?
+                                                        .OrderByDescending(s => s.QualityLabel)
+                                                        .FirstOrDefault();
+
+        // Get the stream URL
+        var streamUrl = streamWithHighestVideoQuality?.Url;
+
+        return streamUrl;
+    }
+    ```
+
+## Utilize `IYoutubeService` in `VideoDetailsModel`
+
+1. Open the file *VideoDetailsModel.cs* and add a property of type `IYoutubeService` named `YoutubeService` to it (via the record constructor, like the `Video` property):
+
+    ```csharp
+    public partial record VideoDetailsModel(YoutubeVideo Video, IYoutubeService YoutubeService)
     ```
 
 1. Add the following method to the record:
@@ -62,35 +124,10 @@ The previous interface is a Refit service. You will now register it with Refit. 
     ```csharp
     private async ValueTask<MediaSource> GetVideoSource(CancellationToken ct)
     {
-        var streamVideo = 
-            $$"""
-            {
-                "videoId": "{{Video.Id}}",
-                "context": {
-                    "client": {
-                        "clientName": "ANDROID_TESTSUITE",
-                        "clientVersion": "1.9",
-                        "androidSdkVersion": 30,
-                        "hl": "en",
-                        "gl": "US",
-                        "utcOffsetMinutes": 0
-                    }
-                }
-            }
-            """;
-    
-        // Get the available stream data
-        var streamData = await YoutubeClient.GetStreamData(streamVideo);
-    
-        // Get the video stream with the highest video quality
-        var streamWithHighestVideoQuality = streamData.Content?.StreamingData?.Formats?.OrderByDescending(s => s.QualityLabel).FirstOrDefault() ??
-            throw new InvalidOperationException("Input stream collection is empty.");
-    
-        // Get the stream URL
-        var streamUrl = streamWithHighestVideoQuality.Url;
+         var streamUrl = await YoutubeService.GetVideoSourceUrl(Video?.Id, ct) ?? throw new InvalidOperationException("Input stream collection is empty.");
     
         // Return the MediaSource using the stream URL
-        return MediaSource.CreateFromUri(new Uri(streamUrl!));
+        return MediaSource.CreateFromUri(new Uri(streamUrl));
     }
     ```
 
@@ -100,7 +137,20 @@ The previous interface is a Refit service. You will now register it with Refit. 
     public IFeed<MediaSource> VideoSource => Feed.Async(GetVideoSource);
     ```
 
-## Add player to layout
+## Update the `YoutubeServiceMock`
+
+Since we updated the `IYoutubeService` interface, we need to update the mock implementation as well.
+
+1. Open the *YoutubeServiceMock.cs* file and add the following method to the class:
+
+    ```csharp
+    public Task<string?> GetVideoSourceUrl(string videoId, CancellationToken ct)
+    {
+        return Task.FromResult<string?>(null);
+    }  
+    ```
+
+## Add Player to layout
 
 1. Open the *VideoDetailsPage.cs* file, and add the following variable to the top of the file (right after class opening):
 
