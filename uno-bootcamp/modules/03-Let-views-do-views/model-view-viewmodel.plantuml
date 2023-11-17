@@ -1,7 +1,0 @@
-@startuml
-skinparam monochrome true
-View <--> ViewModel: Data Binding and Commands
-View <--> ViewModel: Sends Change Notifications
-ViewModel --> Model: View Model updates the Model
-ViewModel <-- Model: Sends Change Notifications
-@enduml
