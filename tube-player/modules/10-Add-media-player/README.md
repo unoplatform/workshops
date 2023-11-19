@@ -61,15 +61,13 @@ The previous interface is a Refit service. You will now register it with Refit. 
 
 1. Open the *YoutubeService.cs* file
 
-1. Create a new private field of type `IYoutubePlayerEndpoint` and assign it to the parameter in the constructor:
+1. Update the `YoutubeService` Primary Constructor by adding a new parameter of type `IYoutubePlayerEndpoint`:
 
-    ```csharp
-    private readonly IYoutubePlayerEndpoint _playerClient;
-
-    public YoutubeService(IYoutubeEndpoint client, IYoutubePlayerEndpoint playerClient)
+    ```diff
+   - public class YoutubeService(IYoutubeEndpoint client) : IYoutubeService
+   + public class YoutubeService(IYoutubeEndpoint client, IYoutubePlayerEndpoint playerClient) : IYoutubeService
     {
-        _client = client;
-        _playerClient = playerClient;
+        ...
     }
     ```
 
@@ -95,7 +93,7 @@ The previous interface is a Refit service. You will now register it with Refit. 
                 """;
 
         // Get the available stream data
-        var streamData = await _playerClient.GetStreamData(streamVideo, ct);
+        var streamData = await playerClient.GetStreamData(streamVideo, ct);
 
         // Get the video stream with the highest video quality
         var streamWithHighestVideoQuality = streamData.Content?.
