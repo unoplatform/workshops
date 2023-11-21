@@ -144,7 +144,7 @@ Since we updated the `IYoutubeService` interface, we need to update the mock imp
     ```csharp
     public Task<string?> GetVideoSourceUrl(string videoId, CancellationToken ct)
     {
-        return Task.FromResult<string?>(null);
+        return Task.FromResult<string?>(default);
     }  
     ```
 
