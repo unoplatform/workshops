@@ -1,4 +1,6 @@
 items:
+- name: Simple Calc App
+  href: xref:Workshop.SimpleCalc.Overview
 - name: Getting Started
   href: xref:Workshop.SimpleCalc.GettingStarted
 - name: XAML + MVUX
