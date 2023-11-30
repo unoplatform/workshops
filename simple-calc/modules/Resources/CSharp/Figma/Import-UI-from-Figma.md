@@ -10,7 +10,7 @@ uid: Workshop.SimpleCalc.Figma.CSharp
 
     ![Figma menu plugin](../../../../art/figma-plugin-export-csharp.png)
 
-8.	Select all the code starting from the line following `this` and ending at the semicolon (;).
+8.	Select all the code starting from the line following `this` and ending at the semicolon (`;`).
 
     ![Figma Export](../../../../art/figma-export-csharp.png)
 
