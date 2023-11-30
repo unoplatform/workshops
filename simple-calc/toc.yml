@@ -1,51 +1,57 @@
 items:
+- name: Simple Calc App
+  href: xref:Workshop.SimpleCalc.Overview
 - name: Getting Started
-  href: modules/Getting Started/README.md
-- name: XAML with MVUX
+  href: xref:Workshop.SimpleCalc.GettingStarted
+- name: XAML + MVUX
+  href: xref:Workshop.SimpleCalc.MVUX.XAML.FirstProject
   items:
   - name: 01 Build your first project
-    href: modules/MVUX-XAML/01-Build your first Project/README.md
+    href: xref:Workshop.SimpleCalc.MVUX.XAML.FirstProject
   - name: 02 Import UI from Figma
-    href: modules/MVUX-XAML/02-Import UI from Figma/README.md
+    href: xref:Workshop.SimpleCalc.MVUX.XAML.Figma
   - name: 03 Creating the Layout
-    href: modules/MVUX-XAML/03-Creating the Layout/README.md
+    href: xref:Workshop.SimpleCalc.MVUX.XAML.CreatingLayout
   - name: 04 App Architecture
-    href: modules/MVUX-XAML/04-App Architecture/README.md
+    href: xref:Workshop.SimpleCalc.MVUX.XAML.Architecture
   - name: 05 Finish the App
-    href: modules/MVUX-XAML/05-Finish the App/README.md
-- name: XAML with MVVM
+    href: xref:Workshop.SimpleCalc.MVUX.XAML.Finishing
+- name: XAML + MVVM
+  href: xref:Workshop.SimpleCalc.MVVM.XAML.FirstProject
   items:
   - name: 01 Build your first project
-    href: modules/MVVM-XAML/01-Build your first Project/README.md
+    href: xref:Workshop.SimpleCalc.MVVM.XAML.FirstProject
   - name: 02 Import UI from Figma
-    href: modules/MVVM-XAML/02-Import UI from Figma/README.md
+    href: xref:Workshop.SimpleCalc.MVVM.XAML.Figma
   - name: 03 Creating the Layout
-    href: modules/MVVM-XAML/03-Creating the Layout/README.md
+    href: xref:Workshop.SimpleCalc.MVVM.XAML.CreatingLayout
   - name: 04 App Architecture
-    href: modules/MVVM-XAML/04-App Architecture/README.md
+    href: xref:Workshop.SimpleCalc.MVVM.XAML.Architecture
   - name: 05 Finish the App
-    href: modules/MVVM-XAML/05-Finish the App/README.md
-- name: CSharp Markup with MVUX
+    href: xref:Workshop.SimpleCalc.MVVM.XAML.Finishing
+- name: C# Markup + MVUX
+  href: xref:Workshop.SimpleCalc.MVUX.CSharp.FirstProject
   items:
   - name: 01 Build your first project
-    href: modules/MVUX-CSharp/01-Build your first Project/README.md
+    href: xref:Workshop.SimpleCalc.MVUX.CSharp.FirstProject
   - name: 02 Import UI from Figma
-    href: modules/MVUX-CSharp/02-Import UI from Figma/README.md
+    href: xref:Workshop.SimpleCalc.MVUX.CSharp.Figma
   - name: 03 Creating the Layout
-    href: modules/MVUX-CSharp/03-Creating the Layout/README.md
+    href: xref:Workshop.SimpleCalc.MVUX.CSharp.CreatingLayout
   - name: 04 App Architecture
-    href: modules/MVUX-CSharp/04-App Architecture/README.md
+    href: xref:Workshop.SimpleCalc.MVUX.CSharp.Architecture
   - name: 05 Finish the App
-    href: modules/MVUX-CSharp/05-Finish the App/README.md
-- name: CSharp Markup with MVVM
+    href: xref:Workshop.SimpleCalc.MVUX.CSharp.Finishing
+- name: C# Markup + MVVM
+  href: xref:Workshop.SimpleCalc.MVVM.CSharp.FirstProject
   items:
   - name: 01 Build your first project
-    href: modules/MVVM-CSharp/01-Build your first Project/README.md
+    href: xref:Workshop.SimpleCalc.MVVM.CSharp.FirstProject
   - name: 02 Import UI from Figma
-    href: modules/MVVM-CSharp/02-Import UI from Figma/README.md
+    href: xref:Workshop.SimpleCalc.MVVM.CSharp.Figma
   - name: 03 Creating the Layout
-    href: modules/MVVM-CSharp/03-Creating the Layout/README.md
+    href: xref:Workshop.SimpleCalc.MVVM.CSharp.CreatingLayout
   - name: 04 App Architecture
-    href: modules/MVVM-CSharp/04-App Architecture/README.md
+    href: xref:Workshop.SimpleCalc.MVVM.CSharp.Architecture
   - name: 05 Finish the App
-    href: modules/MVVM-CSharp/05-Finish the App/README.md
+    href: xref:Workshop.SimpleCalc.MVVM.CSharp.Finishing
