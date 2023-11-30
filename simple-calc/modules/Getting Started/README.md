@@ -78,7 +78,59 @@ Model-View-Update has become an increasingly popular choice for developers looki
 
 To continue, please select one of the following options:
 
- - [MVUX Pattern with XAML Markup](xref:Workshop.SimpleCalc.MVUX.XAML.FirstProject)
- - [MVUX Pattern with C# Markup](xref:Workshop.SimpleCalc.MVUX.CSharp.FirstProject)
- - [MVVM Pattern with XAML Markup](xref:Workshop.SimpleCalc.MVVM.XAML.FirstProject)
- - [MVVM Pattern with C# Markup](xref:Workshop.SimpleCalc.MVVM.CSharp.FirstProject)
+
+<div class="row">
+
+<div class="col-md-6 col-xs-12 ">
+<a href="MVUX-XAML\01-Build your first Project\README.md">
+<div class="alert alert-info alert-hover">
+
+#### XAML + MVUX
+
+Use XAML for layout and MVUX for state management.
+
+</div>
+</a>
+</div>
+
+<div class="col-md-6 col-xs-12 ">
+<a href="MVVM-XAML\01-Build your first Project\README.md">
+<div class="alert alert-info alert-hover">
+
+#### XAML + MVVM
+
+Use XAML for layout and MVVM for state management.
+
+</div>
+</a>
+</div>
+
+<div class="col-md-6 col-xs-12 ">
+<a href="MVUX-CSharp\01-Build your first Project\README.md">
+<div class="alert alert-info alert-hover">
+
+#### C# Markup + MVUX
+
+Use C# Markup for layout and MVUX for state management.
+
+</div>
+</a>
+</div>
+
+<div class="col-md-6 col-xs-12 ">
+<a href="MVVM-CSharp\01-Build your first Project\README.md">
+<div class="alert alert-info alert-hover">
+
+#### C# Markup + MVVM
+
+Use C# Markup for layout and MVVM for state management.
+
+</div>
+</a>
+</div>
+
+</div>
+
+<br/>
+
+***
