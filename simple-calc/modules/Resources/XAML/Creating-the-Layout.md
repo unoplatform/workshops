@@ -123,7 +123,7 @@ Replace the `<!--Keypad-->` comment with the following XAML:
 ```xml
 <!--Keypad-->
 <Grid 
-    Grid.Row="2" 
+    Grid.Row="3" 
     RowSpacing="16"
     ColumnSpacing="16"
     Padding="16"
