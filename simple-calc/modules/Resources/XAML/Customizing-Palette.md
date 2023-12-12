@@ -6,7 +6,11 @@ uid: Workshop.SimpleCalc.XAML.ColorPalette
 
 So far we have the default Uno Material color palette from `Uno.Material` with some overrides from the new app template. We can further customize the color palette by updating the color overrides in the Styles folder of our SimpleCalculator project.
 
-- [ColorPaletteOverride.xaml](../../../resources/ColorPaletteOverride.xaml)
+<details>
+    <summary><i>ColorPaletteOverride.xaml</i> code contents (collapsed for brevity)</summary>
+
+[!code-xml[ColorPaletteOverride.xaml](../../../resources/ColorPaletteOverride.xaml)]
+</details>
 
 With the color palette updated, we can now run the app again to see the updated look for our calculator. The final result will be similar to the image below:
 
