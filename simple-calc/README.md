@@ -25,13 +25,13 @@ This workshop has been set up to provide you with optional content to allow you 
 ## Prerequisites
 
 - A working understanding of C# / .NET
-- .NET 8 latest Preview
+- .NET 8
 - Either:  
-  - Visual Studio 2022 17.8 preview (Windows)
+  - Visual Studio 2022 17.8 (Windows)
   - Visual Studio Code (Windows or Mac)
 
 > [!NOTE]
->  For an improved development experience, we recommend using .NET 8 RC 2 (or later) and VisualStudio 17.8 preview 5 (or later). However, the workshop can still be completed with .NET7 and VisualStudio 17.7.
+>  For an improved development experience, we recommend using .NET 8 and VisualStudio 17.8. However, the workshop can still be completed with .NET7 and VisualStudio 17.7.
 
 ### Good to have
 
