@@ -35,7 +35,7 @@ Before we continue to the next section, add the Calculator class by adding a new
 
 ## Additional Resources
 
-- [C# Markup Docs](https://platform.uno/docs/articles/external/uno.extensions/doc/Overview/Hosting/HostingOverview.html)
+- [C# Markup Docs](https://aka.platform.uno/csharp-markup)
 
 ## Next Steps
 
