@@ -1,4 +1,4 @@
-Now let's create a temporary class to serve as a placeholder for the DataContext. We'll discuss this further in the Architecture module. Add the following `TempDataContext` class:
+Let's also create a temporary class to serve as a placeholder for the DataContext. We'll discuss this further in the Architecture module. Add the following `TempDataContext` class:
 
 ```csharp
 public class TempDataContext
