@@ -33,7 +33,7 @@ Before we continue to the next section, add the Calculator class by adding a new
 [!code-csharp[Calculator.cs](../../../resources/Calculator.cs)]
 </details>
 
-
+<br>
 [!include[temp-datacontext](../../Resources/CSharp/TempDataContext.md)]
 
 
