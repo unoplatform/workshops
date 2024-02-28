@@ -46,18 +46,7 @@ public sealed partial class MainPage : Page
 }
 ```
 
-Now we're ready to begin building the content of the page. For this will use a temporary placeholder for the DataContext, as this will be covered later in the Architecture module. Add the following `TempDataContext` class:
-
-```cs
-public class TempDataContext
-{
-    public bool IsDark { get; set; }
-    public ICommand? InputCommand { get; set; }
-    public Calculator Calculator { get; } = new Calculator();
-}
-```
-
-The layout will use the `DataContext` extension with a new instance of the `TempDataContext` class and create a `Grid` inside a `Border` that will contain 3 children. Each of the 3 children we will populate from a helper method to keep the code cleaner.
+The layout will use the DataContext extension along with a new instance of the `TempDataContext` class created in Module 1. Inside, there will be a `Grid` with a `Border`, holding three child elements. These children will be populated using a helper method for cleaner code.
 
 ```cs
 public sealed partial class MainPage : Page
@@ -65,27 +54,28 @@ public sealed partial class MainPage : Page
     public MainPage()
     {
         this.Resources(r => r
-                .Add(AppIcons.Dark)
-                .Add(AppIcons.Light))
+                            .Add(AppIcons.Dark)
+                            .Add(AppIcons.Light))
             .Background(Theme.Brushes.Background.Default)
             .DataContext(new TempDataContext(), (page, vm) => page
                 .Content(
-				new Border()
-                    .SafeArea(SafeArea.InsetMask.VisibleBounds)
-					.Background(Theme.Brushes.Secondary.Container.Default)
-				.Child
-				(
-					new Grid()
-					.RowDefinitions<Grid>("Auto,*,Auto,Auto")
-					.MaxWidth(700)
-					.VerticalAlignment(VerticalAlignment.Stretch)
-					.Children
-					(
-						Header(vm),
-						Output(vm),
-						Keypad(vm)
-					)
-				))
+                    new Border()
+                        .SafeArea(SafeArea.InsetMask.VisibleBounds)
+                        .Background(Theme.Brushes.Secondary.Container.Default)
+                        .Child
+                        (
+                            new Grid()
+                                .RowDefinitions<Grid>("Auto,*,Auto,Auto")
+                                .MaxWidth(700)
+                                .VerticalAlignment(VerticalAlignment.Stretch)
+                                .Children
+                                (
+                                    Header(vm),
+                                    Output(vm),
+                                    Keypad(vm)
+                                )
+                        )
+                )
             );
     }
 
