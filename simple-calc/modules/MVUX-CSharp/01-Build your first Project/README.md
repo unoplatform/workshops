@@ -34,6 +34,7 @@ Before we continue to the next section, add the Calculator class by adding a new
 </details>
 
 <br>
+
 [!include[temp-datacontext](../../Resources/CSharp/TempDataContext.md)]
 
 
