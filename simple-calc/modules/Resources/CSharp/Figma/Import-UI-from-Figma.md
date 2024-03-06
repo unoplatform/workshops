@@ -71,7 +71,7 @@ new Button()
 
 Apply these instructions to all the buttons on our page, except for the delete (back) button, which should display "⌫". Remember that for this specific button, set the `CommandParameter` as the text "back".
 
-Last we need to update our `ToggleButton` with the Binding expression `IsChecked(x => x.Bind(() => vm.IsDark).TwoWay())"` for the theme switching (Light and Dark).
+Last we need to update our `ToggleButton` with the Binding expression `IsChecked(x => x.Binding(() => vm.IsDark).TwoWay())"` for the theme switching (Light and Dark).
 
 ```csharp
 new ToggleButton()
@@ -79,7 +79,7 @@ new ToggleButton()
     .Margin(10,24)
     .CornerRadius(20)
     .AutoLayout(counterAlignment: AutoLayoutAlignment.Center)
-    .IsChecked(x => x.Bind(() => vm.IsDark).TwoWay())
+    .IsChecked(x => x.Binding(() => vm.IsDark).TwoWay())
     .Content
     (
         ...

@@ -13,7 +13,7 @@ public partial class MainPage : Page
                 .Children(
                     new TextBox()
                         .Text(x => x
-                            .Bind(() => vm.SearchTerm)
+                            .Binding(() => vm.SearchTerm)
                             .Mode(BindingMode.TwoWay)
                             .UpdateSourceTrigger(UpdateSourceTrigger.PropertyChanged))
                         .PlaceholderText("Search term"),

@@ -62,7 +62,7 @@ public partial class MainPage : Page
                             (
                                 new TextBox()
                                     .Background(Theme.Brushes.Surface.Variant.Default)
-                                    .Text(b => b.Bind("SearchTerm").TwoWay())
+                                    .Text(b => b.Binding("SearchTerm").TwoWay())
                                     .Height(40)
                                     .PlaceholderText("Search")
                                     .CornerRadius(20)
@@ -78,7 +78,7 @@ public partial class MainPage : Page
                             ),
                         new ListView()
                             .Background(Theme.Brushes.Background.Default)
-                            .ItemsSource(b => b.Bind("VideoSearchResults"))
+                            .ItemsSource(b => b.Binding("VideoSearchResults"))
                             .Padding(12, 8)
                             .Navigation(request: "VideoDetails")
                             .AutoLayout(primaryAlignment: AutoLayoutPrimaryAlignment.Stretch)
@@ -111,7 +111,7 @@ public partial class MainPage : Page
                                                                 .Child
                                                                 (
                                                                     new Image()
-                                                                        .Source(b => b.Bind("Details.Snippet.Thumbnails.Medium.Url"))
+                                                                        .Source(b => b.Binding("Details.Snippet.Thumbnails.Medium.Url"))
                                                                         .Stretch(Stretch.UniformToFill)
                                                                 ),
                                                             new AutoLayout()
@@ -128,7 +128,7 @@ public partial class MainPage : Page
                                                                         .Child
                                                                         (
                                                                             new Image()
-                                                                                .Source(b => b.Bind("Channel.Snippet.Thumbnails.Medium.Url"))
+                                                                                .Source(b => b.Binding("Channel.Snippet.Thumbnails.Medium.Url"))
                                                                                 .Stretch(Stretch.UniformToFill)
                                                                         ),
                                                                     new AutoLayout()
@@ -137,12 +137,12 @@ public partial class MainPage : Page
                                                                         .Children
                                                                         (
                                                                             new TextBlock()
-                                                                                .Text(b => b.Bind("Channel.Snippet.Title"))
+                                                                                .Text(b => b.Binding("Channel.Snippet.Title"))
                                                                                 .Height(22)
                                                                                 .Foreground(Theme.Brushes.OnSurface.Default)
                                                                                 .Style(Theme.TextBlock.Styles.TitleMedium),
                                                                             new TextBlock()
-                                                                                .Text(b => b.Bind("Details.Snippet.Title"))
+                                                                                .Text(b => b.Binding("Details.Snippet.Title"))
                                                                                 .Height(16)
                                                                                 .Foreground(Theme.Brushes.OnSurface.Medium)
                                                                         ),

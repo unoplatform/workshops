@@ -60,12 +60,12 @@ public partial class MainPage : Page
 									.Children
 									(
 										new TextBlock()
-											.Text(b => b.Bind("Calculator.Equation"))
+											.Text(b => b.Binding("Calculator.Equation"))
 											.Foreground(Theme.Brushes.OnSecondary.Container.Default)
 											.Style(Theme.TextBlock.Styles.DisplaySmall)
 											.AutoLayout(counterAlignment: AutoLayoutAlignment.End),
 										new TextBlock()
-											.Text(b => b.Bind("Calculator.Output"))
+											.Text(b => b.Binding("Calculator.Output"))
 											.Foreground(Theme.Brushes.OnBackground.Default)
 											.Style(Theme.TextBlock.Styles.DisplayLarge)
 											.AutoLayout(counterAlignment: AutoLayoutAlignment.End)

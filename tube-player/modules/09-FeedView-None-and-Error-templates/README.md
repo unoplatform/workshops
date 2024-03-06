@@ -75,7 +75,7 @@ Let's add a `FeedView` to our UI. We'll start with the `ValueTemplate` first.
     ```diff
      ...
      new ListView()
-    -    .ItemsSource(b => b.Bind("VideoSearchResults"))
+    -    .ItemsSource(b => b.Binding("VideoSearchResults"))
     +    .ItemsSource(() => feedViewState.Data)
          ...
          .ItemTemplate(VideoItemTemplate)

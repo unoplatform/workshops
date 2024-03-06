@@ -104,7 +104,7 @@ private static UIElement Header(TempDataContext vm) =>
         .HorizontalAlignment(HorizontalAlignment.Center)
         .Background(Theme.Brushes.Secondary.Container.Default)
         .Style(Theme.ToggleButton.Styles.Icon)
-        .IsChecked(x => x.Bind(() => vm.IsDark).TwoWay())
+        .IsChecked(x => x.Binding(() => vm.IsDark).TwoWay())
         .Content
         (
             new PathIcon()
