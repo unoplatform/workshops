@@ -37,28 +37,31 @@ This workshop has been set up to provide you with optional content to allow you 
 
 The workshop utilizes the latest Uno Platform features, including:
 
-- [C# Markup](xref:Reference.Markup.GettingStarted)
-- [Extensions](xref:Overview.Features)
-  - [MVUX](xref:Overview.Mvux.Overview)
-    - [Pagination](xref:Overview.Mvux.Advanced.Pagination)
-    - [FeedView](xref:Overview.Mvux.FeedView)
-      - NoneTemplate
-      - ErrorTemplate
-    - [Refit](xref:Overview.Http)
-    - [Region navigation](xref:Overview.Navigation)
-    - [Serialization](xref:Overview.Serialization)
+- [Extensions](xref:Uno.Extensions.Overview)
+  - [C# Markup](xref:Uno.Extensions.Markup.Overview)
+  - [MVUX](xref:Uno.Extensions.Mvux.Overview)
+    - [Pagination](xref:OUno.Extensions.Mvux.Advanced.Pagination)
+    - [FeedView](xref:Uno.Extensions.Mvux.FeedView)
+      - [NoneTemplate](xref:Uno.Extensions.Mvux.FeedView#nonetemplate)
+      - [ErrorTemplate](xref:Uno.Extensions.Mvux.FeedView#errortemplate)
+  - [Refit endpoints](xref:Uno.Extensions.Http.HowToRefit)
+  - [Navigation](xref:Uno.Extensions.Navigation.Overview)
+    - [Regions](xref:Uno.Extensions.Navigation.Advanced.Panel)
+  - [Serialization](xref:Uno.Extensions.Serialization.Overview)
 - [Figma plugin](https://aka.platform.uno/uno-figma)
-  - C# Markup
-  - Color overrides
-- [Color overrides](xref:uno.themes.material.getstarted)
-- [DSP import](xref:Uno.Material.DSP)
-- [Material design theme](xref:uno.themes.material.getstarted)
+  - [Design to code](xref:Uno.Figma.GetStarted.DesignToCode)
+  - [C# Markup](xref:Uno.Figma.Learn.Developers.Tabs.Export#c-markup-export)
+  - [Custom colors](xref:Uno.Figma.Learn.Developers.CustomColors)
+- [Themes](xref:Uno.Themes.Overview)
+  - [Material design theme](xref:Uno.Themes.Material.GetStarted)
+  - [Color overrides](xref:Uno.Themes.Material.Colors)
+  - [DSP tooling](xref:Uno.Themes.Material.DSP)
 - [Toolkit](xref:Toolkit.GettingStarted)
-  - [CardContentControl](xref:Toolkit.Controls.Card)
+  - [CardContentControl](xref:Toolkit.Controls.Card#cardcontentcontrol)
   - [NavigationBar](xref:Toolkit.Controls.NavigationBar)
 - [Resizetizer](xref:Uno.Resizetizer.GettingStarted)
-  - Splash screen
-  - App icon
+  - [Splash screen](xref:Uno.Resizetizer.GettingStarted#unosplashscreen)
+  - [App icon](xref:Uno.Resizetizer.GettingStarted#unoicon)
 - [Uno Check](xref:UnoCheck.UsingUnoCheck)
 
 ## Modules
