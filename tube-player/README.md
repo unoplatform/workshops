@@ -6,9 +6,12 @@ uid: Workshop.TubePlayer.Overview
 
 The objective of the Tube Player workshop is to create a simple Uno Platform application that enables the user to search for, and stream, YouTube videos.
 
-The application will be made up of a starting search page, that will accept user input in a search box and display matched results from YouTube, and a player page, which will contain a media player, that will stream the video selected on the search page.
+The resulting application will have two main views:
 
-This workshop will help guide you through setting up your developer environment for developing Uno Platform applications. By the end of the workshop, you'll have built a multi-platform Uno Platform application using [C# Markup](https://aka.platform.uno/csharp-markup) and [MVUX](https://aka.platform.uno/mvux). You'll have the option to import the UI from [Figma](https://aka.platform.uno/uno-figma) or follow along with the workshop material, to build the UI for the application. You'll also learn about the tools, libraries, and patterns available in the Uno Platform, that are there to help you rapidly build high-quality applications.
+- **Search page**: To accept the user's queries with a search box. Based on the query, matching results from YouTube will be listed.
+- **Player page**: Streams the video selected from the search results into a media player.
+
+This workshop will help you set up your developer environment to develop Uno Platform applications. By the end of this workshop, you'll have built a multi-platform application using Uno Platform features like [C# Markup](https://aka.platform.uno/csharp-markup) and [MVUX](https://aka.platform.uno/mvux). You'll have the option to import a UI from [Figma](https://aka.platform.uno/uno-figma), or continue following the steps from this workshop to build the UI for the application. This workshop will help you learn more about the tools, libraries, and patterns available in the Uno Platform, that are there to help you rapidly build high-quality applications.
 
 On completion of the workshop, you will have a working cross-platform TubePlayer app. Here's a screen recording of it (Android):
 
