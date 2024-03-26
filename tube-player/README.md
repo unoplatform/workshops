@@ -40,32 +40,53 @@ This workshop has been set up to provide you with optional content to allow you 
 
 The workshop utilizes the latest Uno Platform features, including:
 
-- [Extensions](xref:Uno.Extensions.Overview)
-  - [C# Markup](xref:Uno.Extensions.Markup.Overview)
-  - [MVUX](xref:Uno.Extensions.Mvux.Overview)
-    - [Pagination](xref:OUno.Extensions.Mvux.Advanced.Pagination)
-    - [FeedView](xref:Uno.Extensions.Mvux.FeedView)
-      - [NoneTemplate](xref:Uno.Extensions.Mvux.FeedView#nonetemplate)
-      - [ErrorTemplate](xref:Uno.Extensions.Mvux.FeedView#errortemplate)
-  - [Refit endpoints](xref:Uno.Extensions.Http.HowToRefit)
-  - [Navigation](xref:Uno.Extensions.Navigation.Overview)
-    - [Regions](xref:Uno.Extensions.Navigation.Advanced.Panel)
-  - [Serialization](xref:Uno.Extensions.Serialization.Overview)
-- [Figma plugin](https://aka.platform.uno/uno-figma)
-  - [Design to code](xref:Uno.Figma.GetStarted.DesignToCode)
-  - [C# Markup](xref:Uno.Figma.Learn.Developers.Tabs.Export#c-markup-export)
-  - [Custom colors](xref:Uno.Figma.Learn.Developers.CustomColors)
-- [Themes](xref:Uno.Themes.Overview)
-  - [Material design theme](xref:Uno.Themes.Material.GetStarted)
-  - [Color overrides](xref:Uno.Themes.Material.Colors)
-  - [DSP tooling](xref:Uno.Themes.Material.DSP)
-- [Toolkit](xref:Toolkit.GettingStarted)
-  - [CardContentControl](xref:Toolkit.Controls.Card#cardcontentcontrol)
-  - [NavigationBar](xref:Toolkit.Controls.NavigationBar)
+### Environment setup & Inner loop
+
+- [Hot reload](xref:Uno.Features.HotReload)
+- [Uno.Check](xref:UnoCheck.UsingUnoCheck)
+
+### Cross-platform development
+
 - [Resizetizer](xref:Uno.Resizetizer.GettingStarted)
-  - [Splash screen](xref:Uno.Resizetizer.GettingStarted#unosplashscreen)
-  - [App icon](xref:Uno.Resizetizer.GettingStarted#unoicon)
-- [Uno Check](xref:UnoCheck.UsingUnoCheck)
+  - [UnoIcon](xref:Uno.Resizetizer.GettingStarted#unoicon)
+  - [UnoSplashScreen](xref:Uno.Resizetizer.GettingStarted#unosplashscreen)
+- [Template Wizard](xref:Uno.GettingStarted.UsingWizard)
+
+### Battle-tested features for apps
+
+- [C# Markup](xref:Uno.Extensions.Markup.Overview)
+- [Hosting environments](xref:Uno.Extensions.Hosting.Overview#hosting-environments)
+- [Navigation with regions](xref:Uno.Extensions.Navigation.Advanced.Panel)
+- [Refit endpoints](xref:Uno.Extensions.Http.HowToRefit)
+- [Serialization](xref:Uno.Extensions.Serialization.Overview)
+
+### Clean architecture, simplified
+
+- [FeedView](xref:Uno.Extensions.Mvux.FeedView)
+  - [ErrorTemplate](xref:Uno.Extensions.Mvux.FeedView#errortemplate)
+  - [NoneTemplate](xref:Uno.Extensions.Mvux.FeedView#nonetemplate)
+- [Flexible programming style](xref:Uno.Extensions.Mvux.Overview)
+- [Pagination](xref:Uno.Extensions.Mvux.Advanced.Pagination)
+
+### Figma
+
+- [Figma plugin](https://aka.platform.uno/uno-figma)
+- [Design to code](xref:Uno.Figma.GetStarted.DesignToCode)
+- [Custom colors](xref:Uno.Figma.Learn.Developers.CustomColors)
+- [Export as C# Markup](xref:Uno.Figma.Learn.Developers.Tabs.Export#c-markup-export)
+
+### Theming
+
+- [Material design theme](xref:Uno.Themes.Material.GetStarted)
+- [Color overrides](xref:Uno.Themes.Material.Colors)
+- [DSP tooling](xref:Uno.Themes.Material.DSP)
+
+### Efficient and reusable UI components
+
+  - [AutoLayout](xref:Toolkit.Controls.AutoLayoutControl)
+  - [CardContentControl](xref:Toolkit.Controls.Card#cardcontentcontrol)
+  - [ExtendedSplashScreen](xref:Toolkit.Controls.ExtendedSplashScreen)
+  - [NavigationBar](xref:Toolkit.Controls.NavigationBar)
 
 ## Modules
 
