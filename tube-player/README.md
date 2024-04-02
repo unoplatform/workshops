@@ -76,12 +76,14 @@ The workshop utilizes the latest Uno Platform features, including:
 
 ### Theming
 
-- [Material design theme](xref:Uno.Themes.Material.GetStarted)
-- [Color overrides](xref:Uno.Themes.Material.Colors)
-- [DSP tooling](xref:Uno.Themes.Material.DSP)
+- [Themes](xref:Uno.Themes.Overview)
+    - [Material design theme](xref:Uno.Themes.Material.GetStarted)
+    - [Color overrides](xref:Uno.Themes.Material.Colors)
+    - [DSP tooling](xref:Uno.Themes.Material.DSP)
 
 ### Efficient and reusable UI components
 
+- [Toolkit](xref:Toolkit.GettingStarted)
   - [AutoLayout](xref:Toolkit.Controls.AutoLayoutControl)
   - [CardContentControl](xref:Toolkit.Controls.Card#cardcontentcontrol)
   - [ExtendedSplashScreen](xref:Toolkit.Controls.ExtendedSplashScreen)
