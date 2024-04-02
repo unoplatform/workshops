@@ -42,12 +42,12 @@ The workshop utilizes the latest Uno Platform features, including:
 
 ### Environment setup & Inner loop
 
-- [Hot reload](xref:Uno.Features.HotReload)
+- [Hot Reload](xref:Uno.Features.HotReload)
 - [Uno.Check](xref:UnoCheck.UsingUnoCheck)
 
 ### Cross-platform development
 
-- [Resizetizer](xref:Uno.Resizetizer.GettingStarted)
+- [Uno.Resizetizer](xref:Uno.Resizetizer.GettingStarted)
   - [UnoIcon](xref:Uno.Resizetizer.GettingStarted#unoicon)
   - [UnoSplashScreen](xref:Uno.Resizetizer.GettingStarted#unosplashscreen)
 - [Template Wizard](xref:Uno.GettingStarted.UsingWizard)
