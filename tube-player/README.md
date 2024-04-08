@@ -53,12 +53,12 @@ The workshop utilizes the latest Uno Platform features, including:
 - [Template Wizard](xref:Uno.GettingStarted.UsingWizard)
 
 ### Battle-tested features for apps
-
+- [Extensions](xref:Uno.Extensions.Overview)
+    - [Hosting environments](xref:Uno.Extensions.Hosting.Overview#hosting-environments)
+    - [Navigation with regions](xref:Uno.Extensions.Navigation.Advanced.Panel)
+    - [Refit endpoints](xref:Uno.Extensions.Http.HowToRefit)
+    - [Serialization](xref:Uno.Extensions.Serialization.Overview)
 - [C# Markup](xref:Uno.Extensions.Markup.Overview)
-- [Hosting environments](xref:Uno.Extensions.Hosting.Overview#hosting-environments)
-- [Navigation with regions](xref:Uno.Extensions.Navigation.Advanced.Panel)
-- [Refit endpoints](xref:Uno.Extensions.Http.HowToRefit)
-- [Serialization](xref:Uno.Extensions.Serialization.Overview)
 
 ### Clean architecture, simplified
 
