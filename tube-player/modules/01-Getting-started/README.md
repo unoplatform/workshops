@@ -44,13 +44,13 @@ Make sure the latest version of the [Uno Platform extension for Visual Studio 20
 
 This extension includes the Uno Platform project templates.
 
-![Visual Studio extensions Manager](vs-2022-extension.jpg)
+![Visual Studio extensions Manager](vs-2022-extension.png)
 
 # [Visual Studio Code or others](#tab/vscode)
 
 If you're using Visual Studio Code, make sure to install the latest version of the Uno Platform extension [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=unoplatform.vscode)
 
-![Visual Studio Code extension](vs-code-extension.jpg)
+![Visual Studio Code extension](vs-code-extension.png)
 
 We will also install Uno Platform project templates using the command line interface. To ensure the templates are installed, run the following command:
 

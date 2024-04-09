@@ -17,7 +17,7 @@ The HTTP and Refit extension will be added manually at [a later stage](xref:Work
 
 To generate your project, hit <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> (File → New → Project) and select 'Uno Platform App' from the options window. You can search for 'Uno' if it's not instantly visible.
 
-![Visual Studio new project](vs-new-project.jpg)
+![Visual Studio new project](vs-new-project.png)
 
 The next page is the regular Visual Studio project location choice. Choose a suitable location, name the project 'TubePlayer', and click *Create*.
 
@@ -27,7 +27,7 @@ After clicking *Next*, the first page of the Uno Platform template wizard will o
 
 The upcoming page will enable you to select additional features.
 
-![Uno Platform template wizard customize page](template-wizard-customize.jpg)
+![Uno Platform template wizard customize page](template-wizard-customize.png)
 
 - In ***Presentation*** tab select *MVUX*.
 - In ***Markup*** tab select *C# Markup*.

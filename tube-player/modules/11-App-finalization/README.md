@@ -16,7 +16,7 @@ In this, you will finalize the app but adding extra bits and cleaning up the cod
 
     ```diff
     -.Source(new BitmapImage(new Uri("https://picsum.photos/384/40")))
-    +.Source("ms-appx:///TubePlayer/Assets/navigation_bar.png")
+    +.Source("ms-appx:///navigation_bar.png")
     ```
 
     The reason for using the *png* extension is that the image gets internally translated to PNG format (see [Get started with Uno.Resizetizer](xref:Uno.Resizetizer.GettingStarted#how-it-works)).
