@@ -17,14 +17,6 @@ Name your app "SimpleCalculator" and choose the folder where you want to save yo
   <img alt="Uno Platform App template" src="../../../art/Light/Wizard/2.naming.png">
 </picture>
 
-In the new Wizard, you'll be prompted to select a preset configuration for your application. The "Default" preset allows you to take advantage of features such as the Material library, the Toolkit, Extensions for Navigation and MVUX, and more. For the moment we’re going to select the "Blank" option and then click "Customize".
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../../art/Dark/Wizard/3.startup.png">
-  <source media="(prefers-color-scheme: light)" srcset="../../../art/Light//Wizard/3.startup.png">
-  <img alt="Uno Platform App template" src="../../../art/Light/Wizard/3.startup.png">
-</picture>
-
 In the first menu option "Framework", let's select **.NET8**.
 
 <picture>
