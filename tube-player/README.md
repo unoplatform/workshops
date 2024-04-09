@@ -58,7 +58,7 @@ The workshop utilizes the latest Uno Platform features, including:
     - [Navigation with regions](xref:Uno.Extensions.Navigation.Advanced.Panel)
     - [Refit endpoints](xref:Uno.Extensions.Http.HowToRefit)
     - [Serialization](xref:Uno.Extensions.Serialization.Overview)
-- [C# Markup](xref:Uno.Extensions.Markup.Overview)
+    - [C# Markup](xref:Uno.Extensions.Markup.Overview)
 
 ### Clean architecture, simplified
 
