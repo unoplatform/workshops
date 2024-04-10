@@ -6,9 +6,12 @@ uid: Workshop.TubePlayer.Overview
 
 The objective of the Tube Player workshop is to create a simple Uno Platform application that enables the user to search for, and stream, YouTube videos.
 
-The application will be made up of a starting search page, that will accept user input in a search box and display matched results from YouTube, and a player page, which will contain a media player, that will stream the video selected on the search page.
+The resulting application will have two main views:
 
-This workshop will help guide you through setting up your developer environment for developing Uno Platform applications. By the end of the workshop, you'll have built a multi-platform Uno Platform application using [C# Markup](https://aka.platform.uno/csharp-markup) and [MVUX](https://aka.platform.uno/mvux). You'll have the option to import the UI from [Figma](https://aka.platform.uno/uno-figma) or follow along with the workshop material, to build the UI for the application. You'll also learn about the tools, libraries, and patterns available in the Uno Platform, that are there to help you rapidly build high-quality applications.
+- **Search page**: To accept the user's queries with a search box. Based on the query, matching results from YouTube will be listed.
+- **Player page**: Streams the video selected from the search results into a media player.
+
+This workshop will help you set up your developer environment to develop Uno Platform applications. By the end of this workshop, you'll have built a multi-platform application using Uno Platform features like [C# Markup](https://aka.platform.uno/csharp-markup) and [MVUX](https://aka.platform.uno/mvux). You'll have the option to import a UI from [Figma](https://aka.platform.uno/uno-figma), or continue following the steps from this workshop to build the UI for the application. This workshop will help you learn more about the tools, libraries, and patterns available in the Uno Platform, that are there to help you rapidly build high-quality applications.
 
 On completion of the workshop, you will have a working cross-platform TubePlayer app. Here's a screen recording of it (Android):
 
@@ -37,29 +40,54 @@ This workshop has been set up to provide you with optional content to allow you 
 
 The workshop utilizes the latest Uno Platform features, including:
 
-- [C# Markup](xref:Reference.Markup.GettingStarted)
-- [Extensions](xref:Overview.Features)
-  - [MVUX](xref:Overview.Mvux.Overview)
-    - [Pagination](xref:Overview.Mvux.Advanced.Pagination)
-    - [FeedView](xref:Overview.Mvux.FeedView)
-      - NoneTemplate
-      - ErrorTemplate
-    - [Refit](xref:Overview.Http)
-    - [Region navigation](xref:Overview.Navigation)
-    - [Serialization](xref:Overview.Serialization)
-- [Figma plugin](https://aka.platform.uno/uno-figma)
-  - C# Markup
-  - Color overrides
-- [Color overrides](xref:uno.themes.material.getstarted)
-- [DSP import](xref:Uno.Material.DSP)
-- [Material design theme](xref:uno.themes.material.getstarted)
-- [Toolkit](xref:Toolkit.GettingStarted)
-  - [CardContentControl](xref:Toolkit.Controls.Card)
+### Environment setup & Inner loop
+
+- [Hot Reload](xref:Uno.Features.HotReload)
+- [Uno.Check](xref:UnoCheck.UsingUnoCheck) tool
+
+### Cross-platform development
+
+- [Uno Resizetizer](xref:Uno.Resizetizer.GettingStarted)
+  - [UnoIcon](xref:Uno.Resizetizer.GettingStarted#unoicon)
+  - [UnoSplashScreen](xref:Uno.Resizetizer.GettingStarted#unosplashscreen)
+- [Template Wizard](xref:Uno.GettingStarted.UsingWizard)
+
+### Battle-tested features for apps
+- [Uno Extensions](xref:Uno.Extensions.Overview)
+    - [Hosting environments](xref:Uno.Extensions.Hosting.Overview#hosting-environments)
+    - [Navigation with regions](xref:Uno.Extensions.Navigation.Advanced.Panel)
+    - [Refit endpoints](xref:Uno.Extensions.Http.HowToRefit)
+    - [Serialization](xref:Uno.Extensions.Serialization.Overview)
+    - [C# Markup](xref:Uno.Extensions.Markup.Overview)
+
+### Clean architecture, simplified
+
+- [MVUX](xref:Uno.Extensions.Mvux.Overview)
+  - Creating [Feeds](xref:Uno.Extensions.Mvux.Feeds)
+  - Consuming feed data using [FeedView](xref:Uno.Extensions.Mvux.FeedView) with a custom [ErrorTemplate](xref:Uno.Extensions.Mvux.FeedView#errortemplate) and [NoneTemplate](xref:Uno.Extensions.Mvux.FeedView#nonetemplate)
+  - [Paginating](xref:Uno.Extensions.Mvux.Advanced.Pagination) feed data
+
+### Figma
+
+- [Uno Figma plugin](https://aka.platform.uno/uno-figma)
+- [Design to code](xref:Uno.Figma.GetStarted.DesignToCode)
+- [Custom colors](xref:Uno.Figma.Learn.Developers.CustomColors)
+- [Export as C# Markup](xref:Uno.Figma.Learn.Developers.Tabs.Export#c-markup-export)
+
+### Theming
+
+- [Uno Themes](xref:Uno.Themes.Overview)
+    - [Material design theme](xref:Uno.Themes.Material.GetStarted)
+    - [Color overrides](xref:Uno.Themes.Material.Colors)
+    - [DSP tooling](xref:Uno.Themes.Material.DSP)
+
+### Efficient and reusable UI components
+
+- [Uno Toolkit](xref:Toolkit.GettingStarted)
+  - [AutoLayout](xref:Toolkit.Controls.AutoLayoutControl)
+  - [CardContentControl](xref:Toolkit.Controls.Card#cardcontentcontrol)
+  - [ExtendedSplashScreen](xref:Toolkit.Controls.ExtendedSplashScreen)
   - [NavigationBar](xref:Toolkit.Controls.NavigationBar)
-- [Resizetizer](xref:Uno.Resizetizer.GettingStarted)
-  - Splash screen
-  - App icon
-- [Uno Check](xref:UnoCheck.UsingUnoCheck)
 
 ## Modules
 
