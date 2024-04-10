@@ -43,17 +43,17 @@ The workshop utilizes the latest Uno Platform features, including:
 ### Environment setup & Inner loop
 
 - [Hot Reload](xref:Uno.Features.HotReload)
-- [Uno.Check](xref:UnoCheck.UsingUnoCheck)
+- [Uno.Check](xref:UnoCheck.UsingUnoCheck) tool
 
 ### Cross-platform development
 
-- [Uno.Resizetizer](xref:Uno.Resizetizer.GettingStarted)
+- [Uno Resizetizer](xref:Uno.Resizetizer.GettingStarted)
   - [UnoIcon](xref:Uno.Resizetizer.GettingStarted#unoicon)
   - [UnoSplashScreen](xref:Uno.Resizetizer.GettingStarted#unosplashscreen)
 - [Template Wizard](xref:Uno.GettingStarted.UsingWizard)
 
 ### Battle-tested features for apps
-- [Extensions](xref:Uno.Extensions.Overview)
+- [Uno Extensions](xref:Uno.Extensions.Overview)
     - [Hosting environments](xref:Uno.Extensions.Hosting.Overview#hosting-environments)
     - [Navigation with regions](xref:Uno.Extensions.Navigation.Advanced.Panel)
     - [Refit endpoints](xref:Uno.Extensions.Http.HowToRefit)
@@ -69,21 +69,21 @@ The workshop utilizes the latest Uno Platform features, including:
 
 ### Figma
 
-- [Figma plugin](https://aka.platform.uno/uno-figma)
+- [Uno Figma plugin](https://aka.platform.uno/uno-figma)
 - [Design to code](xref:Uno.Figma.GetStarted.DesignToCode)
 - [Custom colors](xref:Uno.Figma.Learn.Developers.CustomColors)
 - [Export as C# Markup](xref:Uno.Figma.Learn.Developers.Tabs.Export#c-markup-export)
 
 ### Theming
 
-- [Themes](xref:Uno.Themes.Overview)
+- [Uno Themes](xref:Uno.Themes.Overview)
     - [Material design theme](xref:Uno.Themes.Material.GetStarted)
     - [Color overrides](xref:Uno.Themes.Material.Colors)
     - [DSP tooling](xref:Uno.Themes.Material.DSP)
 
 ### Efficient and reusable UI components
 
-- [Toolkit](xref:Toolkit.GettingStarted)
+- [Uno Toolkit](xref:Toolkit.GettingStarted)
   - [AutoLayout](xref:Toolkit.Controls.AutoLayoutControl)
   - [CardContentControl](xref:Toolkit.Controls.Card#cardcontentcontrol)
   - [ExtendedSplashScreen](xref:Toolkit.Controls.ExtendedSplashScreen)
