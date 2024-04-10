@@ -17,12 +17,17 @@ To interact with the remote endpoints you will utilize the Uno Platform HTTP ext
 
 To learn more about these extensions, refer to the [HTTP extension docs](xref:Overview.Http).
 
-### Install NuGet packages
+### Configure Uno Platform Features
 
-Open the NuGet package manager for the *TubePlayer* project and install the following packages:
+Open the TubePlayer.csproj file.
 
-- [`Uno.Extensions.Http.Refit`](https://www.nuget.org/packages?q=Uno.Extensions.Http.Refit)
-- [`Uno.Extensions.Http.WinUI`](https://www.nuget.org/packages?q=Uno.Extensions.Http.WinUI)
+Locate the <UnoFeatures> property within the <PropertyGroup> section.
+
+Add "Http" to the list of features, as shown in the snippet below:
+
+    <UnoFeatures>
+      Http; <!-- HTTP networking support enabled here -->
+    </UnoFeatures>
 
 > [!NOTE]  
 > HTTP can be included when generating the project by checking the *HTTP* option in the template wizard or CLI.  
@@ -133,7 +138,7 @@ In the *Business* folder add a file named *YoutubeService.cs* with the following
 
 ### Register services
 
-1. Let's instruct our app to use HTTP and tell it about the Refit client. In the *App.cs* file, add the following section after the `UseSerialization` call's closing parentheses:
+1. Let's instruct our app to use HTTP and tell it about the Refit client. In the *App.xaml.cs* file, add the following section after the `UseSerialization` call's closing parentheses:
 
     ```csharp
     .UseHttp(configure: (context, services) =>

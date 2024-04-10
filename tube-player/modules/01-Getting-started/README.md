@@ -114,9 +114,9 @@ You might be asked to reload the IDE before the projects are fully loaded. Click
 
 1. In *VideoDetailsPage.cs*, ensure `SecondPage` has changed to `VideoDetailsPage` in both the class name and constructor, otherwise change it manually, then change `BindableSecondModel` to `BindableVideoDetailsModel`.
 
-1. Make sure these references have also been changed in *App.cs*.
+1. Make sure these references have also been changed in *App.xaml.cs*.
 
-1. In *App.cs*, also rename the route map path from `Second` to `VideoDetails`:
+1. In *App.xaml.cs*, also rename the route map path from `Second` to `VideoDetails`:
 
     ```c#
     new RouteMap("VideoDetails", View: views.FindByViewModel<VideoDetailsModel>()),
@@ -126,9 +126,7 @@ As explained [in the intro](xref:Workshop.TubePlayer.Overview#tube-player-worksh
 
 ## Running the application
 
-1. Ensure a startup project is selected. Either right-click the desired project head in Solution Explorer (e.g. *TubePlayer.Mobile*) and select *Set as startup project*, or select this project from the Startup projects dropdown.
-    When selecting *Mobile*, you could then select which mobile platform to run and on which emulator.  
-    The emulator can be selected from the subsequent menu as shown in the picture:
+1. Select the target framework (e.g., Android, iOS, Windows) and the device or emulator you want to deploy to. The emulator can be selected from the subsequent menu as shown in the picture:
 
     ![Visual Studio - Startup projects dropdown](set-startup-project.jpg)
 

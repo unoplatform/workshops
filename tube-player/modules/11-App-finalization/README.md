@@ -16,20 +16,20 @@ In this, you will finalize the app but adding extra bits and cleaning up the cod
 
     ```diff
     -.Source(new BitmapImage(new Uri("https://picsum.photos/384/40")))
-    +.Source("ms-appx:///navigation_bar.png")
+    +.Source("ms-appx:///Assets/navigation_bar.png")
     ```
 
     The reason for using the *png* extension is that the image gets internally translated to PNG format (see [Get started with Uno.Resizetizer](xref:Uno.Resizetizer.GettingStarted#how-it-works)).
 
 ## Import the TubePlayer splash screen
 
-Right-click the following image and save it in the *TubePlayer.Base* project. Under the *Splash* folder, override the existing *splash_screen.svg* file with it.
+Right-click the following image and save it in the *TubePlayer* project. Under the *Splash* folder, override the existing *splash_screen.svg* file with it.
 
 ![TubePlayer splash screen](splash_screen.svg)
 
 ## Import the TubePlayer app icon
 
-Right-click the following image and save it in the *TubePlayer.Base* project. Under the *Icons* folder, override the existing *icon_foreground.svg* image with it.
+Right-click the following image and save it in the *TubePlayer* project. Under the *Icons* folder, override the existing *icon_foreground.svg* image with it.
 
 ![TubePlayer app icon](icon_foreground.svg)
 

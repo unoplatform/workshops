@@ -61,7 +61,7 @@ You will now register the `YoutubeServiceMock` to be provided every time an `IYo
 
     In Visual Studio, you can sort the usings, go to the menu and click *Edit* → *IntelliSense* → *Sort Usings* (<kbd>Alt</kbd>+<kbd>E</kbd>,<kbd>I</kbd>,<kbd>S</kbd>).
 
-1. Open the *App.cs* file (in the project folder), head to the `ConfigureServices` section, remove the comments in it, and add the following registrations instead:
+1. Open the *App.xaml.cs* file (in the project folder), head to the `ConfigureServices` section, remove the comments in it, and add the following registrations instead:
 
     ```csharp
     services.AddSingleton<IYoutubeService, YoutubeServiceMock>();
