@@ -128,7 +128,7 @@ As explained [in the intro](xref:Workshop.TubePlayer.Overview#tube-player-worksh
 
 1. Select the target framework (e.g., Android, iOS, Windows) and the device or emulator you want to deploy to. The emulator can be selected from the subsequent menu as shown in the picture:
 
-    ![Visual Studio - Startup projects dropdown](set-startup-project.jpg)
+    ![Visual Studio - Startup projects dropdown](set-startup-project.png)
 
 1. Press <kbd>F5</kbd> to run the project.  
   This is what you expect the app to look like:
