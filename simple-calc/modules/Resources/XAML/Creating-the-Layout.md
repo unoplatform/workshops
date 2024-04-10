@@ -4,7 +4,7 @@ uid: Workshop.SimpleCalc.XAML.CreatingLayout
 
 # Creating the Layout
 
-Open the MainPage.xaml (in the SimpleCalculator project) and add the following resources inside the `Page` element. These resources will be used by a `ToggleButton`, which we'll add shortly, that will switch between light and dark themes.
+Open the MainPage.xaml and add the following resources inside the `Page` element. These resources will be used by a `ToggleButton`, which we'll add shortly, that will switch between light and dark themes.
 
 ```xml
 <Page.Resources>
@@ -24,7 +24,7 @@ Next we'll add `Button` styles that define the style to be used by the calculato
     <Setter Property="Height" Value="72" />
     <Setter Property="HorizontalAlignment" Value="Stretch" />
     <Setter Property="VerticalAlignment" Value="Stretch" />
-    <Setter Property="um:ControlExtensions.Elevation" Value="0" />
+    <Setter Property="ut:ControlExtensions.Elevation" Value="0" />
 </Style>
 
 <Style x:Key="KeypadPrimaryButton"
@@ -88,10 +88,10 @@ Replace the `<!--Header-->` comment with the following XAML:
         <PathIcon Data="{StaticResource SunIcon}"
                     Foreground="{ThemeResource PrimaryBrush}" />
     </ToggleButton.Content>
-    <um:ControlExtensions.AlternateContent>
+    <ut:ControlExtensions.AlternateContent>
         <PathIcon Data="{StaticResource MoonIcon}"
                     Foreground="{ThemeResource PrimaryBrush}" />
-    </um:ControlExtensions.AlternateContent>
+    </ut:ControlExtensions.AlternateContent>
 </ToggleButton>
 ```
 
