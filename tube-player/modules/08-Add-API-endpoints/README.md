@@ -30,7 +30,7 @@ Add "Http" to the list of features, as shown in the snippet below:
     </UnoFeatures>
 
 > [!NOTE]  
-> HTTP can be included when generating the project by checking the *HTTP* option in the template wizard or CLI.  
+> HTTP can be included when generating the project by checking the *HTTP* option in the template wizard or CLI.
 > It was excluded so it can be added now manually for learning purposes.
 
 ### Add necessary models
