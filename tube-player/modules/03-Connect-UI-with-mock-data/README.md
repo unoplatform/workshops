@@ -76,7 +76,7 @@ You will now register the `YoutubeServiceMock` to be provided every time an `IYo
     })
     ```
 
-    This sets up Uno Platform's [serialization extension](xref:Overview.Serialization).
+    This sets up Uno Platform's [serialization extension](xref:Uno.Extensions.Serialization.Overview).
 
 ## Setup the presentation layer with the service
 
