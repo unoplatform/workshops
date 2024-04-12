@@ -182,15 +182,20 @@ protected async override void OnNavigatingFrom(NavigatingCancelEventArgs e)
 
 ## Configure Uno Platform Features
 
-Open the TubePlayer.csproj file.
+You can configure Uno Platform features either during the initial project setup in the wizard by selecting "Media Player" under "Features", or by adding the parameter in the CLI, or later in the project file.
+To add it later:
 
-Locate the <UnoFeatures> property within the <PropertyGroup> section.
+1. Open the TubePlayer.csproj file.
+2. Locate the "UnoFeatures" property within the "PropertyGroup" section.
+3. Add "MediaElement" to the list of features, as shown in the snippet below:
 
-Add "MediaElement" to the list of features, as shown in the snippet below:
+```csharp
 
     <UnoFeatures>
       MediaElement; <!-- MediaElement support enabled here -->
     </UnoFeatures>
+
+```
 
 ## Run the app
 

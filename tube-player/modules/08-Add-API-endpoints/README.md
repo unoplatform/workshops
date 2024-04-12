@@ -19,15 +19,20 @@ To learn more about these extensions, refer to the [HTTP extension docs](xref:Ov
 
 ### Configure Uno Platform Features
 
-Open the TubePlayer.csproj file.
+You can configure Uno Platform features either during the initial project setup in the wizard by selecting "Http" under "Features", or by adding the parameter in the CLI, or later in the project file.
+To add it later:
 
-Locate the <UnoFeatures> property within the <PropertyGroup> section.
+1. Open the TubePlayer.csproj file.
+2. Locate the "UnoFeatures" property within the "PropertyGroup" section.
+3. Add "Http" to the list of features, as shown in the snippet below:
 
-Add "Http" to the list of features, as shown in the snippet below:
+```csharp
 
     <UnoFeatures>
       Http; <!-- HTTP networking support enabled here -->
     </UnoFeatures>
+
+```
 
 > [!NOTE]  
 > HTTP can be included when generating the project by checking the *HTTP* option in the template wizard or CLI.
