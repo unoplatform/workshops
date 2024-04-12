@@ -4,9 +4,9 @@ uid: Workshop.TubePlayer.Navigation
 
 # Module 7 - Navigation
 
-In this module, you'll learn how to utilize the [Uno Platform Navigation extension](xref:Uno.Extensions.Navigation.Overview) to navigate and pass data between pages.  
+In this module, you'll learn how to utilize the [Uno Platform Navigation extension](xref:Uno.Extensions.Navigation.Overview) to navigate and pass data between pages.
 
-Let's review the flow of the two pages in our app: `MainPage` displays the search box and its results. When the user clicks a search result, a navigation to the video player page (`VideoDetailsPage`) is initiated and the underlying `YoutubeVideo` object of the `ListView` item that was clicked is passed on to the video player page.  
+Let's review the flow of the two pages in our app: `MainPage` displays the search box and its results. When the user clicks a search result, a navigation to the video player page (`VideoDetailsPage`) is initiated and the underlying `YoutubeVideo` object of the `ListView` item that was clicked is passed on to the video player page.
 The user can then navigate back to the previous search results page.
 
 ## Register navigation routes
