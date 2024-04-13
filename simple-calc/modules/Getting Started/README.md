@@ -4,7 +4,7 @@ uid: Workshop.SimpleCalc.GettingStarted
 # Getting Started
 
 Uno Platform provides a multi-platform solution for building native apps for iOS, Android, Windows, macOS, Web, as well as Linux. This module will walk you through the process of getting started with Uno Platform.
-For additional information, make sure to check out this [Getting Started documentation] (https://aka.platform.uno/get-started).
+For additional information, make sure to check out this [Getting Started documentation](https://aka.platform.uno/get-started).
 
 ## Setting up the Environment
 
