@@ -19,7 +19,7 @@ To learn more about these extensions, refer to the [HTTP extension docs](xref:Ov
 
 ### Configure Uno Platform Features
 
-You can configure Uno Platform features either during the initial project setup in the wizard by selecting "Http" under "Features", or by adding the parameter in the CLI, or later in the project file.
+You can configure [Uno Platform features](xref:Uno.Features.Uno.Sdk) either during the initial project setup in the wizard by selecting "Http" under "Features", or by adding the parameter in the CLI, or later in the project file.
 To add it later:
 
 1. Open the TubePlayer.csproj file.

@@ -182,7 +182,7 @@ protected async override void OnNavigatingFrom(NavigatingCancelEventArgs e)
 
 ## Configure Uno Platform Features
 
-You can configure Uno Platform features either during the initial project setup in the wizard by selecting "Media Player" under "Features", or by adding the parameter in the CLI, or later in the project file.
+You can configure [Uno Platform features](xref:Uno.Features.Uno.Sdk) either during the initial project setup in the wizard by selecting "Media Player" under "Features", or by adding the parameter in the CLI, or later in the project file.
 To add it later:
 
 1. Open the TubePlayer.csproj file.
@@ -196,6 +196,9 @@ To add it later:
     </UnoFeatures>
 
 ```
+
+> [!NOTE]
+> [`MediaPlayerElement`](xref:Uno.Controls.MediaPlayerElement) is not yet supported for the unified Skia Desktop target (`net8.0-desktop`). You can follow progress [in this issue](https://aka.platform.uno/mediaplayer-skia-desktop-support).
 
 ## Run the app
 
