@@ -189,12 +189,10 @@ To add it later:
 2. Locate the "UnoFeatures" property within the "PropertyGroup" section.
 3. Add "MediaElement" to the list of features, as shown in the snippet below:
 
-```csharp
-
+```xml
     <UnoFeatures>
       MediaElement; <!-- MediaElement support enabled here -->
     </UnoFeatures>
-
 ```
 
 > [!NOTE]

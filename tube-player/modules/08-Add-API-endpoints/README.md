@@ -26,12 +26,10 @@ To add it later:
 2. Locate the "UnoFeatures" property within the "PropertyGroup" section.
 3. Add "Http" to the list of features, as shown in the snippet below:
 
-```csharp
-
+```xml
     <UnoFeatures>
       Http; <!-- HTTP networking support enabled here -->
     </UnoFeatures>
-
 ```
 
 > [!NOTE]  
