@@ -17,18 +17,15 @@ The HTTP and Refit extension will be added manually at [a later stage](xref:Work
 
 To generate your project, hit <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> (File → New → Project) and select 'Uno Platform App' from the options window. You can search for 'Uno' if it's not instantly visible.
 
-![Visual Studio new project](vs-new-project.jpg)
+![Visual Studio new project](vs-new-project.png)
 
 The next page is the regular Visual Studio project location choice. Choose a suitable location, name the project 'TubePlayer', and click *Create*.
 
-After clicking *Next*, the first page of the Uno Platform template wizard will open, enabling you to choose from one of the following two options: *Blank* and *Default*. Click the button *Customize* of the *Blank* option, to move to the next page where additional options can be selected before generating the *Blank* template.
+After clicking *Next*, the Uno Platform template wizard will open enabling you to select the features.
 
-![Uno Platform template wizard preset page](template-wizard-blank-default.jpg)
+![Uno Platform template wizard customize page](template-wizard-customize.png)
 
-The upcoming page will enable you to select additional features.
-
-![Uno Platform template wizard customize page](template-wizard-customize.jpg)
-
+- In ***Presets*** tab select *Blank*.
 - In ***Presentation*** tab select *MVUX*.
 - In ***Markup*** tab select *C# Markup*.
 - In ***Theme*** tab select *Material* and check *Import DSP*.

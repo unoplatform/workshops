@@ -4,10 +4,10 @@ uid: Workshop.TubePlayer.MockData.CreateEntities
 
 In this section, you will create the entities that will be used to transfer data between the service and the presentation layers.
 
-1. Create another folder in the main project (i.e. *TubePlayer*) named *Services*, and add another subfolder to it, named *Models*.
+1. Create another folder in the project (i.e. *TubePlayer*) named *Services*, and add another subfolder to it, named *Models*.
 
-1. Create a class named *Models.cs* and replace its content with the code below.  
-    If you are using Visual Studio, you can right-click the *Models* folder and click *Add* *Class*. When prompted, type *Models.cs* as the file name and press <kbd>Enter</kbd>.    
+1. Create a class named *Models.cs* and replace its content with the code below.
+    If you are using Visual Studio, you can right-click the *Models* folder and click *Add* *Class*. When prompted, type *Models.cs* as the file name and press <kbd>Enter</kbd>.
 
     ```csharp
     namespace TubePlayer.Services.Models;

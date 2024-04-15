@@ -34,7 +34,7 @@ You'll also learn how to interact with the media player and stop the video when 
 
 ## Register Refit endpoint
 
-The previous interface is a Refit service. You will now register it with Refit. Open *App.cs*, and add the following Refit client registration right after the previous one you added earlier:
+The previous interface is a Refit service. You will now register it with Refit. Open *App.xaml.cs*, and add the following Refit client registration right after the previous one you added earlier:
 
 ```diff
  services
@@ -180,16 +180,25 @@ protected async override void OnNavigatingFrom(NavigatingCancelEventArgs e)
 }
 ```
 
-## Install additional NuGet packages for WASM and Skia.GTK
+## Add MediaElement Feature
 
-Open the NuGet package manager for the *TubePlayer.WASM* project and install the following packages:
+You can set up the **MediaElement** [UnoFeature](xref:Uno.Features.Uno.Sdk) in a few ways. During project setup, pick 'Media Element' under 'Features' in the wizard. Or, use the CLI with the right parameter during project creation. Also you can add it manually later in the project file.
 
-- [`Uno.WinUI.MediaPlayer.WebAssembly`](https://www.nuget.org/packages/Uno.WinUI.MediaPlayer.WebAssembly)
+Here's how to do it now:
 
-Open the NuGet package manager for the *TubePlayer.Skia.GTK* project and install the following packages:
+1. Open the TubePlayer.csproj file.
+2. Locate the "UnoFeatures" property within the "PropertyGroup" section.
+3. Add "MediaElement" to the list of features, as shown in the snippet below:
 
-- [`Uno.WinUI.MediaPlayer.Skia.Gtk`](https://www.nuget.org/packages/Uno.WinUI.MediaPlayer.Skia.Gtk)
-- [`VideoLAN.LibVLC.Windows`](https://www.nuget.org/packages/VideoLAN.LibVLC.Windows)
+```diff
+    <UnoFeatures>
+      <!-- Other features here-->
++     MediaElement; 
+    </UnoFeatures>
+```
+
+> [!NOTE]
+> [`MediaPlayerElement`](xref:Uno.Controls.MediaPlayerElement) is not yet supported for the unified Skia Desktop target (`net8.0-desktop`). You can follow progress [in this issue](https://aka.platform.uno/mediaplayer-skia-desktop-support).
 
 ## Run the app
 
