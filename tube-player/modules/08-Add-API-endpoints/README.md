@@ -17,24 +17,22 @@ To interact with the remote endpoints you will utilize the Uno Platform HTTP ext
 
 To learn more about these extensions, refer to the [HTTP extension docs](xref:Overview.Http).
 
-### Configure Uno Platform Features
+### Add Http Feature
 
-You can configure [Uno Platform features](xref:Uno.Features.Uno.Sdk) either during the initial project setup in the wizard by selecting "Http" under "Features", or by adding the parameter in the CLI, or later in the project file.
-To add it later:
+You can set up the **Http** [UnoFeature](xref:Uno.Features.Uno.Sdk) in a few ways. During project setup, pick 'Http' under 'Features' in the wizard. Or, use the CLI with the right parameter during project creation. Also you can add it manually later in the project file.
+
+Here's how to do it now:
 
 1. Open the TubePlayer.csproj file.
 2. Locate the "UnoFeatures" property within the "PropertyGroup" section.
 3. Add "Http" to the list of features, as shown in the snippet below:
 
-```xml
+```diff
     <UnoFeatures>
-      Http; <!-- HTTP networking support enabled here -->
+      <!-- Other features here-->
++     Http; 
     </UnoFeatures>
 ```
-
-> [!NOTE]  
-> HTTP can be included when generating the project by checking the *HTTP* option in the template wizard or CLI.
-> It was excluded so it can be added now manually for learning purposes.
 
 ### Add necessary models
 
