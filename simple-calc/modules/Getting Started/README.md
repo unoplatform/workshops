@@ -4,6 +4,7 @@ uid: Workshop.SimpleCalc.GettingStarted
 # Getting Started
 
 Uno Platform provides a multi-platform solution for building native apps for iOS, Android, Windows, macOS, Web, as well as Linux. This module will walk you through the process of getting started with Uno Platform.
+For additional information, make sure to check out this [Getting Started documentation](https://aka.platform.uno/get-started).
 
 ## Setting up the Environment
 
@@ -13,9 +14,6 @@ To make sure that you have all the tools that you need to get started with Uno P
 dotnet tool install --global Uno.Check
 uno-check
 ```
-
-> [!NOTE]
-> You may need to take additional steps if trying to build the Linux or GTK heads on Windows. Be sure to follow the [Additional setup for Linux or WSL](https://platform.uno/docs/articles/get-started-with-linux.html) docs.
 
 ## Getting the Project Templates
 

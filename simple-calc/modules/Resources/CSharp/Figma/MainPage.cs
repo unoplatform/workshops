@@ -5,6 +5,7 @@ using Microsoft.UI.Xaml.Media;
 using System;
 using Uno.Extensions.Markup;
 using Uno.Material;
+using Uno.Themes;
 using Uno.Toolkit.UI;
 
 namespace SimpleCalculator;
