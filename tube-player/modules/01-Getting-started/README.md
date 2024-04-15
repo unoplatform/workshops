@@ -12,67 +12,11 @@ If you are new to the Uno Platform, you may also want to check out [Uno Docs - G
 
 ## Setting up the Environment
 
-### Use Uno Check to verify your system is Uno Platform ready
+Prepare for our app workshop by setting up your environment for Uno app development. Just follow the documentation for your IDE.
 
-If you are using Visual Studio, depending on the workloads that you have installed, your environment may already be ready to go. As a best practice or to help solve issues following Visual Studio updates, we recommend that you run the Uno Check tool to ensure that your environment is fully set up for Uno Platform app development.
-
-1. Execute the following command in the command line terminal (the current folder of the terminal doesn't matter):
-
-    ```bash
-    dotnet tool install --global Uno.Check
-    ```
-
-    If the tool is already installed, replace `install` with `update`.
-
-    [Click here](xref:UnoCheck.UsingUnoCheck) to view the Uno Check tool docs.
-
-1. Once installed, run the tool by executing the following command:
-
-    ```bash
-    uno-check
-    ```
-
-> [!NOTE]  
-> You may need to take additional steps if trying to build the Linux or GTK heads on Windows.
-> Be sure to follow the [Additional setup for Linux or WSL](xref:Uno.GetStarted.Linux) docs.
-
-### Installing Uno Platform extensions and templates
-
-# [Visual Studio](#tab/vs)
-
-Make sure the latest version of the [Uno Platform extension for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=unoplatform.uno-platform-addin-2022) is installed, by following [these instructions](xref:Uno.GetStarted.vs2022#install-the-solution-templates).
-
-This extension includes the Uno Platform project templates.
-
-![Visual Studio extensions Manager](vs-2022-extension.png)
-
-# [Visual Studio Code or others](#tab/vscode)
-
-If you're using Visual Studio Code, make sure to install the latest version of the Uno Platform extension [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=unoplatform.vscode)
-
-![Visual Studio Code extension](vs-code-extension.png)
-
-We will also install Uno Platform project templates using the command line interface. To ensure the templates are installed, run the following command:
-
-```bash
-dotnet new install Uno.Templates
-```
-
-> [!NOTE]  
-> Make sure the latest version of the Uno.Templates version is installed.
-> If you have already installed this in the past, you can update the current templates by running the following:
->
-> ```bash
-> dotnet new update
-> ```
-
-Now that the templates are installed we can list the options for the `unoapp` template with the following command:
-
-```bash
-dotnet new unoapp -?
-```
-
----
+ - [Visual Studio](xref:Uno.GetStarted.vs2022)
+ - [VS Code](xref:Uno.GetStarted.vscode)
+ - [Rider](xref:Uno.GetStarted.Rider)
 
 ## Obtaining a YouTube Data API v3 Key [optional]
 

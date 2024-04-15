@@ -21,14 +21,11 @@ To generate your project, hit <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> (Fil
 
 The next page is the regular Visual Studio project location choice. Choose a suitable location, name the project 'TubePlayer', and click *Create*.
 
-After clicking *Next*, the first page of the Uno Platform template wizard will open, enabling you to choose from one of the following two options: *Blank* and *Default*. Click the button *Customize* of the *Blank* option, to move to the next page where additional options can be selected before generating the *Blank* template.
-
-![Uno Platform template wizard preset page](template-wizard-blank-default.jpg)
-
-The upcoming page will enable you to select additional features.
+After clicking *Next*, the Uno Platform template wizard will open enabling you to select the features.
 
 ![Uno Platform template wizard customize page](template-wizard-customize.png)
 
+- In ***Presets*** tab select *Blank*.
 - In ***Presentation*** tab select *MVUX*.
 - In ***Markup*** tab select *C# Markup*.
 - In ***Theme*** tab select *Material* and check *Import DSP*.
