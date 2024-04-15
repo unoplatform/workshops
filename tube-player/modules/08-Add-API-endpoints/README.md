@@ -19,7 +19,7 @@ To learn more about these extensions, refer to the [HTTP extension docs](xref:Ov
 
 ### Add Http Feature
 
-You can set up the **Http** [UnoFeature](xref:Uno.Features.Uno.Sdk) in a few ways. During project setup, pick 'Http' under 'Features' in the wizard. Or, use the CLI with the right parameter during project creation. Also you can add it manually later in the project file.
+You can set up the **Http** [UnoFeature](xref:Uno.Features.Uno.Sdk) in a few ways. During project setup, pick 'Http' under 'Extensions' in the wizard. Or, use the CLI with the right parameter during project creation. Also you can add it manually later in the project file.
 
 Here's how to do it now:
 
