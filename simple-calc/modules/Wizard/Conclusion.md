@@ -5,7 +5,7 @@ Next, let's select the Material library for our app theme. Click on "5. Theme" f
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../../../art/Dark/Wizard/6.theme.png">
-  <source media="(prefers-color-scheme: light)" srcset="../../../art/Light//Wizard/6.theme.png">
+  <source media="(prefers-color-scheme: light)" srcset="../../../art/Light/Wizard/6.theme.png">
   <img alt="Uno Platform App template" src="../../../art/Light/Wizard/6.theme.png">
 </picture>
 
@@ -15,7 +15,7 @@ Next, let's move to the "8. Features" menu option, and select the "Toolkit" opti
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../../../art/Dark/Wizard/7.toolkit.png">
-  <source media="(prefers-color-scheme: light)" srcset="../../../art/Light//Wizard/7.toolkit.png">
+  <source media="(prefers-color-scheme: light)" srcset="../../../art/Light/Wizard/7.toolkit.png">
   <img alt="Uno Platform App template" src="../../../art/Light/Wizard/7.toolkit.png">
 </picture>
 
