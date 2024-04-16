@@ -8,9 +8,8 @@ In this module, you will use C# markup to create a UI. This will comprise of a `
 
 You will also learn in this module how to set up basic data-binding to a feed/state in the model.
 
-[!NOTE]
->With the new single project architecture, the majority of the application development—spanning UI, presentation layer, and service layer functionalities—occurs within the unified project. This consolidates the shared functionality across all target platforms into one central location, streamlining the development process. 
->For platform-specific implementations, use the Platforms folder within the same project. This directory allows for organizing platform-specific code and resources, ensuring that any necessary platform-specific tasks are neatly integrated without cluttering the shared application logic.
+> [!NOTE]
+> With the new single project architecture, the majority of the application development—spanning UI, presentation layer, and service layer functionalities—occurs within the unified project. This consolidates the shared functionality across all target platforms into one central location, streamlining the development process. For platform-specific implementations, use the Platforms folder within the same project. This directory allows for organizing platform-specific code and resources, ensuring that any necessary platform-specific tasks are neatly integrated without cluttering the shared application logic.
 
 ## Create a UI
 
