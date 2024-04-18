@@ -47,7 +47,7 @@ Next we'll add `Button` styles that define the style to be used by the calculato
 </Style>
 ```
 
-In the `KeypadButton` we added a property `ut:ControlExtensions.Elevation`. To being able to use it you need declare the namespace for `ut`. Add `xmlns:ut="using:Uno.Themes"` inside the `Page` element. Should look like this. 
+We've added a new property to the `KeypadButton` component, `ut:ControlExtensions.Elevation`. To use this property, you must declare the `ut` namespace. You can do this by adding the following namespace declaration to the Page element: `xmlns:ut="using:Uno.Themes"`. Below, you can see the expected result in MainPage.xaml:
 
 ```xml
 <Page x:Class="SimpleCalculator.MainPage"
