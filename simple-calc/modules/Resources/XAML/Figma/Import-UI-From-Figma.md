@@ -20,7 +20,7 @@ uid: Workshop.SimpleCalc.Figma.XAML
 
 4. Copy the selected code to the clipboard (<kbd>Ctrl</kbd>+<kbd>C</kbd> on Windows).
 
-5. Open MainPage.xaml.cs and replace all the Page contents with the copied code.
+5. Open MainPage.xaml and replace all the Page contents with the copied code.
 
 6. To set the appropriate font size for all buttons, access the MaterialFontsOverride.xaml file in the Style folder. Go to the Figma Plugin, in the Export tab, and select Fonts Override File from the dropdown menu. Copy the content in the ResourceDictionary and replace it in your MaterialFontsOverride.xaml file.
 
