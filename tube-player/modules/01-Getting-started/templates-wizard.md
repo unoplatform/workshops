@@ -9,7 +9,7 @@ In this project we'll create a customized blank template that includes the follo
 - C# markup
 - MVUX framework
 - Material theme
-- DSP import for theme color overrides
+- Uno DSP import for theme color overrides
 - Dependency Injection, Configuration and Navigation extensions
 - Uno Toolkit
 
