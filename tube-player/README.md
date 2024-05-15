@@ -25,7 +25,7 @@ This app was developed using Uno Platform and draws inspiration from [Naweed Akr
 - How to create a new solution using the Uno Platform dotnet new template or the Uno Platform Template Wizard.
 - How to use the [Uno Platform Figma plugin](https://aka.platform.uno/uno-figma) to generate your UI in C# Markup from [this Figma file](https://aka.platform.uno/uno-figma-tubeplayer-workshop) (optional).
 - How to build your app's presentation layer using C# Markup and Model-View-Update-eXtended (MVUX).
-- How to customize your app theme and override its theme colors by using either C# code imported from Figma, or by importing a custom DSP ([Design System Package](https://github.com/AdobeXD/design-system-package-dsp)) color theme.
+- How to customize your app theme and override its theme colors by using either C# code imported from Figma, or by importing a custom Uno DSP color theme.
 - How to use remote APIs in your app using the Uno Platform Refit extension.
 - How to customize the app icon and its splashscreen.
 

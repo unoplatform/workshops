@@ -10,7 +10,7 @@ The rest of the features will be added manually (the `unoapp` parameter appears 
 - C# Markup (`markup`)
 - MVUX framework (`presentation`)
 - Material theme (`theme`)
-- DSP import for theme color overrides (`dsp`)
+- Uno DSP import for theme color overrides (`dsp`)
 - Dependency Injection (`di`), Configuration (`config`), and Navigation (`nav`) extensions 
 - Uno Toolkit (`toolkit`)
 
