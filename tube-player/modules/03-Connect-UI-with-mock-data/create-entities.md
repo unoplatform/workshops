@@ -70,7 +70,7 @@ In this section, you will create the entities that will be used to transfer data
 
         private static string ToFriendlyString(TimeSpan elapsedTime)
         {
-            double minutesElapsed = elapsedTime.TotalMinutes;
+            double minutesElapsed = Math.Abs(elapsedTime.TotalMinutes);
 
             var result = minutesElapsed switch
             {
