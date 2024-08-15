@@ -15,7 +15,7 @@ For this module you'll need the Google API key you've obtained in the [first mod
 To interact with the remote endpoints you will utilize the Uno Platform HTTP extension using Refit. This extension enables registering HTTP API endpoints with the Dependency Injection service collection. The endpoints can then be consumed from the service provider ready to use with pre-configured `HttpClient`s.  
 [Refit](https://github.com/reactiveui/refit) takes it a step further and enables you to add attributes to your API endpoint contract interface methods, that contain instructions on how each method in the interface relates to a remote HTTP URL. When such an interface is requested from the DI service provider, it is automatically materialized with the instructions given via the Refit attributes, using the registered `HttpClient` configuration.
 
-To learn more about these extensions, refer to the [HTTP extension docs](xref:Overview.Http).
+To learn more about these extensions, refer to the [HTTP extension docs](xref:Uno.Extensions.Http.Overview).
 
 ### Add Http Feature
 
@@ -133,7 +133,7 @@ In the *Business* folder add a file named *YoutubeService.cs* with the following
     }
     ```
 
-    These settings are loaded as part of the app configuration. Read more at the Uno Platform [Configuration overview](xref:Overview.Configuration).
+    These settings are loaded as part of the app configuration. Read more at the Uno Platform [Configuration overview](xref:Uno.Extensions.Configuration.Overview).
 
 1. You can spot the `ApiKey` setting above, and replace its value (`your_development_api_key`) with the API key you obtained from Google API in [Module 1](xref:Workshop.TubePlayer.GetStarted#optional-obtaining-a-youtube-data-api-v3-key).
 

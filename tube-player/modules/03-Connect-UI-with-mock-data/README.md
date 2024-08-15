@@ -97,9 +97,9 @@ You will now register the `YoutubeServiceMock` to be provided every time an `IYo
     Both feeds and states are used as an async data connection point between the model and its underlying services. The MVUX also offers controls that can interact with feeds and states.  
     The difference between states and feeds is that a state holds the state of the data and can be updated manually, whereas feeds only act as a bridge to the data coming from the service.
 
-    To learn more about MVUX, refer to the [MVUX docs](xref:Overview.Mvux.Overview).
+    To learn more about MVUX, refer to the [MVUX docs](xref:Uno.Extensions.Mvux.Overview).
 
-1. After the `SearchTerm` property, add another property. Contrary to the `SearchTerm` which is a [state](xref:Overview.Mvux.States) to support two-way binding to and from the search `TextBox`, the `VideoSearchResults` property we are now adding will be a [list-feed](xref:Overview.Mvux.ListFeeds) (a feed of a collection of items) that requests and obtains the search results we just set up in the mock service.  
+1. After the `SearchTerm` property, add another property. Contrary to the `SearchTerm` which is a [state](xref:Uno.Extensions.Mvux.States) to support two-way binding to and from the search `TextBox`, the `VideoSearchResults` property we are now adding will be a [list-feed](xref:Uno.Extensions.Mvux.ListFeeds) (a feed of a collection of items) that requests and obtains the search results we just set up in the mock service.  
 
     ```csharp
     public IListFeed<YoutubeVideo> VideoSearchResults => SearchTerm
