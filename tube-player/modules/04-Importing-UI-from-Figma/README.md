@@ -100,7 +100,7 @@ The plugin comes with various features and settings. As you will be using the Un
      {
          public MainPage()
          {
-    +        this.DataContext<BindableMainModel>((page, vm) => page
+    +        this.DataContext<MainViewModel>((page, vm) => page
                  .Background(ThemeResource.Get<Brush>("BackgroundBrush"))
      
                     ...
@@ -204,7 +204,7 @@ The plugin comes with various features and settings. As you will be using the Un
 1. Append a `DataContext` after `this.`:
 
     ```csharp
-    .DataContext<BindableVideoDetailsModel>((page, vm) => page
+    .DataContext<VideoDetailsViewModel>((page, vm) => page
     ```
 
     then add the closing parenthesis before the semicolon closing this method.
