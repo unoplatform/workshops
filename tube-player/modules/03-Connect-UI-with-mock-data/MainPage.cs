@@ -4,7 +4,7 @@ public partial class MainPage : Page
 {
     public MainPage()
     {
-        this.DataContext<BindableMainModel>((page, vm) => page
+        this.DataContext<MainViewModel>((page, vm) => page
             .NavigationCacheMode(NavigationCacheMode.Required)
             .Background(Theme.Brushes.Background.Default)
             .Content(new Grid()

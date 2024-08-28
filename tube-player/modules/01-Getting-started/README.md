@@ -56,7 +56,7 @@ You might be asked to reload the IDE before the projects are fully loaded. Click
 
 1. In *VideoDetailsModel.cs*, ensure the record name has changed to `VideoDetailsModel`, otherwise change it manually.
 
-1. In *VideoDetailsPage.cs*, ensure `SecondPage` has changed to `VideoDetailsPage` in both the class name and constructor, otherwise change it manually, then change `BindableSecondModel` to `BindableVideoDetailsModel`.
+1. In *VideoDetailsPage.cs*, ensure `SecondPage` has changed to `VideoDetailsPage` in both the class name and constructor, otherwise change it manually, then change `SecondViewModel` to `VideoDetailsViewModel`.
 
 1. Make sure these references have also been changed in *App.xaml.cs*.
 

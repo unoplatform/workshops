@@ -4,7 +4,7 @@ uid: Workshop.SimpleCalc.MVUX.XAML.Finishing
 
 [!include[MVUX ThemeService](../../Resources/MVUX/ThemeService.md)]
 
-With our model updated we need to update our **MainPage.xaml.cs** file so that we initialize the `BindableMainModel` with the `this.GetThemeService()`.
+With our model updated we need to update our **MainPage.xaml.cs** file so that we initialize the `MainViewModel` with the `this.GetThemeService()`.
 
 ```cs
 public partial class MainPage : Page
@@ -12,7 +12,7 @@ public partial class MainPage : Page
     public MainPage()
     {
         InitializeComponent();
-        DataContext = new BindableMainModel(this.GetThemeService());
+        DataContext = new MainViewModel(this.GetThemeService());
     }
 }
 

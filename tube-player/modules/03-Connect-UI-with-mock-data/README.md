@@ -112,10 +112,10 @@ You will now register the `YoutubeServiceMock` to be provided every time an `IYo
 
 ### Bind UI
 
-1. Go back to *MainPage.cs* and set the `Page`'s `DataContext` to the generated bindable proxy of `MainModel`, by adding the following line to the beginning of the UI tree (after `this.`).
+1. Go back to *MainPage.cs* and set the `Page`'s `DataContext` to the generated ViewModel of `MainModel`, by adding the following line to the beginning of the UI tree (after `this.`).
 
     ```diff
-    +this.DataContext<BindableMainModel>((page, vm) => page
+    +this.DataContext<MainViewModel>((page, vm) => page
          .NavigationCacheMode(NavigationCacheMode.Required)
           ...
     ```
