@@ -64,7 +64,7 @@ The workshop utilizes the latest Uno Platform features, including:
 
 - [MVUX](xref:Uno.Extensions.Mvux.Overview)
   - Creating [Feeds](xref:Uno.Extensions.Mvux.Feeds)
-  - Consuming feed data using [FeedView](xref:Uno.Extensions.Mvux.FeedView) with a custom [ErrorTemplate](xref:Uno.Extensions.Mvux.FeedView#errortemplate) and [NoneTemplate](xref:Uno.Extensions.Mvux.FeedView#nonetemplate)
+  - Consuming feed data using [FeedView](xref:Uno.Extensions.Mvux.HowToSimpleFeed) with a custom [ErrorTemplate](xref:Uno.Extensions.Mvux.FeedView#errortemplate) and [NoneTemplate](xref:Uno.Extensions.Mvux.FeedView#nonetemplate)
   - [Paginating](xref:Uno.Extensions.Mvux.Advanced.Pagination) feed data
 
 ### Figma

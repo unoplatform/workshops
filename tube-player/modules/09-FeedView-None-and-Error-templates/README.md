@@ -50,7 +50,7 @@ It reacts visually to the current state of the data and its underlying request. 
 - `UndefinedTemplate` - used when the control initializes, before the request is sent
 
 > [!TIP]  
-> To learn more about the `FeedView`, head over to [its docs page](xref:Overview.Mvux.FeedView).
+> To learn more about the `FeedView`, head over to [its docs page](xref:Uno.Extensions.Mvux.HowToSimpleFeed).
 
 Let's add a `FeedView` to our UI. We'll start with the `ValueTemplate` first.
 
