@@ -151,7 +151,7 @@ The plugin comes with various features and settings. As you will be using the Un
    To replace them using a regex search using Visual Studio or Visual Studio Code, press <kbd>Ctrl</kbd>+<kbd>H</kbd>, then toggle the *Use regular expressions* option on (<kbd>Alt</kbd>+<kbd>E</kbd>). Search for the following pattern:
 
     ```
-    b\s+\=\>\s+b\.Bind\(\"([\w\.]+)\"\)
+    b\s+\=\>\s+b\.Binding\(\"([\w\.]+)\"\)
     ```
 
     And replace it with the following:
@@ -213,7 +213,7 @@ The plugin comes with various features and settings. As you will be using the Un
     To utilize *Find and replace*, use the following regular-expressions. Search for this pattern:
 
     ```
-    b\s+\=\>\s+b\.Bind\(\"([\w\.]+)\"\)
+    b\s+\=\>\s+b\.Binding\(\"([\w\.]+)\"\)
     ```
 
     and replace it with the following:
