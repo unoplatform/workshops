@@ -38,10 +38,10 @@ In this section, you will create the entities that will be used to transfer data
     public record ChannelSearchResultData(ImmutableList<ChannelData>? Items);
     ```
 
-1. In the folder *Business* → *Models*, add a new file called *Models.cs* and replace its contents with the following code.  
+1. In the folder *Services* → *Models*, add a new file called *Models.cs* and replace its contents with the following code.  
 
     ```csharp
-    namespace TubePlayer.Business.Models;
+    namespace TubePlayer.Services.Models;
 
     public partial record YoutubeVideo(ChannelData Channel, YoutubeVideoDetailsData Details)
     {
