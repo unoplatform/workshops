@@ -12,7 +12,7 @@ In this module, you will create models and services that will be used by the pre
 
 ## Add mock data service
 
-In the *Business* folder, add a class named *YoutubeServiceMockData.cs*, and replace its content with the following:
+In the *Services* folder, add a class named *YoutubeServiceMockData.cs*, and replace its content with the following:
 
 <details>
     <summary><i>YoutubeServiceMockData.cs</i> code contents (collapsed for brevity)</summary>
@@ -24,11 +24,11 @@ This class contains two constant variables that are assigned to partial JSON out
 
 ## Create service interface, mock data, mock service, and register services
 
-1. In the same folder (*Business*), create a new interface file named *IYoutubeService.cs*, that will represent our data service.
+1. In the same folder (*Services*), create a new interface file named *IYoutubeService.cs*, that will represent our data service.
     Ignore errors you might see while editing the following files, these will addressed soon by adding the missing namespaces globally.
 
     ```csharp
-    namespace TubePlayer.Business;
+    namespace TubePlayer.Services;
 
     public interface IYoutubeService
     {
@@ -36,7 +36,7 @@ This class contains two constant variables that are assigned to partial JSON out
     }
     ```
 
-1. Add another class named *YoutubeServiceMock.cs* to the *Business* folder and replace its content with the following:
+1. Add another class named *YoutubeServiceMock.cs* to the *Services* folder and replace its content with the following:
 
     <details>
         <summary><i>YoutubeServiceMock.cs</i> code contents (collapsed for brevity)</summary>
