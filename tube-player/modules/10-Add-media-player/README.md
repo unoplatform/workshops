@@ -197,9 +197,6 @@ Here's how to do it now:
     </UnoFeatures>
 ```
 
-> [!NOTE]
-> [`MediaPlayerElement`](xref:Uno.Controls.MediaPlayerElement) is not yet supported for the unified Skia Desktop target (`net8.0-desktop`). You can follow progress [in this issue](https://aka.platform.uno/mediaplayer-skia-desktop-support).
-
 ## Run the app
 
 Run the app to see the media player playing the video from YouTube. Seek, volume, pause, and other controls are built into the media player.
