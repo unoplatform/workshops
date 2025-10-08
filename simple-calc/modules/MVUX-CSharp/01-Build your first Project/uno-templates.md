@@ -8,6 +8,5 @@ For this project, we're going to select the `blank` preset, which only includes 
 By default, the project will be created with XAML and using the MVVM pattern. As we are using C# Markup we will specify the `-ui csharp` option, and to use the MVUX pattern we will specify the `-presentation mvux` option.
 
 ```bash
-dotnet new unoapp -preset blank -tfm net8.0 -markup csharp -presentation mvux -toolkit true -theme material -theme-service -o SimpleCalculator
+dotnet new unoapp -preset blank -tfm net9.0 -markup csharp -presentation mvux -toolkit true -theme material -theme-service -o SimpleCalculator
 ```
-

@@ -8,5 +8,5 @@ For this project, we're going to select the `blank` preset, which only includes 
 As we're using the MVVM pattern, let's specify the `-presentation mvvm` option. Additionally, since we're using C# Markup, let's specify `-markup csharp`.
 
 ```bash
-dotnet new unoapp -preset blank -tfm net8.0 -markup csharp -presentation mvvm -toolkit true -theme material -theme-service -o SimpleCalculator
+dotnet new unoapp -preset blank -tfm net9.0 -markup csharp -presentation mvvm -toolkit true -theme material -theme-service -o SimpleCalculator
 ```

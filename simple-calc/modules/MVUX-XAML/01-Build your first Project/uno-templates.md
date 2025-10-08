@@ -8,5 +8,5 @@ For this project, we're going to select the `blank` preset, which only includes 
 Because we are using the MVUX pattern we need to specify the `-presentation mvux` flag. Since the project is created with XAML by default, there is no need to explicitly specify it in the command.
 
 ```bash
-dotnet new unoapp -preset blank -tfm net8.0 -presentation mvux -toolkit true -theme material -theme-service -o SimpleCalculator
+dotnet new unoapp -preset blank -tfm net9.0 -presentation mvux -toolkit true -theme material -theme-service -o SimpleCalculator
 ```
